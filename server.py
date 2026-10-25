@@ -788,6 +788,23 @@ def refresh_questions():
         except Exception as e:
             print(f"  ❌ 문제은행 추가 오류: {e}")
 
+def keep_alive():
+    """Render 무료 플랜 cold start 방지 — 14분마다 자기 자신을 ping"""
+    render_url = os.environ.get('RENDER_EXTERNAL_URL', '')
+    if not render_url:
+        return  # 로컬 환경에서는 실행 안 함
+    ping_url = f"{render_url}/api/status"
+    print(f"💓 Keep-alive 활성화: {ping_url} (14분 간격)")
+    while True:
+        time.sleep(14 * 60)  # 14분
+        try:
+            ctx = ssl._create_unverified_context()
+            req = urllib.request.Request(ping_url)
+            urllib.request.urlopen(req, context=ctx, timeout=10)
+            print(f"  💓 ping OK ({datetime.now().strftime('%H:%M')})")
+        except Exception as e:
+            print(f"  💔 ping fail: {e}")
+
 if __name__ == '__main__':
     server = http.server.HTTPServer(('0.0.0.0', PORT), AppHandler)
     if SERVER_API_KEY:
@@ -799,6 +816,9 @@ if __name__ == '__main__':
         print(f"🔄 문제은행 자동 추가: {REFRESH_INTERVAL//3600//24}일마다 {REFRESH_COUNT}문제 누적")
     else:
         print(f"⚠️  서버 API 키 없음 (학생이 직접 키 입력 필요)")
+    # Keep-alive 스레드 (Render cold start 방지)
+    keepalive_thread = threading.Thread(target=keep_alive, daemon=True)
+    keepalive_thread.start()
     print(f"🚀 Prof.AI 수능수학 확률과통계 서버 시작: http://localhost:{PORT}")
     print(f"   종료: Ctrl+C")
     server.serve_forever()
