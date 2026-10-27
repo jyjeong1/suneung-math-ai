@@ -29,7 +29,10 @@ question_by_diff = {}   # {difficulty: [questions]}
 
 # 이미지 디렉토리 (기출 이미지)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-IMAGES_DIR = os.path.normpath(os.path.join(BASE_DIR, '..', '기출모음', 'images'))
+# 로컬: ../기출모음/images, Render: ./images (둘 다 지원)
+_local_images = os.path.join(BASE_DIR, '..', '기출모음', 'images')
+_deploy_images = os.path.join(BASE_DIR, 'images')
+IMAGES_DIR = os.path.normpath(_deploy_images if os.path.isdir(_deploy_images) else _local_images)
 
 
 def get_qid(q):
