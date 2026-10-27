@@ -2178,7 +2178,24 @@ function showPaymentInfo() {
 
 async function checkPremiumStatus() {
   if (!db || !fbUser) return;
-  try { var doc = await db.collection('users').doc(fbUser.uid).get(); if (doc.exists && doc.data().isPremium_past) { state.isPremium = true; localStorage.setItem(ukey('isPremium_past'), 'true'); } } catch(e) {}
+  try {
+    var doc = await db.collection('users').doc(fbUser.uid).get();
+    if (doc.exists) {
+      var d = doc.data();
+      if (d.isPremium_past) {
+        var expiry = d.premiumExpiry_past;
+        if (expiry && new Date(expiry) < new Date()) {
+          // 만료 → 자동 무료 전환
+          state.isPremium = false;
+          localStorage.removeItem(ukey('isPremium_past'));
+          db.collection('users').doc(fbUser.uid).update({ isPremium_past: false });
+        } else {
+          state.isPremium = true;
+          localStorage.setItem(ukey('isPremium_past'), 'true');
+        }
+      }
+    }
+  } catch(e) {}
   updateMembershipUI();
 }
 
