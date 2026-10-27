@@ -1072,7 +1072,7 @@ async function handleLogout() {
     for (var i = 0; i < localStorage.length; i++) {
       var key = localStorage.key(i);
       if (key && (key.startsWith(prefix) || key === 'stats' || key === 'streak' ||
-          key === 'lastDate' || key === 'badges' || key === 'isPremium' ||
+          key === 'lastDate' || key === 'badges' || key === 'isPremium_past' ||
           key === 'wrongNotes' || key === 'solvedQ' || key === 'masterProg' ||
           key === 'consecutiveCorrect' || key === 'currentLevel' ||
           key === 'lpScore' || key === 'rpScore' || key === 'answerCache')) {
@@ -1094,7 +1094,7 @@ function loadUserLocalData() {
   state.streak = parseInt(localStorage.getItem(ukey('streak')) || '0');
   state.lastDate = localStorage.getItem(ukey('lastDate')) || '';
   state.badges = JSON.parse(localStorage.getItem(ukey('badges')) || '{}');
-  state.isPremium = localStorage.getItem(ukey('isPremium')) === 'true';
+  state.isPremium = localStorage.getItem(ukey('isPremium_past')) === 'true';
   updateStatsDisplay(); updateStreak(); updateFreeLimitStatus();
 }
 
@@ -1145,7 +1145,7 @@ async function submitReferralCode() {
     if (premiumExpiry < now) premiumExpiry = now;
     premiumExpiry.setDate(premiumExpiry.getDate() + 7);
     var giftEligible = referralCount > 0 && referralCount % 3 === 0;
-    var updateData = { rpScore: currentRP, referralCount: referralCount, premiumExpiry: premiumExpiry.toISOString(), isPremium: true };
+    var updateData = { rpScore: currentRP, referralCount: referralCount, premiumExpiry: premiumExpiry.toISOString(), isPremium_past: true };
     if (giftEligible) updateData.pendingGift = firebase.firestore.FieldValue.increment(1);
     await db.collection('users').doc(referrerId).update(updateData);
     if (giftEligible) {
@@ -2178,7 +2178,7 @@ function showPaymentInfo() {
 
 async function checkPremiumStatus() {
   if (!db || !fbUser) return;
-  try { var doc = await db.collection('users').doc(fbUser.uid).get(); if (doc.exists && doc.data().isPremium) { state.isPremium = true; localStorage.setItem(ukey('isPremium'), 'true'); } } catch(e) {}
+  try { var doc = await db.collection('users').doc(fbUser.uid).get(); if (doc.exists && doc.data().isPremium_past) { state.isPremium = true; localStorage.setItem(ukey('isPremium_past'), 'true'); } } catch(e) {}
   updateMembershipUI();
 }
 
