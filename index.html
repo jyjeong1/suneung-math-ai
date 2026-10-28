@@ -1809,7 +1809,17 @@ function getTodayQuizCount() {
 const FREE_DAILY_LIMIT = 10;    // 무료: 단원학습만, 하루 10문제
 const PREMIUM_DAILY_LIMIT = 20; // 프리미엄: 수능대비+단원학습, 하루 20문제
 
+function requireLogin() {
+  if (!fbUser) {
+    alert('문제를 풀려면 Google 로그인이 필요합니다.');
+    handleLogin();
+    return false;
+  }
+  return true;
+}
+
 function checkFreeLimit() {
+  if (!requireLogin()) return false;
   const todayCount = getTodayQuizCount();
   const limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   if (todayCount >= limit) {
