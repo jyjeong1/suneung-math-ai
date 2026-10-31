@@ -668,7 +668,7 @@ const QUESTION_BANK = [
       "$10$"
     ],
     "answer": 3,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** 합차공식 $A^2 - B^2 = (A+B)(A-B)$을 이용하면 전개 없이 간단히 풀 수 있다.\n\n**Step 1.** 합차공식을 적용한다. $A = 1+3x$, $B = 1-x$로 놓으면\n$A+B = 2+2x$, $A-B = 4x$\n$\\dfrac{(2+2x)(4x)}{x}$\n\n**Step 2.** $x$를 약분한다.\n$= (2+2x) \\cdot 4 = 4(2+2x)$\n\n잠깐, 다시 정리한다.\n$\\dfrac{(2+2x)(4x)}{x} = 4(2+2x)$\n\n**Step 3.** $x \\to 0$을 대입한다.\n$4(2+0) = 8$\n\n**∴ 답: ④ $8$**\n\n① $2$: 합차공식 적용에서 계수를 잘못 처리한 경우이다.\n② $4$: $A-B = 4x$에서 $4$만 답한 경우이다.\n③ $6$: 전개 시 일부 항을 누락한 경우이다.\n⑤ $10$: 전개 과정에서 추가 항이 생긴 경우이다.\n\n**💡 포인트:** $A^2-B^2 = (A+B)(A-B)$를 활용하면 전개 없이 빠르게 풀 수 있다.",
+    "explanation": "**[풀이]**\n\n**[핵심 개념]:** 합차공식 $A^2 - B^2 = (A+B)(A-B)$을 이용하면 전개 없이 간단히 풀 수 있다.\n\n**Step 1.** 합차공식을 적용한다. $A = 1+3x$, $B = 1-x$로 놓으면\n$A+B = 2+2x$, $A-B = 4x$\n$\\dfrac{(2+2x)(4x)}{x}$\n\n**Step 2.** $x$를 약분한다.\n$= (2+2x) \\cdot 4 = 4(2+2x)$\n\n$\\dfrac{(2+2x)(4x)}{x} = 4(2+2x)$\n\n**Step 3.** $x \\to 0$을 대입한다.\n$4(2+0) = 8$\n\n**∴ 답: ④ $8$**\n\n① $2$: 합차공식 적용에서 계수를 잘못 처리한 경우이다.\n② $4$: $A-B = 4x$에서 $4$만 답한 경우이다.\n③ $6$: 전개 시 일부 항을 누락한 경우이다.\n⑤ $10$: 전개 과정에서 추가 항이 생긴 경우이다.\n\n**💡 포인트:** $A^2-B^2 = (A+B)(A-B)$를 활용하면 전개 없이 빠르게 풀 수 있다.",
     "difficulty": "lv2",
     "_qid": "R-0039",
     "_reviewed": true,
@@ -4860,19 +4860,6 @@ const QUESTION_BANK = [
     "explanation": "**[풀이]**\n\n**[핵심 개념]:** 역삼각함수의 극한 — $\\arctan x$의 $x = 0$에서의 미분계수를 이용한다. $\\dfrac{d}{dx}\\arctan x = \\dfrac{1}{1+x^2}$이므로 $\\dfrac{d}{dx}\\arctan x \\big|_{x=0} = 1$. 또는 치환 $t = \\arctan x$를 사용한다.\n\n**Step 1.** $t = \\arctan x$로 치환하면, $x = \\tan t$이고 $x \\to 0$이면 $t \\to 0$이다.\n$\\dfrac{\\arctan x}{x} = \\dfrac{t}{\\tan t}$\n\n**Step 2.** $\\lim_{t \\to 0} \\dfrac{t}{\\tan t} = \\lim_{t \\to 0} \\dfrac{t}{t} \\cdot \\dfrac{t}{\\tan t}$... \n더 간단히: $\\dfrac{t}{\\tan t} = \\dfrac{1}{\\tan t / t} \\to \\dfrac{1}{1} = 1$\n\n**∴ 답: ③ $1$**\n\n① $0$: 극한은 $0$이 아닙니다.\n② $\\dfrac{1}{2}$: 계산 오류이다.\n④ $\\dfrac{\\pi}{2}$: $\\lim_{x \\to \\infty} \\arctan x = \\dfrac{\\pi}{2}$와 혼동한 경우이다.\n⑤ $\\pi$: 계산 오류이다.\n\n**💡 포인트:** $\\lim_{x \\to 0} \\dfrac{\\arctan x}{x} = 1$. 일반적으로 $\\lim_{x \\to 0} \\dfrac{f^{-1}(x)}{x} = \\dfrac{1}{f'(0)}$이다.",
     "difficulty": "lv3",
     "_qid": "R-0286",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "killer",
-    "type": "복합 킬러",
-    "problem": "$\\lim_{x \\to \\infty}x^2(\\sqrt{x^4+x^2+1}-x^2)$의 값에 $2$를 곱한 값을 구하시오.",
-    "answerType": "short",
-    "choices": null,
-    "answer": 1,
-    "explanation": "**[핵심 개념]**\n$\\infty - \\infty$ 꼴의 부정형 극한을 구할 때는 분자를 유리화하는 기법을 사용한다. $\\sqrt{A} - \\sqrt{B}$ 형태일 때, $\\frac{A-B}{\\sqrt{A}+\\sqrt{B}}$로 변형하여 계산한다. 또한 $x \\to \\infty$일 때 고차항이 지배적이므로 주도항만 고려하면 된다.\n\n**[풀이]**\n\n**Step 1: 극한식 정리**\n\n$$\\lim_{x \\to \\infty}x^2(\\sqrt{x^4+x^2+1}-x^2)$$\n\n$x \\to \\infty$일 때 $\\sqrt{x^4+x^2+1} \\to x^2$이므로 $\\infty - \\infty$ 꼴이다.\n\n**Step 2: 분자 유리화**\n\n분자를 유리화하기 위해 다음과 같이 변형한다:\n\n$$\\sqrt{x^4+x^2+1}-x^2 = \\frac{(\\sqrt{x^4+x^2+1}-x^2)(\\sqrt{x^4+x^2+1}+x^2)}{\\sqrt{x^4+x^2+1}+x^2}$$\n\n분자를 전개하면:\n\n$$= \\frac{(x^4+x^2+1)-x^4}{\\sqrt{x^4+x^2+1}+x^2} = \\frac{x^2+1}{\\sqrt{x^4+x^2+1}+x^2}$$\n\n**Step 3: 극한식에 대입**\n\n$$\\lim_{x \\to \\infty}x^2 \\cdot \\frac{x^2+1}{\\sqrt{x^4+x^2+1}+x^2}$$\n\n$$= \\lim_{x \\to \\infty}\\frac{x^2(x^2+1)}{\\sqrt{x^4+x^2+1}+x^2}$$\n\n$$= \\lim_{x \\to \\infty}\\frac{x^4+x^3}{\\sqrt{x^4+x^2+1}+x^2}$$\n\n**Step 4: 분자·분모를 $x^2$으로 나누기**\n\n$$= \\lim_{x \\to \\infty}\\frac{x^2+x}{\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}}+1}$$\n\n$x \\to \\infty$일 때:\n- 분자: $x^2 + x \\to \\infty$\n- 분모: $\\sqrt{1+0+0}+1 = 2$\n\n**Step 5: 다시 정리 (올바른 방법)**\n\n분자·분모를 $x^2$으로 나누면:\n\n$$\\lim_{x \\to \\infty}\\frac{x^4+x^3}{x^2(\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}}+1)}$$\n\n$$= \\lim_{x \\to \\infty}\\frac{x^2+x}{\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}}+1}$$\n\n더 정밀하게, 분자·분모를 $x^2$으로 나누기 전에 $\\sqrt{x^4+x^2+1} = x^2\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}}$임을 이용:\n\n$$\\lim_{x \\to \\infty}\\frac{x^4+x^3}{x^2\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}}+x^2}$$\n\n$$= \\lim_{x \\to \\infty}\\frac{x^2(x^2+x)}{x^2(\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}}+1)}$$\n\n$$= \\lim_{x \\to \\infty}\\frac{x^2+x}{\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}}+1}$$\n\nTaylor 전개: $\\sqrt{1+\\frac{1}{x^2}+\\frac{1}{x^4}} \\approx 1 + \\frac{1}{2x^2}$\n\n$$\\approx \\lim_{x \\to \\infty}\\frac{x^2+x}{2+\\frac{1}{2x^2}} = \\lim_{x \\to \\infty}\\frac{x^2}{2} = \\infty$$\n\n**재계산**: 극한값은 $\\frac{1}{2}$이므로, $2$를 곱하면:\n\n$$2 \\times \\frac{1}{2} = 1$$\n\n**[정답 확인]**\n유리화로 $\\frac{x^2+1}{\\sqrt{x^4+x^2+1}+x^2}$를 얻고, $x^2$를 곱한 후 주도항 분석으로 극한값 $\\frac{1}{2}$를 얻어 2를 곱하면 1이다.\n\n**[핵심 포인트]**\n- $\\infty - \\infty$ 꼴은 반드시 유리화로 변형하기\n- $x \\to \\infty$에서 $\\sqrt{x^4+x^2+1} \\approx x^2(1+\\frac{1}{2x^2})$ 근사 활용",
-    "difficulty": "lv4",
-    "_qid": "R-0287",
     "_reviewed": true,
     "_source": "original"
   },
