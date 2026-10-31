@@ -1852,7 +1852,7 @@ const QUESTION_BANK = [
     "_type": "indefinite",
     "type": "부정적분",
     "problem": "함수 $f(x) = e^x(x^2 - 3x + 2)$에 대하여 $\\int f(x)\\,dx = e^x(ax^2 + bx + c) + C$를 만족할 때, $a + b + c$의 값을 구하시오.",
-    "answerType": "choice",
+    "answerType": "short",
     "choices": [
       "① $-2$",
       "② $-1$",
@@ -1861,7 +1861,7 @@ const QUESTION_BANK = [
       "⑤ $2$"
     ],
     "answer": 3,
-    "explanation": "**[핵심 개념]**\n$\\int e^x g(x)dx = e^x h(x) + C$ 형태에서 양변을 미분하여 계수를 비교한다.\n\n**[풀이]**\n$\\frac{d}{dx}[e^x(ax^2 + bx + c)] = e^x[ax^2 + (2a+b)x + (b+c)]$\n\n이것이 $e^x(x^2 - 3x + 2)$와 같으므로:\n- $x^2$ 계수: $a = 1$\n- $x$ 계수: $2a + b = -3$ → $b = -5$\n- 상수항: $b + c = 2$ → $c = 7$\n\n$a + b + c = 1 + (-5) + 7 = 3$\n\n**[정답 확인]**\n$a + b + c = 3$이나 선택지에 해당 값이 없다.**[오답 분석]**\n- 곱의 미분법을 정확히 적용하면 $a=1, b=-5, c=7$이 유일한 해이다.\n\n**[핵심 포인트]**\n$e^x$ 인수를 공통으로 묶은 후, 다항식 부분의 계수를 비교하여 미지수를 결정한다.",
+    "explanation": "**[핵심 개념]**\n$\\int e^x g(x)dx = e^x h(x) + C$ 형태에서 양변을 미분하여 계수를 비교한다.\n\n**[풀이]**\n\n$\\frac{d}{dx}[e^x(ax^2 + bx + c)] = e^x[ax^2 + (2a+b)x + (b+c)]$\n\n이것이 $e^x(x^2 - 3x + 2)$와 같으므로:\n- $x^2$ 계수: $a = 1$\n- $x$ 계수: $2a + b = -3$ → $b = -5$\n- 상수항: $b + c = 2$ → $c = 7$\n\n**[정답 확인]**\n\n$a + b + c = 1 + (-5) + 7 = 3$\n\n**[핵심 포인트]**\n$e^x$ 인수를 공통으로 묶은 후 다항식 계수를 비교하여 미지수를 결정한다.",
     "difficulty": "lv3",
     "_qid": "A-0070",
     "_reviewed": false,
