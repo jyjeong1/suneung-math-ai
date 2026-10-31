@@ -11,3 +11,4 @@ suneung-math-past/
 shorts/*.mp4
 shorts/*.m4a
 shorts/*.png
+!수능_미분법/questions.js
