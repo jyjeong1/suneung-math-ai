@@ -340,8 +340,8 @@ body {
 }
 .choices { display: flex; flex-direction: column; gap: 10px; }
 .choice-btn {
-  background: var(--card);
-  border: none;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
   border-radius: 12px;
   padding: 14px 16px;
   font-size: 14px;
@@ -353,11 +353,12 @@ body {
   align-items: flex-start;
   gap: 10px;
   box-shadow: var(--shadow);
+  color: var(--text);
 }
 .choice-btn:active { transform: scale(0.98); }
-.choice-btn.selected { background: #e8f0fe; box-shadow: 0 0 0 2px var(--primary); }
-.choice-btn.correct { background: #edf7ed; box-shadow: 0 0 0 2px var(--correct); }
-.choice-btn.wrong { background: #fdecea; box-shadow: 0 0 0 2px var(--wrong); animation: wrongShake 0.3s; }
+.choice-btn.selected { background: rgba(168,85,247,0.25); border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary); color: var(--primary-light); font-weight: 700; }
+.choice-btn.correct { background: rgba(6,214,160,0.2); border-color: var(--correct); box-shadow: 0 0 0 2px var(--correct); color: var(--correct); }
+.choice-btn.wrong { background: rgba(255,107,107,0.2); border-color: var(--wrong); box-shadow: 0 0 0 2px var(--wrong); color: var(--wrong); animation: wrongShake 0.3s; }
 .choice-btn .num {
   min-width: 24px;
   height: 24px;
@@ -495,6 +496,19 @@ body {
 </style>
 </head>
 <body>
+
+<!-- 로그인 필수 오버레이 -->
+<div id="loginOverlay" style="position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(10,15,26,0.97);z-index:10000;display:flex;flex-direction:column;align-items:center;justify-content:center;">
+  <div style="text-align:center;max-width:360px;padding:40px;">
+    <div style="font-size:48px;margin-bottom:20px;">🔐</div>
+    <h2 style="color:#ffd700;font-size:22px;margin-bottom:12px;">로그인이 필요합니다</h2>
+    <p style="color:#b0b8d0;font-size:14px;line-height:1.6;margin-bottom:24px;">Prof.AI 수학 앱을 사용하려면<br>Google 계정으로 로그인해주세요.</p>
+    <button onclick="handleLogin()" style="background:linear-gradient(135deg,#4285f4,#1a73e8);color:#fff;border:none;padding:14px 32px;border-radius:12px;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:10px;margin:0 auto;">
+      <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" style="width:20px;height:20px;"> Google 로그인
+    </button>
+    <p style="color:#666;font-size:11px;margin-top:16px;">무료 회원: 하루 10문제 · 프리미엄: 하루 20문제</p>
+  </div>
+</div>
 
 <!-- 헤더 -->
 <div class="header">
@@ -972,6 +986,7 @@ function initFirebase() {
     if (user) {
       document.getElementById('loginBtn').style.display = 'none';
       document.getElementById('userBadge').style.display = 'block';
+      document.getElementById('loginOverlay').style.display = 'none';
       const name = user.displayName || user.email;
       document.getElementById('userBadge').textContent = '👤 ' + (name.length > 6 ? name.slice(0,6) + '..' : name);
       loadUserLocalData();
@@ -984,6 +999,7 @@ function initFirebase() {
     } else {
       document.getElementById('loginBtn').style.display = 'block';
       document.getElementById('userBadge').style.display = 'none';
+      document.getElementById('loginOverlay').style.display = 'flex';
     }
   });
 }
