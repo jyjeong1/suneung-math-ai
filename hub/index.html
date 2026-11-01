@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Language" content="ko">
+<title>Prof.AI 수능수학</title>
+<meta name="theme-color" content="#0f0f1a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Prof.AI 수능수학">
+<meta name="description" content="AI 기반 수능 수학 학습 플랫폼 — 단원별 맞춤 문제, 풀이 해설, 실력 분석">
+<link rel="manifest" href="manifest.json">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+* { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --primary: #a855f7;
+  --primary-light: #c084fc;
+  --accent: #06d6a0;
+  --bg: #0f0f1a;
+  --card: rgba(255,255,255,0.06);
+  --text: #f0f0f5;
+  --sub: #8888aa;
+  --border: rgba(255,255,255,0.08);
+  --neon-pink: #ff2d78;
+  --neon-cyan: #00f0ff;
+  --neon-green: #06d6a0;
+  --neon-purple: #a855f7;
+}
+body {
+  font-family: 'Noto Sans KR', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 0 16px 40px;
+}
+
+/* ── 헤더 ── */
+.header {
+  text-align: center;
+  padding: 48px 0 12px;
+}
+.header .logo {
+  font-size: 42px;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple), var(--neon-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -1px;
+}
+.header .sub {
+  color: var(--sub);
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: 300;
+}
+.header .badge {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgba(168,85,247,0.15);
+  color: var(--primary-light);
+  border: 1px solid rgba(168,85,247,0.3);
+}
+
+/* ── 섹션 타이틀 ── */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sub);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 32px 0 16px 4px;
+}
+
+/* ── 앱 카드 ── */
+.app-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+.app-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 4px; height: 100%;
+  border-radius: 16px 0 0 16px;
+}
+.app-card:hover, .app-card:active {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+/* 카드 색상 테마 */
+.app-card.purple::before { background: linear-gradient(180deg, #a855f7, #7c3aed); }
+.app-card.blue::before { background: linear-gradient(180deg, #3b82f6, #1d4ed8); }
+.app-card.green::before { background: linear-gradient(180deg, #06d6a0, #059669); }
+.app-card.pink::before { background: linear-gradient(180deg, #ff2d78, #e11d48); }
+.app-card.cyan::before { background: linear-gradient(180deg, #00f0ff, #0891b2); }
+.app-card.orange::before { background: linear-gradient(180deg, #f59e0b, #d97706); }
+.app-card.gold::before { background: linear-gradient(180deg, #fbbf24, #b45309); }
+
+.app-icon {
+  width: 52px; height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+.app-card.purple .app-icon { background: rgba(168,85,247,0.15); }
+.app-card.blue .app-icon { background: rgba(59,130,246,0.15); }
+.app-card.green .app-icon { background: rgba(6,214,160,0.15); }
+.app-card.pink .app-icon { background: rgba(255,45,120,0.15); }
+.app-card.cyan .app-icon { background: rgba(0,240,255,0.15); }
+.app-card.orange .app-icon { background: rgba(245,158,11,0.15); }
+.app-card.gold .app-icon { background: rgba(251,191,36,0.15); }
+
+.app-info { flex: 1; min-width: 0; }
+.app-info .name {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.app-info .desc {
+  font-size: 12px;
+  color: var(--sub);
+  line-height: 1.5;
+}
+.app-info .stats {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+.app-info .stat {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+.app-card.purple .stat { background: rgba(168,85,247,0.12); color: #c084fc; }
+.app-card.blue .stat { background: rgba(59,130,246,0.12); color: #93c5fd; }
+.app-card.green .stat { background: rgba(6,214,160,0.12); color: #6ee7b7; }
+.app-card.pink .stat { background: rgba(255,45,120,0.12); color: #fda4af; }
+.app-card.cyan .stat { background: rgba(0,240,255,0.12); color: #67e8f9; }
+.app-card.orange .stat { background: rgba(245,158,11,0.12); color: #fcd34d; }
+.app-card.gold .stat { background: rgba(251,191,36,0.12); color: #fde68a; }
+
+.app-arrow {
+  color: var(--sub);
+  font-size: 18px;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+.app-card:hover .app-arrow { transform: translateX(4px); }
+
+/* ── 준비중 카드 ── */
+.app-card.coming-soon {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.app-card.coming-soon .coming-badge {
+  position: absolute;
+  top: 12px; right: 12px;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.1);
+  color: var(--sub);
+}
+
+/* ── 총 문제 수 배너 ── */
+.total-banner {
+  text-align: center;
+  margin: 24px 0 8px;
+  padding: 16px;
+  background: linear-gradient(135deg, rgba(168,85,247,0.08), rgba(0,240,255,0.08));
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+.total-banner .num {
+  font-size: 36px;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.total-banner .label {
+  font-size: 13px;
+  color: var(--sub);
+  margin-top: 2px;
+}
+
+/* ── 푸터 ── */
+.footer {
+  text-align: center;
+  padding: 32px 0 16px;
+  font-size: 11px;
+  color: var(--sub);
+  line-height: 1.8;
+}
+.footer a {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+
+/* ── 애니메이션 ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.app-card { animation: fadeInUp 0.5s ease both; }
+.app-card:nth-child(1) { animation-delay: 0.05s; }
+.app-card:nth-child(2) { animation-delay: 0.1s; }
+.app-card:nth-child(3) { animation-delay: 0.15s; }
+.app-card:nth-child(4) { animation-delay: 0.2s; }
+.app-card:nth-child(5) { animation-delay: 0.25s; }
+.app-card:nth-child(6) { animation-delay: 0.3s; }
+.app-card:nth-child(7) { animation-delay: 0.35s; }
+</style>
+</head>
+<body>
+
+<!-- 헤더 -->
+<div class="header">
+  <div class="logo">Prof.AI 수능수학</div>
+  <div class="sub">AI 기반 수능 수학 단원별 학습 플랫폼</div>
+  <div class="badge">2027 수능 대비</div>
+</div>
+
+<!-- 총 문제 수 -->
+<div class="total-banner">
+  <div class="num">3,638</div>
+  <div class="label">총 문제 수 (8개 단원)</div>
+</div>
+
+<!-- 단원별 앱 -->
+<div class="section-title">단원별 학습</div>
+
+<a class="app-card purple" href="https://suneung-math-ai-probstat.onrender.com" target="_blank">
+  <div class="app-icon">🎲</div>
+  <div class="app-info">
+    <div class="name">확률과 통계</div>
+    <div class="desc">순열·조합, 확률, 통계적 추정</div>
+    <div class="stats">
+      <span class="stat">500문제</span>
+      <span class="stat">감수 100%</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<a class="app-card blue" href="https://suneung-math-diff.onrender.com" target="_blank">
+  <div class="app-icon">📐</div>
+  <div class="app-info">
+    <div class="name">미분법</div>
+    <div class="desc">미분계수, 도함수, 접선, 증감·극값·최적화</div>
+    <div class="stats">
+      <span class="stat">436문제</span>
+      <span class="stat">해설 업그레이드 완료</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<a class="app-card green" href="https://suneung-math-ai.onrender.com" target="_blank">
+  <div class="app-icon">∞</div>
+  <div class="app-info">
+    <div class="name">극한과 연속</div>
+    <div class="desc">함수의 극한, 좌·우극한, 연속성</div>
+    <div class="stats">
+      <span class="stat">299문제</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<a class="app-card cyan" href="https://suneung-math-seq.onrender.com" target="_blank">
+  <div class="app-icon">📈</div>
+  <div class="app-info">
+    <div class="name">수열</div>
+    <div class="desc">등차·등비수열, 수열의 합, 수학적 귀납법</div>
+    <div class="stats">
+      <span class="stat">326문제</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<a class="app-card orange" href="https://suneung-math-trig.onrender.com" target="_blank">
+  <div class="app-icon">🔺</div>
+  <div class="app-info">
+    <div class="name">삼각함수</div>
+    <div class="desc">삼각함수의 성질, 그래프, 삼각방정식</div>
+    <div class="stats">
+      <span class="stat">300문제</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<a class="app-card pink" href="https://suneung-math-ai-1.onrender.com" target="_blank">
+  <div class="app-icon">🔢</div>
+  <div class="app-info">
+    <div class="name">지수와 로그</div>
+    <div class="desc">지수함수, 로그함수, 지수·로그 방정식</div>
+    <div class="stats">
+      <span class="stat">264문제</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<a class="app-card red" href="https://suneung-math-integ.onrender.com" target="_blank">
+  <div class="app-icon">∫</div>
+  <div class="app-info">
+    <div class="name">적분법</div>
+    <div class="desc">부정적분, 정적분, 넓이·부피</div>
+    <div class="stats">
+      <span class="stat">300문제</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<a class="app-card gold" href="https://suneung-math-past.onrender.com" target="_blank">
+  <div class="app-icon">📝</div>
+  <div class="app-info">
+    <div class="name">수능 기출문제</div>
+    <div class="desc">최근 10개년 수능·모의평가 전 단원</div>
+    <div class="stats">
+      <span class="stat">1,231문제</span>
+    </div>
+  </div>
+  <span class="app-arrow">›</span>
+</a>
+
+<!-- 푸터 -->
+<div class="footer">
+  Prof.AI 수능수학 &copy; 2024<br>
+  AI 문제 생성 · Claude API 기반<br>
+  <a href="mailto:jyjeong@suwon.ac.kr">jyjeong@suwon.ac.kr</a>
+</div>
+
+</body>
+</html>
