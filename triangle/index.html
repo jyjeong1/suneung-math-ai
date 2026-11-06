@@ -1704,7 +1704,7 @@ function updateCacheStatus() {
     el.textContent = parts.join(' + ');
     el.style.color = 'var(--correct)';
   } else if (state.hasServerKey || state.apiKey) {
-    el.textContent = '⏳ 문제 준비 중...';
+    el.textContent = '⏳ 문제 허브에서 구독...';
     el.style.color = 'var(--accent)';
   } else {
     el.textContent = '';
@@ -1782,24 +1782,24 @@ function updateFreeLimitStatus() {
   const limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   const remain = Math.max(0, limit - todayCount);
   if (state.isPremium) {
-    el.innerHTML = '<div style="background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1.5px solid #ffd54f;border-radius:14px;padding:14px 16px;">'
+    el.innerHTML = '<div style="background:linear-gradient(135deg,rgba(255,215,0,0.1),rgba(255,170,0,0.1));border:1.5px solid rgba(255,215,0,0.3);border-radius:14px;padding:14px 16px;">'
       + '<div style="display:flex;align-items:center;gap:10px;">'
       + '<span style="font-size:24px;">💎</span>'
-      + '<div>'
-      + '<div style="font-size:14px;font-weight:800;color:#e65100;">프리미엄 회원</div>'
-      + ''
+      + '<div><div style="font-size:14px;font-weight:800;color:#ffd700;">프리미엄 회원</div>'
+      + '<div style="font-size:12px;color:#999;">오늘 ' + remain + '/' + limit + '문제 남음</div>'
       + '</div></div></div>';
   } else {
-    el.innerHTML = '<div style="background:rgba(255,255,255,0.06);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1.5px solid rgba(6,214,160,0.5);border-radius:14px;padding:16px 18px;color:#fff;">'
-      + '<div style="display:flex;align-items:center;gap:12px;">'
-      + '<span style="font-size:32px;">🆓</span>'
-      + '<div>'
-      + '<div style="font-size:18px;font-weight:900;color:#00d4ff;">FREE</div>'
-      + '<div style="font-size:13px;color:#999;line-height:1.7;margin-top:4px;">수학 전체 <b style="color:#fff;">5문제/일</b> · 기간: <b style="color:#fff;">무제한</b> · 로그인만으로 가능</div>'
-      + ''
-      + '</div></div></div>';
+    el.innerHTML = '<div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:14px;padding:14px 16px;">'
+      + '<div style="display:flex;align-items:center;justify-content:space-between;">'
+      + '<div style="display:flex;align-items:center;gap:10px;">'
+      + '<span style="font-size:20px;">📝</span>'
+      + '<div><div style="font-size:13px;font-weight:600;color:#ccc;">수학 전체 ' + remain + '/' + limit + '문제 남음</div>'
+      + '<div style="font-size:11px;color:#888;">무료 · 수학 전과목 하루 5문제</div></div></div>'
+      + '<a href="https://suneung-english-ai.onrender.com/hub.html" style="font-size:11px;color:#a855f7;text-decoration:none;padding:6px 12px;border:1px solid rgba(168,85,247,0.3);border-radius:8px;">💎 구독</a>'
+      + '</div></div>';
   }
 }
+
 
 function requireLogin() {
   if (!fbUser) { alert('Google 로그인 후 문제를 풀 수 있습니다.'); handleLogin(); return true; }
@@ -3218,7 +3218,6 @@ function updateMembershipUI() {
           <div>✅ 🟠 Lv.3 수능급 + 🔴 Lv.4 동경대급 사용권</div>
           <div style="margin-top:6px; font-size:12px; color:var(--sub);">월 5,500원 · 허브에서 구독</div>
         </div>
-        <p style="font-size:11px;color:var(--sub);margin-bottom:6px;">추후 이용 가능</p>
         <button class="submit-btn" style="font-size:12px; padding:8px; background:#ccc; color:#666; cursor:default;" onclick="window.location.href='https://suneung-english-ai.onrender.com/hub.html'">💎 Prof.AI 허브에서 구독하기</button>
       </div>`;
   }
@@ -3233,7 +3232,7 @@ function updatePremiumBanner() {
     + '<span style="font-size:24px;">💎</span>'
     + '<div style="flex:1;">'
     + '<div style="font-size:13px;font-weight:700;color:#fb923c;margin-bottom:2px;">프리미엄 · 월 5,500원 (허브에서 구독)</div>'
-    + '<div style="font-size:11px;color:var(--sub);line-height:1.5;">수능 대비 + 하루 20문제 + 전 레벨 · <span style="color:#f97316;">추후 이용 가능</span></div>'
+    + '<div style="font-size:11px;color:var(--sub);line-height:1.5;">수능 대비 + 하루 20문제 + 전 레벨 · <span style="color:#f97316;">허브에서 구독</span></div>'
     + '</div>'
     + '</div></div>';
 }
