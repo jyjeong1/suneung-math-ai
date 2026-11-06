@@ -910,7 +910,7 @@ var LEVEL_LABELS = {
 
 var LEVEL_TIMER = { lv1: 60, lv2: 120, lv3: 180 };
 
-var FREE_DAILY_LIMIT = 3;
+var FREE_DAILY_LIMIT = 5;    // 무료: 수학 전체 하루 5문제 (Firebase 공유)
 var PREMIUM_DAILY_LIMIT = 30;
 
 var DIFFICULTY_SCORE = { lv1: 1, lv2: 2, lv3: 3 };
@@ -1435,6 +1435,37 @@ function getTodayQuizCount() {
   return state._serverQuizCount || 0;
 }
 
+// 수학 전체 공유 일일 카운터 (Firebase)
+async function getMathDailyTotal() {
+  if (!db || !fbUser) return getTodayQuizCount();
+  try {
+    const today = new Date().toISOString().slice(0, 10);
+    const doc = await db.collection('users').doc(fbUser.uid).get();
+    if (doc.exists) {
+      const d = doc.data();
+      const mathDaily = d.mathDailyUsage || {};
+      return mathDaily[today] || 0;
+    }
+  } catch(e) {}
+  return getTodayQuizCount();
+}
+
+async function incrementMathDaily() {
+  if (!db || !fbUser) return;
+  try {
+    const today = new Date().toISOString().slice(0, 10);
+    const doc = await db.collection('users').doc(fbUser.uid).get();
+    let current = 0;
+    if (doc.exists) {
+      const mathDaily = doc.data().mathDailyUsage || {};
+      current = mathDaily[today] || 0;
+    }
+    await db.collection('users').doc(fbUser.uid).set({
+      mathDailyUsage: { [today]: current + 1 }
+    }, { merge: true });
+  } catch(e) {}
+}
+
 // 서버에서 오늘 푼 문제 수 조회
 async function loadServerQuizCount() {
   if (!fbUser) { state._serverQuizCount = 0; return; }
@@ -1471,14 +1502,21 @@ function closePaymentModal() {
   document.querySelector('.tab-bar').style.visibility = '';
 }
 
-function checkFreeLimit() {
-  var todayCount = getTodayQuizCount();
-  var limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
+async function checkFreeLimit() {
+  const todayCount = state.isPremium ? getTodayQuizCount() : await getMathDailyTotal();
+  const limit = state.isPremium ? PREMIUM_DAILY_LIMIT : FREE_DAILY_LIMIT;
   if (todayCount >= limit) {
-    if (state.isPremium) { alert('오늘의 학습 한도(' + limit + '문제)에 도달했습니다.\n내일 다시 도전하세요!'); }
-    else { openPaymentModal(); }
+    if (state.isPremium) {
+      alert('오늘의 학습 한도(20문제)에 도달했습니다.
+내일 다시 도전하세요!');
+    } else {
+      alert('오늘의 무료 수학 문제(5문제)를 모두 풀었습니다.
+프리미엄 구독(월 5,500원)으로 무제한 이용하세요!');
+      document.getElementById('paymentModal').classList.add('active');
+    }
     return false;
   }
+  if (!state.isPremium) { await incrementMathDaily(); }
   return true;
 }
 
