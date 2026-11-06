@@ -646,64 +646,21 @@ body {
 
 <div class="modal-overlay" id="paymentModal">
   <div class="modal" style="max-height:85vh; overflow-y:auto; width:95%; max-width:420px;">
-    <h3 style="margin-bottom:16px;">💎 프리미엄 멤버십</h3>
+    <h3 style="margin-bottom:16px;">💎 Prof.AI 통합 구독</h3>
     <div style="background:linear-gradient(135deg,#003366,#0055aa); color:#fff; border-radius:14px; padding:20px; margin-bottom:16px;">
-      <div style="font-size:28px; font-weight:900; margin-bottom:4px;">월 오백오십원</div>
-      <p style="font-size:13px; opacity:0.9;">RPI 박사 · 삼성전자/GE · 29년 교수 감수</p>
+      <div style="font-size:28px; font-weight:900; margin-bottom:4px;">월 ₩5,500</div>
+      <p style="font-size:13px; opacity:0.9;">영어 무제한 + 수학 2과목 무제한</p>
     </div>
-    <div style="font-size:13px; line-height:2.2; margin-bottom:16px;">
-      <div style="font-weight:700; margin-bottom:4px;">무료 회원</div>
-      <div>📚 단원 학습 — 하루 <strong>10문제</strong></div>
-      <div>🟢 Lv.1~2 — 무료</div>
-      <div>🟠 Lv.3~4 — 💎 프리미엄</div>
-      <div>🎯 수능 대비 — 💎 프리미엄</div>
-      <div style="font-weight:700; margin:10px 0 4px; color:#0055d4;">💎 프리미엄 회원</div>
-      <div>📚 단원 학습 — 하루 <strong>20문제</strong></div>
-      <div>🎯 수능 대비 — 하루 <strong>20문제</strong></div>
-      <div>🟢🔵🟠🔴 전 레벨 사용권</div>
+    <div style="font-size:13px; line-height:2; margin-bottom:16px;">
+      <div>✅ <strong>수능영어</strong> AI 문제 무제한</div>
+      <div>✅ <strong>수능수학 2과목</strong> 매월 선택 (8개 중 택2)</div>
+      <div>✅ 전 레벨 · AI 해설 무제한</div>
+      <div style="margin-top:8px; color:var(--sub);">현재: 무료 회원 (수학 전체 하루 5문제)</div>
     </div>
-    <p style="text-align:center;font-size:12px;color:var(--sub);margin-bottom:10px;">추후 이용 가능</p>
-    <button class="submit-btn" style="font-size:13px; padding:10px; background:#ccc; color:#666; cursor:default;" disabled>💳 월 오백오십원 결제 (준비 중)</button>
+    <a href="https://suneung-english-ai.onrender.com/hub.html" class="submit-btn primary" style="display:block;text-align:center;font-size:15px;padding:14px;text-decoration:none;background:linear-gradient(135deg,#0055d4,#a855f7);color:#fff;border-radius:12px;font-weight:700;">🏠 Prof.AI 허브에서 구독하기</a>
     <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="document.getElementById('paymentModal').classList.remove('active')">닫기</button>
   </div>
 </div>
-
-<!-- ═══ 랭킹 페이지 ═══ -->
-<div class="page" id="page-rank">
-  <h2 style="font-size:20px; font-weight:700; margin-bottom:16px;">🏆 리더보드</h2>
-  <div style="display:flex; gap:8px; margin-bottom:16px;">
-    <button class="rank-tab active" id="rankTabScore" onclick="switchRankTab('score')">★ 가중치 점수</button>
-    <button class="rank-tab" id="rankTabStreak" onclick="switchRankTab('streak')">🔥 연속</button>
-    <button class="rank-tab" id="rankTabTotal" onclick="switchRankTab('total')">📝 문제수</button>
-    <button class="rank-tab" id="rankTabAccuracy" onclick="switchRankTab('accuracy')">🎯 정답률</button>
-  </div>
-  <div id="rankMyPosition" style="margin-bottom:12px;"></div>
-  <div id="rankList"></div>
-  <div id="rankLogin" style="display:none; text-align:center; padding:40px 20px;">
-    <p style="font-size:14px; color:var(--sub); margin-bottom:8px;">로그인하면 랭킹에 참여할 수 있습니다</p>
-    <p style="font-size:12px; color:var(--sub); margin-bottom:16px;">* Google 계정으로만 로그인 가능합니다</p>
-    <button class="submit-btn primary" style="width:auto;" onclick="handleLogin()">Google 계정으로 로그인</button>
-  </div>
-</div>
-
-<!-- ═══ 통계 페이지 ═══ -->
-<div class="page" id="page-stats">
-  <h2 style="font-size:20px; font-weight:700; margin-bottom:16px;">내 성적</h2>
-  <div class="stat-row">
-    <div class="stat-card">
-      <h3>총 문제</h3>
-      <div class="big-num" id="statTotal">0</div>
-    </div>
-    <div class="stat-card">
-      <h3>정답률</h3>
-      <div class="big-num" id="statAccuracy">0%</div>
-    </div>
-    <div class="stat-card">
-      <h3>종합 점수</h3>
-      <div class="big-num" id="statScore">0</div>
-      <div id="lpRpDetail" style="font-size:12px;color:var(--sub);margin-top:4px;">LP 0 + RP 0</div>
-    </div>
-  </div>
 
   <!-- 점수 안내 -->
   <div class="stat-card" style="margin-bottom:12px;">
@@ -3318,10 +3275,10 @@ function updateMembershipUI() {
           <div>✅ 🎯 수능 대비 모드 사용권</div>
           <div>✅ 하루 <strong>20문제</strong>로 확장</div>
           <div>✅ 🟠 Lv.3 수능급 + 🔴 Lv.4 동경대급 사용권</div>
-          <div style="margin-top:6px; font-size:12px; color:var(--sub);">월 오백오십원 · 언제든 해지 가능</div>
+          <div style="margin-top:6px; font-size:12px; color:var(--sub);">월 5,500원 · 허브에서 구독</div>
         </div>
         <p style="font-size:11px;color:var(--sub);margin-bottom:6px;">추후 이용 가능</p>
-        <button class="submit-btn" style="font-size:12px; padding:8px; background:#ccc; color:#666; cursor:default;" disabled>💎 프리미엄 가입 — 월 오백오십원 (준비 중)</button>
+        <button class="submit-btn" style="font-size:12px; padding:8px; background:#ccc; color:#666; cursor:default;" onclick="window.location.href='https://suneung-english-ai.onrender.com/hub.html'">💎 Prof.AI 허브에서 구독하기</button>
       </div>`;
   }
 }
@@ -3334,7 +3291,7 @@ function updatePremiumBanner() {
     + '<div style="display:flex;align-items:center;gap:12px;">'
     + '<span style="font-size:24px;">💎</span>'
     + '<div style="flex:1;">'
-    + '<div style="font-size:13px;font-weight:700;color:#06b6d4;margin-bottom:2px;">프리미엄 · 월 오백오십원</div>'
+    + '<div style="font-size:13px;font-weight:700;color:#06b6d4;margin-bottom:2px;">프리미엄 · 월 5,500원 (허브에서 구독)</div>'
     + '<div style="font-size:11px;color:var(--sub);line-height:1.5;">수능 대비 + 하루 20문제 + 전 레벨 · <span style="color:#06b6d4;">추후 이용 가능</span></div>'
     + '</div>'
     + '</div></div>';

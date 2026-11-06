@@ -636,17 +636,21 @@ body {
 <!-- payment modal -->
 <div class="modal-overlay" id="paymentModal">
   <div class="modal" style="max-height:85vh; overflow-y:auto; width:95%; max-width:420px;">
-    <h3 style="margin-bottom:16px; text-align:center;">오늘의 무료 문제를 다 풀었습니다!</h3>
-
-    <!-- 무료 회원 강조 -->
-    <div style="background:linear-gradient(135deg,#1b5e20,#2e7d32); color:#fff; border-radius:14px; padding:20px; margin-bottom:16px;">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
-        <span style="font-size:32px;">🆓</span>
-        <div>
-          <div style="font-size:20px; font-weight:900;">무료 회원</div>
-          <div style="font-size:12px; opacity:0.85;">로그인만으로 매일 이용 가능</div>
-        </div>
-      </div>
+    <h3 style="margin-bottom:16px;">💎 Prof.AI 통합 구독</h3>
+    <div style="background:linear-gradient(135deg,#003366,#0055aa); color:#fff; border-radius:14px; padding:20px; margin-bottom:16px;">
+      <div style="font-size:28px; font-weight:900; margin-bottom:4px;">월 ₩5,500</div>
+      <p style="font-size:13px; opacity:0.9;">영어 무제한 + 수학 2과목 무제한</p>
+    </div>
+    <div style="font-size:13px; line-height:2; margin-bottom:16px;">
+      <div>✅ <strong>수능영어</strong> AI 문제 무제한</div>
+      <div>✅ <strong>수능수학 2과목</strong> 매월 선택 (8개 중 택2)</div>
+      <div>✅ 전 레벨 · AI 해설 무제한</div>
+      <div style="margin-top:8px; color:var(--sub);">현재: 무료 회원 (수학 전체 하루 5문제)</div>
+    </div>
+    <a href="https://suneung-english-ai.onrender.com/hub.html" class="submit-btn primary" style="display:block;text-align:center;font-size:15px;padding:14px;text-decoration:none;background:linear-gradient(135deg,#0055d4,#a855f7);color:#fff;border-radius:12px;font-weight:700;">🏠 Prof.AI 허브에서 구독하기</a>
+    <button class="submit-btn" style="background:var(--border); color:var(--text); margin-top:8px;" onclick="document.getElementById('paymentModal').classList.remove('active')">닫기</button>
+  </div>
+</div>
       <div style="font-size:14px; line-height:2;">
         ✅ 단원별 + 랜덤출제 — 하루 <strong>3문제</strong><br>
         ✅ 🟢🟠🔴 전 난이도 — 무료<br>
@@ -666,12 +670,11 @@ body {
       </div>
       <div style="font-size:13px; line-height:2; color:var(--sub);">
         📚 단원별 + 랜덤출제 — 하루 <strong style="color:var(--text);">30문제</strong><br>
-        💰 월 <strong style="color:var(--text);">오백오십원</strong> · 언제든 해지 가능
+        💰 월 <strong style="color:var(--text);">5,500원</strong> · 허브에서 구독
       </div>
     </div>
 
-    <p style="text-align:center;font-size:11px;color:var(--sub);margin-bottom:10px;">추후 이용 가능</p>
-    <button class="submit-btn" style="font-size:13px; padding:10px; background:#ccc; color:#666; cursor:default;" disabled>💳 월 오백오십원 결제 (준비 중)</button>
+    <a href="https://suneung-english-ai.onrender.com/hub.html" class="submit-btn" style="display:block;text-align:center;font-size:13px;padding:10px;text-decoration:none;background:linear-gradient(135deg,#0055d4,#a855f7);color:#fff;border-radius:10px;font-weight:600;">🏠 Prof.AI 허브에서 구독하기</a>
     <button class="submit-btn primary" style="margin-top:8px;" onclick="closePaymentModal()">확인 — 내일 다시 풀기</button>
   </div>
 </div>
@@ -2201,14 +2204,14 @@ function updateMembershipUI() {
     info.innerHTML = '<div style="background:rgba(21,101,192,0.08); border-radius:10px; padding:14px; font-size:13px; line-height:1.7;"><div style="font-weight:700; margin-bottom:4px;">💎 프리미엄 회원</div><div>✅ 단원별 + 랜덤출제 하루 30문제</div><div>✅ 전 난이도 사용</div></div>';
   } else {
     badge.textContent = '무료'; badge.style.background = 'var(--border)'; badge.style.color = 'var(--sub)';
-    info.innerHTML = '<div style="background:var(--bg); border-radius:10px; padding:14px; font-size:13px; line-height:1.7;"><div style="font-weight:700; margin-bottom:8px;">현재: 무료 회원</div><div style="margin-bottom:4px;">📚 단원별 + 랜덤출제 — 하루 <strong>3문제</strong></div><div style="margin-bottom:12px;">🟢🟠🔴 전 난이도 — 무료</div><div style="background:rgba(21,101,192,0.1); border-radius:8px; padding:12px; margin-bottom:12px;"><div style="font-weight:700; color:#1565c0; margin-bottom:6px;">💎 프리미엄으로 업그레이드하면</div><div>✅ 하루 <strong>30문제</strong>로 확장</div><div style="margin-top:6px; font-size:12px; color:var(--sub);">월 오백오십원 · 언제든 해지 가능</div></div><p style="font-size:11px;color:var(--sub);margin-bottom:6px;">추후 이용 가능</p><button class="submit-btn" style="font-size:12px; padding:8px; background:#ccc; color:#666; cursor:default;" disabled>💎 프리미엄 가입 (준비 중)</button></div>';
+    info.innerHTML = '<div style="background:var(--bg); border-radius:10px; padding:14px; font-size:13px; line-height:1.7;"><div style="font-weight:700; margin-bottom:8px;">현재: 무료 회원</div><div style="margin-bottom:4px;">📚 단원별 + 랜덤출제 — 하루 <strong>3문제</strong></div><div style="margin-bottom:12px;">🟢🟠🔴 전 난이도 — 무료</div><div style="background:rgba(21,101,192,0.1); border-radius:8px; padding:12px; margin-bottom:12px;"><div style="font-weight:700; color:#1565c0; margin-bottom:6px;">💎 프리미엄으로 업그레이드하면</div><div>✅ 하루 <strong>30문제</strong>로 확장</div><div style="margin-top:6px; font-size:12px; color:var(--sub);">월 5,500원 · 허브에서 구독</div></div><p style="font-size:11px;color:var(--sub);margin-bottom:6px;">추후 이용 가능</p><button class="submit-btn" style="font-size:12px; padding:8px; background:#ccc; color:#666; cursor:default;" disabled>💎 프리미엄 가입 (준비 중)</button></div>';
   }
 }
 
 function updatePremiumBanner() {
   var el = document.getElementById('premiumBanner'); if (!el) return;
   if (state.isPremium) { el.innerHTML = ''; return; }
-  el.innerHTML = '<div style="background:rgba(21,101,192,0.08);border:1.5px solid rgba(21,101,192,0.4);border-radius:14px;padding:14px 16px;cursor:pointer;" onclick="showPaymentInfo()"><div style="display:flex;align-items:center;gap:12px;"><span style="font-size:24px;">💎</span><div style="flex:1;"><div style="font-size:13px;font-weight:700;color:#42a5f5;margin-bottom:2px;">프리미엄 · 월 오백오십원</div><div style="font-size:11px;color:var(--sub);line-height:1.5;">단원별 + 랜덤출제 하루 30문제 · <span style="color:#42a5f5;">추후 이용 가능</span></div></div></div></div>';
+  el.innerHTML = '<div style="background:rgba(21,101,192,0.08);border:1.5px solid rgba(21,101,192,0.4);border-radius:14px;padding:14px 16px;cursor:pointer;" onclick="showPaymentInfo()"><div style="display:flex;align-items:center;gap:12px;"><span style="font-size:24px;">💎</span><div style="flex:1;"><div style="font-size:13px;font-weight:700;color:#42a5f5;margin-bottom:2px;">프리미엄 · 월 5,500원 (허브에서 구독)</div><div style="font-size:11px;color:var(--sub);line-height:1.5;">단원별 + 랜덤출제 하루 30문제 · <span style="color:#42a5f5;">추후 이용 가능</span></div></div></div></div>';
 }
 
 function showPaymentInfo() {
