@@ -2179,14 +2179,33 @@ function showPaymentInfo() {
 
 async function checkPremiumStatus() {
   if (!db || !fbUser) return;
+  const THIS_SUBJECT = 'past'; // 이 앱의 과목 ID
   try {
-    var doc = await db.collection('users').doc(fbUser.uid).get();
+    const doc = await db.collection('users').doc(fbUser.uid).get();
     if (doc.exists) {
-      var d = doc.data();
-      if (d.isPremium_past) {
-        var expiry = d.premiumExpiry_past;
+      const d = doc.data();
+      // 1. 통합 구독 확인 (신규 모델: 영어+수학2과목 월 5,500원)
+      if (d.isPremium_unified) {
+        const expiry = d.premiumExpiry_unified;
         if (expiry && new Date(expiry) < new Date()) {
-          // 만료 → 자동 무료 전환
+          state.isPremium = false;
+          localStorage.removeItem(ukey('isPremium_past'));
+        } else {
+          // 이 과목이 선택된 과목인지 확인
+          const selected = d.selectedMathSubjects || [];
+          if (selected.includes(THIS_SUBJECT)) {
+            state.isPremium = true;
+            localStorage.setItem(ukey('isPremium_past'), 'true');
+          } else {
+            state.isPremium = false;
+            localStorage.removeItem(ukey('isPremium_past'));
+          }
+        }
+      }
+      // 2. 기존 개별 구독 호환
+      else if (d.isPremium_past) {
+        const expiry = d.premiumExpiry_past;
+        if (expiry && new Date(expiry) < new Date()) {
           state.isPremium = false;
           localStorage.removeItem(ukey('isPremium_past'));
           db.collection('users').doc(fbUser.uid).update({ isPremium_past: false });
