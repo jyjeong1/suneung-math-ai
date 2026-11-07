@@ -1045,11 +1045,7 @@ function initFirebase() {
       state.isPremium = false;
       updateFreeLimitStatus();
       updateMembershipUI();
-      // 자동 로그인 시도
-      if (!window.autoLoginAttempted) {
-        window.autoLoginAttempted = true;
-        setTimeout(() => { if (!fbUser) handleLogin(); }, 500);
-      }
+
     }
   });
 }
