@@ -1754,9 +1754,9 @@ function updateFreeLimitStatus() {
 
 
 // 수능 대비: 프리미엄만 가능
-function tryStartExam() {
+async function tryStartExam() {
   if (requireLogin()) return;
-  if (!checkFreeLimit()) return;
+  if (!(await checkFreeLimit())) return;
   startDailyRandom(5);
 }
 
@@ -1765,9 +1765,9 @@ function requireLogin() {
   if (!fbUser) { alert('로그인이 필요합니다.'); handleLogin(); return true; }
   return false;
 }
-function tryStartUnit() {
+async function tryStartUnit() {
   if (requireLogin()) return;
-  if (!checkFreeLimit()) return;
+  if (!(await checkFreeLimit())) return;
   startUnitMode();
 }
 
