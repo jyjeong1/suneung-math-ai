@@ -1,4 +1,4 @@
-// Prof.AI 수능수학 적분법 문제은행 — 251문제
+// Prof.AI 수능수학 적분법 문제은행 — 261문제
 // 독립풀이 전수검증 완료
 const QUESTION_BANK = [
   {
@@ -4775,5 +4775,205 @@ const QUESTION_BANK = [
     "_reviewed": true,
     "_source": "manual_verified",
     "_review_note": "검증5원칙: 해설 재작성(자기수정 흔적 제거)"
+  },
+  {
+    "_qid": "A-0301",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "함수 $F(x)$가\n$$F'(x) = 3x^2 - 4x + 2, \\qquad F(-1) = 3$$\n을 만족할 때, $F(2)$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $8$",
+      "② $10$",
+      "③ $12$",
+      "④ $14$",
+      "⑤ $16$"
+    ],
+    "answer": 2,
+    "explanation": "**[핵심 개념]**\n미적분학의 기본정리: $F(2) - F(-1) = \\int_{-1}^{2} F'(x)\\,dx$\n\n**[풀이]**\n$$\\int_{-1}^{2}(3x^2-4x+2)\\,dx = \\left[x^3-2x^2+2x\\right]_{-1}^{2}$$\n$$= (8-8+4) - (-1-2-2) = 4-(-5) = 9$$\n$$F(2) = F(-1) + 9 = 3 + 9 = 12$$\n\n**[정답 확인]**\n$F(2) = 12$이므로 정답은 **③번**\n\n**[검산]** $F(x) = x^3-2x^2+2x+8$이면 $F(-1)=3$, $F(2)=12$ ✓",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0302",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "함수 $f(x) = x^3 + ax$에 대하여\n$$\\int_{-1}^{1}(x+2)f(x)\\,dx = \\frac{26}{15}$$\n일 때, 상수 $a$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-1$",
+      "② $0$",
+      "③ $1$",
+      "④ $2$",
+      "⑤ $3$"
+    ],
+    "answer": 3,
+    "explanation": "**[핵심 개념]**\n대칭 구간 $[-1,1]$에서 홀수 차수 항의 적분은 0이다.\n\n**[풀이]**\n$(x+2)(x^3+ax) = x^4 + 2x^3 + ax^2 + 2ax$\n\n홀수 차수 항($2x^3, 2ax$)은 대칭 구간에서 소거:\n$$\\int_{-1}^{1}(x+2)f(x)\\,dx = \\int_{-1}^{1}x^4\\,dx + a\\int_{-1}^{1}x^2\\,dx = \\frac{2}{5} + \\frac{2a}{3}$$\n\n$\\frac{2}{5} + \\frac{2a}{3} = \\frac{26}{15}$에서 $\\frac{2a}{3} = \\frac{4}{3}$\n$$a = 2$$\n\n**[정답 확인]**\n$a = 2$이므로 정답은 **④번**\n\n**[검산]** $2/5 + 4/3 = 6/15 + 20/15 = 26/15$ ✓",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0303",
+    "_type": "definite",
+    "type": "치환적분",
+    "problem": "다음 정적분의 값은?\n$$\\int_0^1 (2x+1)(x^2+x+1)^3\\,dx$$",
+    "answerType": "choice",
+    "choices": [
+      "① $16$",
+      "② $18$",
+      "③ $20$",
+      "④ $22$",
+      "⑤ $24$"
+    ],
+    "answer": 2,
+    "explanation": "**[핵심 개념]**\n$u = x^2+x+1$로 치환하면 $du = (2x+1)\\,dx$\n\n**[풀이]**\n$x=0$일 때 $u=1$, $x=1$일 때 $u=3$\n$$\\int_0^1(2x+1)(x^2+x+1)^3\\,dx = \\int_1^3 u^3\\,du = \\left[\\frac{u^4}{4}\\right]_1^3 = \\frac{81-1}{4} = 20$$\n\n**[정답 확인]**\n정답은 **③번** ($20$)\n\n**[검산]** 원시함수 $\\frac{1}{4}(x^2+x+1)^4$을 미분하면 $(2x+1)(x^2+x+1)^3$ ✓",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0304",
+    "_type": "indefinite",
+    "type": "부분적분",
+    "problem": "다음 정적분의 값은?\n$$\\int_0^1 xe^{2x}\\,dx$$",
+    "answerType": "choice",
+    "choices": [
+      "① $\\dfrac{e^2-1}{4}$",
+      "② $\\dfrac{e^2+1}{4}$",
+      "③ $\\dfrac{2e^2+1}{4}$",
+      "④ $\\dfrac{e^2}{2}$",
+      "⑤ $\\dfrac{e^2}{4}$"
+    ],
+    "answer": 1,
+    "explanation": "**[핵심 개념]**\n부분적분: $u=x$, $dv=e^{2x}dx$\n\n**[풀이]**\n$du=dx$, $v=\\frac{1}{2}e^{2x}$\n$$\\int xe^{2x}\\,dx = \\frac{x}{2}e^{2x} - \\frac{1}{2}\\int e^{2x}\\,dx = \\frac{x}{2}e^{2x} - \\frac{1}{4}e^{2x} + C$$\n\n정적분:\n$$\\left[\\frac{x}{2}e^{2x} - \\frac{1}{4}e^{2x}\\right]_0^1 = \\left(\\frac{e^2}{2} - \\frac{e^2}{4}\\right) - \\left(0 - \\frac{1}{4}\\right) = \\frac{e^2}{4} + \\frac{1}{4} = \\frac{e^2+1}{4}$$\n\n**[정답 확인]**\n정답은 **②번** ($\\frac{e^2+1}{4}$)\n\n**[검산]** $\\frac{d}{dx}\\left[\\frac{x}{2}e^{2x}-\\frac{1}{4}e^{2x}\\right] = xe^{2x}$ ✓",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0305",
+    "_type": "area",
+    "type": "넓이",
+    "problem": "두 곡선 $y = x^2$, $y = 2x+3$으로 둘러싸인 도형의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "① $8$",
+      "② $10$",
+      "③ $\\dfrac{32}{3}$",
+      "④ $12$",
+      "⑤ $\\dfrac{40}{3}$"
+    ],
+    "answer": 2,
+    "explanation": "**[핵심 개념]**\n두 곡선의 교점을 구하고 위/아래를 판단하여 적분한다.\n\n**[풀이]**\n교점: $x^2 = 2x+3$ → $x^2-2x-3 = (x-3)(x+1) = 0$ → $x = -1, 3$\n\n$[-1, 3]$에서 직선이 위:\n$$S = \\int_{-1}^{3}(2x+3-x^2)\\,dx = \\left[x^2+3x-\\frac{x^3}{3}\\right]_{-1}^{3}$$\n$$= (9+9-9) - (1-3+\\frac{1}{3}) = 9 + \\frac{5}{3} = \\frac{32}{3}$$\n\n**[정답 확인]**\n넓이 $= \\frac{32}{3}$이므로 정답은 **③번**",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0306",
+    "_type": "definite",
+    "type": "정적분 최적화",
+    "problem": "$0 \\le a \\le 3$인 실수 $a$에 대하여\n$$I(a) = \\int_0^3 |x-a|\\,dx$$\n의 최솟값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\dfrac{3}{2}$",
+      "② $2$",
+      "③ $\\dfrac{9}{4}$",
+      "④ $\\dfrac{5}{2}$",
+      "⑤ $3$"
+    ],
+    "answer": 2,
+    "explanation": "**[핵심 개념]**\n절댓값 적분을 $x=a$에서 분할하여 $a$에 대한 이차식으로 정리한다.\n\n**[풀이]**\n$$I(a) = \\int_0^a(a-x)\\,dx + \\int_a^3(x-a)\\,dx = \\frac{a^2}{2} + \\frac{(3-a)^2}{2}$$\n$$= a^2 - 3a + \\frac{9}{2} = \\left(a-\\frac{3}{2}\\right)^2 + \\frac{9}{4}$$\n\n$a = \\frac{3}{2}$일 때 최솟값 $\\frac{9}{4}$ (범위 내)\n\n**[정답 확인]**\n최솟값 $= \\frac{9}{4}$이므로 정답은 **③번**",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0307",
+    "_type": "integral_app",
+    "type": "적분 응용",
+    "problem": "곡선 $y = \\sqrt{x+1}$, $x$축 및 두 직선 $x=0$, $x=3$으로 둘러싸인 도형을 $x$축 둘레로 한 바퀴 회전시킬 때 생기는 회전체의 부피는?",
+    "answerType": "choice",
+    "choices": [
+      "① $6\\pi$",
+      "② $7\\pi$",
+      "③ $\\dfrac{15\\pi}{2}$",
+      "④ $8\\pi$",
+      "⑤ $9\\pi$"
+    ],
+    "answer": 2,
+    "explanation": "**[핵심 개념]**\n원판법: $V = \\pi\\int_a^b [f(x)]^2\\,dx$\n\n**[풀이]**\n$y^2 = x+1$이므로\n$$V = \\pi\\int_0^3(x+1)\\,dx = \\pi\\left[\\frac{x^2}{2}+x\\right]_0^3 = \\pi\\left(\\frac{9}{2}+3\\right) = \\frac{15\\pi}{2}$$\n\n**[정답 확인]**\n$V = \\frac{15\\pi}{2}$이므로 정답은 **③번**",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0308",
+    "_type": "velocity_dist",
+    "type": "속도와 거리",
+    "problem": "수직선 위를 움직이는 점 P의 시각 $t$에서의 속도가\n$$v(t) = t^2 - 3t + 2 \\qquad (0 \\le t \\le 3)$$\n이다. 시각 $0$부터 $3$까지 점 P가 움직인 실제 이동거리는?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\dfrac{3}{2}$",
+      "② $\\dfrac{5}{3}$",
+      "③ $\\dfrac{11}{6}$",
+      "④ $2$",
+      "⑤ $\\dfrac{13}{6}$"
+    ],
+    "answer": 2,
+    "explanation": "**[핵심 개념]**\n이동 거리 = $\\int_0^3 |v(t)|\\,dt$. 속도의 부호가 바뀌는 점에서 구간 분할.\n\n**[풀이]**\n$v(t) = (t-1)(t-2)$이므로 $t=1, 2$에서 부호 전환.\n\n$F(t) = \\frac{t^3}{3} - \\frac{3t^2}{2} + 2t$로 놓으면:\n$$F(0) = 0, \\quad F(1) = \\frac{5}{6}, \\quad F(2) = \\frac{2}{3}, \\quad F(3) = \\frac{3}{2}$$\n\n이동 거리:\n$$|F(1)-F(0)| + |F(2)-F(1)| + |F(3)-F(2)| = \\frac{5}{6} + \\frac{1}{6} + \\frac{5}{6} = \\frac{11}{6}$$\n\n**[정답 확인]**\n이동 거리 $= \\frac{11}{6}$이므로 정답은 **③번**\n\n**[검산]** 변위 $= 3/2$, 이동거리 $= 11/6 > 3/2$ ✓",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0309",
+    "_type": "integral_basic",
+    "type": "적분 기본",
+    "problem": "함수 $G(x)$를\n$$G(x) = \\int_1^{x^2}(3t^2-2t)\\,dt$$\n로 정의할 때, $G'(2)$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $120$",
+      "② $144$",
+      "③ $160$",
+      "④ $176$",
+      "⑤ $192$"
+    ],
+    "answer": 2,
+    "explanation": "**[핵심 개념]**\n미적분학의 기본정리 + 합성함수 미분: $\\frac{d}{dx}\\int_a^{h(x)} f(t)\\,dt = f(h(x)) \\cdot h'(x)$\n\n**[풀이]**\n$$G'(x) = (3(x^2)^2 - 2(x^2)) \\cdot 2x = (3x^4 - 2x^2) \\cdot 2x$$\n$$G'(2) = (3 \\cdot 16 - 2 \\cdot 4) \\cdot 4 = 40 \\cdot 4 = 160$$\n\n**[정답 확인]**\n$G'(2) = 160$이므로 정답은 **③번**\n\n**[검산]** $G(x) = x^6 - x^4 + C$이므로 $G'(x) = 6x^5 - 4x^3$, $G'(2) = 192 - 32 = 160$ ✓",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0310",
+    "_type": "integral_basic",
+    "type": "적분 기본",
+    "problem": "이차함수 $f(x) = x^2 + ax + b$가 다음 두 조건을 만족한다.\n$$\\int_0^1 f(x)\\,dx = 3, \\qquad \\int_1^2 f(x)\\,dx = 7$$\n이때 $a+b$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\dfrac{7}{3}$",
+      "② $3$",
+      "③ $\\dfrac{10}{3}$",
+      "④ $\\dfrac{11}{3}$",
+      "⑤ $4$"
+    ],
+    "answer": 3,
+    "explanation": "**[핵심 개념]**\n두 구간의 정적분 조건으로 연립방정식을 세워 $a, b$를 결정한다.\n\n**[풀이]**\n조건 1: $\\int_0^1(x^2+ax+b)\\,dx = \\frac{1}{3}+\\frac{a}{2}+b = 3$\n$$\\frac{a}{2}+b = \\frac{8}{3} \\quad \\cdots (1)$$\n\n조건 2: $\\int_1^2(x^2+ax+b)\\,dx = \\frac{7}{3}+\\frac{3a}{2}+b = 7$\n$$\\frac{3a}{2}+b = \\frac{14}{3} \\quad \\cdots (2)$$\n\n$(2)-(1)$: $a = \\frac{14}{3}-\\frac{8}{3} = 2$\n\n$(1)$에 대입: $1+b = \\frac{8}{3}$ → $b = \\frac{5}{3}$\n\n$$a+b = 2+\\frac{5}{3} = \\frac{11}{3}$$\n\n**[정답 확인]**\n$a+b = \\frac{11}{3}$이므로 정답은 **④번**\n\n**[검산]** $f(x)=x^2+2x+5/3$: $\\int_0^1 f = 1/3+1+5/3 = 3$ ✓, $\\int_1^2 f = 7/3+3+5/3 = 7$ ✓",
+    "difficulty": "lv4",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 + 독립검산 완료"
   }
 ];
