@@ -1,4 +1,4 @@
-// Prof.AI 수능수학 적분법 문제은행 — 261문제
+// Prof.AI 수능수학 적분법 문제은행 — 311문제
 // 독립풀이 전수검증 완료
 const QUESTION_BANK = [
   {
@@ -4975,5 +4975,1005 @@ const QUESTION_BANK = [
     "_reviewed": true,
     "_source": "manual_verified",
     "_review_note": "신규 창작 + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0311",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$\\displaystyle\\int(4x-3)^3\\,dx$를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{(4x-3)^4}{4}+C$",
+      "② $\\frac{(4x-3)^4}{16}+C$",
+      "③ $\\frac{(4x-3)^4}{12}+C$",
+      "④ $(4x-3)^4+C$",
+      "⑤ $\\frac{(4x-3)^3}{12}+C$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 치환 $u=4x-3$을 두면 $du=4\\,dx$입니다.\n\n<b>2단계.</b> $$\\int(4x-3)^3dx=\\frac14\\int u^3du=\\frac{u^4}{16}+C=\\boxed{\\frac{(4x-3)^4}{16}+C}$$\n\n<b>검산:</b> $\\left((4x-3)^4/16\\right)\\prime=(4x-3)^3$.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-001) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0312",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$\\displaystyle\\int(x+2)e^{2x}\\,dx$를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{2x+5}{4}e^{2x}+C$",
+      "② $\\frac{x+2}{2}e^{2x}+C$",
+      "③ $\\frac{2x+3}{2}e^{2x}+C$",
+      "④ $\\frac{2x+3}{4}e^{2x}+C$",
+      "⑤ $\\frac{2x+1}{4}e^{2x}+C$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> $u=x+2,\\,dv=e^{2x}dx$로 놓으면 $du=dx,\\,v=e^{2x}/2$입니다.\n\n<b>2단계.</b> $$\\int(x+2)e^{2x}dx=\\frac{x+2}{2}e^{2x}-\\frac14e^{2x}+C=\\boxed{\\frac{2x+3}{4}e^{2x}+C}$$\n\n<b>검산:</b> $\\big((2x+3)e^{2x}/4\\big)\\prime=(x+2)e^{2x}$.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-002) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0313",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$\\displaystyle\\int x\\sin(3x)\\,dx$를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "① $-\\frac{x\\cos(3x)}3+\\frac{\\sin(3x)}9+C$",
+      "② $\\frac{x\\cos(3x)}3-\\frac{\\sin(3x)}9+C$",
+      "③ $-\\frac{x\\cos(3x)}3-\\frac{\\sin(3x)}9+C$",
+      "④ $-x\\cos(3x)+\\frac{\\sin(3x)}3+C$",
+      "⑤ $-\\frac{x\\cos(3x)}3+\\frac{\\sin(3x)}3+C$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> 부분적분에서 $u=x,\\;dv=\\sin(3x)dx$로 두면 $v=-\\cos(3x)/3$입니다.\n\n<b>2단계.</b> $$\\int x\\sin(3x)dx=-\\frac{x\\cos(3x)}3+\\frac13\\int\\cos(3x)dx=\\boxed{-\\frac{x\\cos(3x)}3+\\frac{\\sin(3x)}9+C}$$\n\n<b>검산:</b> 오른쪽을 미분하면 $x\\sin(3x)$가 나옵니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-003) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0314",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "함수 $F$가 $F\\prime(x)=5x^4-6x+4$, $F(0)=2$를 만족할 때 $F(1)$은?",
+    "answerType": "choice",
+    "choices": [
+      "① $2$",
+      "② $3$",
+      "③ $5$",
+      "④ $4$",
+      "⑤ $6$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> 적분하면 $F(x)=x^5-3x^2+4x+C$입니다.\n\n<b>2단계.</b> $F(0)=2$에서 $C=2$. 따라서 $F(1)=1-3+4+2=\\boxed4$.\n\n<b>검산:</b> $F\\prime(x)=5x^4-6x+4$, $F(0)=2$.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-004) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0315",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$\\displaystyle\\int\\frac{2x}{x^2+5}\\,dx$를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac12\\ln(x^2+5)+C$",
+      "② $2\\ln(x^2+5)+C$",
+      "③ $\\ln(x^2+5)+C$",
+      "④ $\\frac1{x^2+5}+C$",
+      "⑤ $\\ln|2x+5|+C$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> $u=x^2+5$이면 $du=2x\\,dx$입니다.\n\n<b>2단계.</b> $$\\int\\frac{2x}{x^2+5}dx=\\int\\frac{du}{u}=\\boxed{\\ln(x^2+5)+C}$$\n\n<b>검산:</b> $\\big(\\ln(x^2+5)\\big)\\prime=2x/(x^2+5)$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-005) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0316",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$\\displaystyle\\int\\frac{3}{3x+2}\\,dx$를 구하시오. $3x+2\\ne0$",
+    "answerType": "choice",
+    "choices": [
+      "① $\\ln|3x+2|+C$",
+      "② $3\\ln|3x+2|+C$",
+      "③ $\\frac13\\ln|3x+2|+C$",
+      "④ $\\frac1{3x+2}+C$",
+      "⑤ $\\frac3{(3x+2)^2}+C$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> $u=3x+2$로 놓으면 $du=3\\,dx$.\n\n<b>2단계.</b> $$\\int\\frac3{3x+2}dx=\\int\\frac{du}{u}=\\boxed{\\ln|3x+2|+C}$$\n\n<b>검산:</b> $\\big(\\ln|3x+2|\\big)\\prime=3/(3x+2)$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-006) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0317",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$\\displaystyle\\int x^2e^x\\,dx$를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "① $e^x(x^2-2x+2)+C$",
+      "② $e^x(x^2-2x)+C$",
+      "③ $e^x(x^2+2x+2)+C$",
+      "④ $e^x(x^2-2x-2)+C$",
+      "⑤ $e^x(x^2+2)+C$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> 부분적분을 두 번 적용합니다.\n\n<b>2단계.</b> $$\\int x^2e^xdx=x^2e^x-2\\int xe^xdx$$\n\n<b>3단계.</b> $$=e^x(x^2-2x+2)+C$$\n\n<b>검산:</b> $\\big[e^x(x^2-2x+2)\\big]\\prime=x^2e^x$.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-007) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0318",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$\\displaystyle\\int\\cos x\\sin^2x\\,dx$를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "① $\\sin^3x+C$",
+      "② $\\frac{\\sin^2x}{2}+C$",
+      "③ $\\frac{\\cos^3x}{3}+C$",
+      "④ $-\\frac{\\sin^3x}{3}+C$",
+      "⑤ $\\frac{\\sin^3x}{3}+C$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> $u=\\sin x$를 놓으면 $du=\\cos x\\,dx$입니다.\n\n<b>2단계.</b> $$\\int\\cos x\\sin^2x\\,dx=\\int u^2du=\\boxed{\\frac{\\sin^3x}{3}+C}$$\n\n<b>검산:</b> $\\big(\\sin^3x/3\\big)\\prime=\\sin^2x\\cos x$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-008) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0319",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$F\\prime(x)=2x\\cos(x^2)$, $F(0)=3$일 때 $F(\\sqrt{\\pi/2})$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $2$",
+      "② $3$",
+      "③ $5$",
+      "④ $4$",
+      "⑤ $6$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> $F(x)=\\sin(x^2)+C$이므로 $F(0)=3$에서 $C=3$.\n\n<b>2단계.</b> $$F(\\sqrt{\\pi/2})=\\sin(\\pi/2)+3=\\boxed4$$\n\n<b>검산:</b> $\\big(\\sin(x^2)+3\\big)\\prime=2x\\cos(x^2)$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-009) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0320",
+    "_type": "indefinite",
+    "type": "부정적분",
+    "problem": "$x&gt;0$에서 $\\displaystyle\\int\\frac{\\ln x}{x}dx$를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{(\\ln x)^2}{2}+C$",
+      "② $(\\ln x)^2+C$",
+      "③ $\\frac{\\ln x}{2}+C$",
+      "④ $\\frac{(\\ln x)^3}{3}+C$",
+      "⑤ $\\frac{1}{2x^2}+C$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> $u=\\ln x$이면 $du=dx/x$.\n\n<b>2단계.</b> $$\\int\\frac{\\ln x}{x}dx=\\int udu=\\boxed{\\frac{(\\ln x)^2}{2}+C}$$\n\n<b>검산:</b> $\\big[(\\ln x)^2/2\\big]\\prime=(\\ln x)/x$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-010) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0321",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_{-2}^{2}(x^5+2x^2+3)dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{62}{3}$",
+      "② $\\frac{65}{3}$",
+      "③ $\\frac{71}{3}$",
+      "④ $\\frac{74}{3}$",
+      "⑤ $\\frac{68}{3}$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> 기함수 항 $x^5$의 대칭구간 적분은 0입니다.\n\n<b>2단계.</b> $$2\\int_0^2(2x^2+3)dx=2\\left[\\frac{2x^3}{3}+3x\\right]_0^2=\\boxed{\\frac{68}{3}}$$\n\n<b>검산:</b> 직접 원시함수 $x^6/6+2x^3/3+3x$로 양 끝을 대입해도 같습니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-011) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0322",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_0^2|2x-3|dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{1}{2}$",
+      "② $\\frac{3}{2}$",
+      "③ $\\frac{5}{2}$",
+      "④ $\\frac{7}{2}$",
+      "⑤ $\\frac{9}{2}$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> 절댓값 내부가 0인 곳은 $x=3/2$입니다.\n\n<b>2단계.</b> $$\\int_0^{3/2}(3-2x)dx+\\int_{3/2}^2(2x-3)dx=\\frac94+\\frac14=\\boxed{\\frac52}$$\n\n<b>검산:</b> 두 삼각형의 넓이 $9/4$와 $1/4$의 합과 같습니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-012) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0323",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_0^1x(1+x^2)^2dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{7}{6}$",
+      "② $- \\frac{5}{6}$",
+      "③ $\\frac{1}{6}$",
+      "④ $\\frac{13}{6}$",
+      "⑤ $\\frac{19}{6}$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> $u=1+x^2,\\,du=2x\\,dx$로 치환하면 구간은 1에서 2입니다.\n\n<b>2단계.</b> $$\\frac12\\int_1^2u^2du=\\frac16(8-1)=\\boxed{\\frac76}$$\n\n<b>검산:</b> 원시함수 $(1+x^2)^3/6$를 미분하면 원식이 됩니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-013) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0324",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_0^{\\pi/2}\\sin x\\cos^2x\\,dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{5}{3}$",
+      "② $- \\frac{2}{3}$",
+      "③ $\\frac{4}{3}$",
+      "④ $\\frac{1}{3}$",
+      "⑤ $\\frac{7}{3}$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> $u=\\cos x,\\,du=-\\sin x\\,dx$를 적용합니다.\n\n<b>2단계.</b> $$-\\int_1^0u^2du=\\int_0^1u^2du=\\boxed{\\frac13}$$\n\n<b>검산:</b> $-\\cos^3x/3$이 원시함수입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-014) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0325",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$G(x)=\\displaystyle\\int_0^{x^2+1}(2t+1)dt$일 때 $G\\prime(1)$은?",
+    "answerType": "choice",
+    "choices": [
+      "① $8$",
+      "② $10$",
+      "③ $9$",
+      "④ $11$",
+      "⑤ $12$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 미적분학의 기본정리와 연쇄법칙을 적용합니다.\n\n<b>2단계.</b> $$G\\prime(x)=\\{2(x^2+1)+1\\}2x=(2x^2+3)2x$$\n\n<b>3단계.</b> $$G\\prime(1)=5\\cdot2=\\boxed{10}$$\n\n<b>검산:</b> 직접 적분한 $G(x)=(x^2+1)^2+(x^2+1)$을 미분해도 10입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-015) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0326",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_1^3\\frac1x dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-2 + \\log{\\left(3 \\right)}$",
+      "② $-1 + \\log{\\left(3 \\right)}$",
+      "③ $1 + \\log{\\left(3 \\right)}$",
+      "④ $\\log{\\left(3 \\right)} + 2$",
+      "⑤ $\\log{\\left(3 \\right)}$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> $x&gt;0$에서 $\\int 1/x\\,dx=\\ln x+C$입니다.\n\n<b>2단계.</b> $$\\left[\\ln x\\right]_1^3=\\ln3-\\ln1=\\boxed{\\ln3}$$\n\n<b>검산:</b> $\\ln1=0$을 이용했습니다.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-016) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0327",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_0^2(3x^2-4x+1)dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $0$",
+      "② $1$",
+      "③ $2$",
+      "④ $3$",
+      "⑤ $4$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> 원시함수는 $x^3-2x^2+x$입니다.\n\n<b>2단계.</b> $$\\left[x^3-2x^2+x\\right]_0^2=8-8+2=\\boxed2$$\n\n<b>검산:</b> 원시함수의 미분은 $3x^2-4x+1$입니다.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-017) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0328",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_{-1}^1(x+1)^3dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $4$",
+      "② $2$",
+      "③ $3$",
+      "④ $5$",
+      "⑤ $6$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> $u=x+1$로 치환하면 $u$의 구간은 0에서 2입니다.\n\n<b>2단계.</b> $$\\int_0^2u^3du=\\left[\\frac{u^4}{4}\\right]_0^2=\\boxed4$$\n\n<b>검산:</b> $\\int_{-1}^{1}(x+1)^3dx=4$를 직접 전개해도 같습니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-018) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0329",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_0^1e^{3x}dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{7}{3} + \\frac{e^{3}}{3}$",
+      "② $- \\frac{4}{3} + \\frac{e^{3}}{3}$",
+      "③ $\\frac{2}{3} + \\frac{e^{3}}{3}$",
+      "④ $- \\frac{1}{3} + \\frac{e^{3}}{3}$",
+      "⑤ $\\frac{5}{3} + \\frac{e^{3}}{3}$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> $e^{3x}$의 원시함수는 $e^{3x}/3$입니다.\n\n<b>2단계.</b> $$\\left[\\frac{e^{3x}}3\\right]_0^1=\\boxed{\\frac{e^3-1}3}$$\n\n<b>검산:</b> $e^{3x}/3$을 미분하면 $e^{3x}$입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-019) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0330",
+    "_type": "definite",
+    "type": "정적분",
+    "problem": "$\\displaystyle\\int_0^2(x-1)^2dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{4}{3}$",
+      "② $\\frac{2}{3}$",
+      "③ $- \\frac{1}{3}$",
+      "④ $\\frac{5}{3}$",
+      "⑤ $\\frac{8}{3}$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> $(x-1)^2=x^2-2x+1$로 전개합니다.\n\n<b>2단계.</b> $$\\left[\\frac{x^3}{3}-x^2+x\\right]_0^2=\\frac83-4+2=\\boxed{\\frac23}$$\n\n<b>검산:</b> 구간 중심 $x=1$을 기준으로 좌우 대칭이라 $2\\int_0^1u^2du=2/3$입니다.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-020) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0331",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^1\\frac{x}{x^2+1}dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-2 + \\frac{\\log{\\left(2 \\right)}}{2}$",
+      "② $-1 + \\frac{\\log{\\left(2 \\right)}}{2}$",
+      "③ $\\frac{\\log{\\left(2 \\right)}}{2} + 1$",
+      "④ $\\frac{\\log{\\left(2 \\right)}}{2} + 2$",
+      "⑤ $\\frac{\\log{\\left(2 \\right)}}{2}$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> $u=x^2+1$이면 $du=2x\\,dx$입니다.\n\n<b>2단계.</b> $$\\frac12\\int_1^2\\frac{du}{u}=\\boxed{\\frac12\\ln2}$$\n\n<b>검산:</b> $\\frac12\\ln(x^2+1)$의 미분은 $x/(x^2+1)$입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-021) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0332",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^1xe^{x^2}dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{5}{2} + \\frac{e}{2}$",
+      "② $- \\frac{3}{2} + \\frac{e}{2}$",
+      "③ $- \\frac{1}{2} + \\frac{e}{2}$",
+      "④ $\\frac{1}{2} + \\frac{e}{2}$",
+      "⑤ $\\frac{e}{2} + \\frac{3}{2}$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> $u=x^2$로 놓으면 $du=2x\\,dx$입니다.\n\n<b>2단계.</b> $$\\frac12\\int_0^1e^u du=\\boxed{\\frac{e-1}{2}}$$\n\n<b>검산:</b> 원시함수 $e^{x^2}/2$를 미분하면 $xe^{x^2}$입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-022) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0333",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^{\\pi/3}\\sin(2x)dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{3}{4}$",
+      "② $- \\frac{5}{4}$",
+      "③ $- \\frac{1}{4}$",
+      "④ $\\frac{7}{4}$",
+      "⑤ $\\frac{11}{4}$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> 원시함수는 $-\\cos(2x)/2$입니다.\n\n<b>2단계.</b> $$\\left[-\\frac{\\cos(2x)}2\\right]_0^{\\pi/3}=\\frac{1-\\cos(2\\pi/3)}2=\\boxed{\\frac34}$$\n\n<b>검산:</b> $\\cos(2\\pi/3)=-1/2$를 사용합니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-023) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0334",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_1^e\\ln x\\,dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-1$",
+      "② $0$",
+      "③ $2$",
+      "④ $1$",
+      "⑤ $3$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> 부분적분 $u=\\ln x,\\,dv=dx$로 두면\n\n<b>2단계.</b> $$\\int\\ln x\\,dx=x\\ln x-x+C$$\n\n<b>3단계.</b> $$\\left[x\\ln x-x\\right]_1^e=(e-e)-(0-1)=\\boxed1$$\n\n<b>검산:</b> $(x\\ln x-x)\\prime=\\ln x$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-024) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0335",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^1x^2e^x dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-4 + e$",
+      "② $-2 + e$",
+      "③ $-3 + e$",
+      "④ $-1 + e$",
+      "⑤ $e$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 두 번 부분적분하여 원시함수 $e^x(x^2-2x+2)$를 얻습니다.\n\n<b>2단계.</b> $$\\left[e^x(x^2-2x+2)\\right]_0^1=e-2=\\boxed{e-2}$$\n\n<b>검산:</b> 원시함수의 미분은 $x^2e^x$입니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-025) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0336",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^{\\pi/2}x\\sin x\\,dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-1$",
+      "② $0$",
+      "③ $2$",
+      "④ $3$",
+      "⑤ $1$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> $u=x,\\,dv=\\sin x\\,dx$로 부분적분합니다.\n\n<b>2단계.</b> $$\\int x\\sin x\\,dx=-x\\cos x+\\sin x+C$$\n\n<b>3단계.</b> $$\\left[-x\\cos x+\\sin x\\right]_0^{\\pi/2}=\\boxed1$$\n\n<b>검산:</b> 미분하면 $x\\sin x$입니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-026) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0337",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^1\\frac{2x+1}{x^2+x+2}dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-2 + \\log{\\left(2 \\right)}$",
+      "② $-1 + \\log{\\left(2 \\right)}$",
+      "③ $\\log{\\left(2 \\right)}$",
+      "④ $\\log{\\left(2 \\right)} + 1$",
+      "⑤ $\\log{\\left(2 \\right)} + 2$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> $u=x^2+x+2$이면 $du=(2x+1)dx$입니다.\n\n<b>2단계.</b> $$\\int_2^4\\frac{du}u=\\ln4-\\ln2=\\boxed{\\ln2}$$\n\n<b>검산:</b> $\\ln(x^2+x+2)$의 미분이 피적분함수입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-027) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0338",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^1\\frac{x+1}{x^2+2x+3}dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{\\log{\\left(2 \\right)}}{2}$",
+      "② $-2 + \\frac{\\log{\\left(2 \\right)}}{2}$",
+      "③ $-1 + \\frac{\\log{\\left(2 \\right)}}{2}$",
+      "④ $\\frac{\\log{\\left(2 \\right)}}{2} + 1$",
+      "⑤ $\\frac{\\log{\\left(2 \\right)}}{2} + 2$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> $u=x^2+2x+3$에서 $du=2(x+1)dx$입니다.\n\n<b>2단계.</b> $$\\frac12\\int_3^6\\frac{du}u=\\boxed{\\frac12\\ln2}$$\n\n<b>검산:</b> 원시함수 $\\frac12\\ln(x^2+2x+3)$를 미분해 확인합니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-028) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0339",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^1(1+2x)\\sqrt{1+x+x^2}dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{8}{3} + 2 \\sqrt{3}$",
+      "② $- \\frac{5}{3} + 2 \\sqrt{3}$",
+      "③ $\\frac{1}{3} + 2 \\sqrt{3}$",
+      "④ $- \\frac{2}{3} + 2 \\sqrt{3}$",
+      "⑤ $\\frac{4}{3} + 2 \\sqrt{3}$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> $u=1+x+x^2$이면 $du=(1+2x)dx$, 구간은 1에서 3입니다.\n\n<b>2단계.</b> $$\\int_1^3u^{1/2}du=\\frac23(3^{3/2}-1)=\\boxed{\\frac23(3\\sqrt3-1)}$$\n\n<b>검산:</b> $\\frac23(1+x+x^2)^{3/2}$을 미분하면 원래 함수입니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-029) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0340",
+    "_type": "definite",
+    "type": "치환·부분적분",
+    "problem": "$\\displaystyle\\int_0^1x\\cos x\\,dx$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "① $-3 + \\cos{\\left(1 \\right)} + \\sin{\\left(1 \\right)}$",
+      "② $-1 + \\cos{\\left(1 \\right)} + \\sin{\\left(1 \\right)}$",
+      "③ $-2 + \\cos{\\left(1 \\right)} + \\sin{\\left(1 \\right)}$",
+      "④ $\\cos{\\left(1 \\right)} + \\sin{\\left(1 \\right)}$",
+      "⑤ $\\cos{\\left(1 \\right)} + \\sin{\\left(1 \\right)} + 1$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 부분적분으로 $\\int x\\cos x\\,dx=x\\sin x+\\cos x+C$입니다.\n\n<b>2단계.</b> $$\\left[x\\sin x+\\cos x\\right]_0^1=\\boxed{\\sin1+\\cos1-1}$$\n\n<b>검산:</b> $(x\\sin x+\\cos x)\\prime=x\\cos x$.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-030) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0341",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "$0\\le x\\le2$에서 $y=2x$와 $y=x^2$ 사이의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{2}{3}$",
+      "② $\\frac{1}{3}$",
+      "③ $\\frac{7}{3}$",
+      "④ $\\frac{10}{3}$",
+      "⑤ $\\frac{4}{3}$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> $2x-x^2=x(2-x)\\ge0$이므로 직선이 위에 있습니다.\n\n<b>2단계.</b> $$S=\\int_0^2(2x-x^2)dx=\\left[x^2-\\frac{x^3}3\\right]_0^2=\\boxed{\\frac43}$$\n\n<b>검산:</b> 교점은 $x=0,2$이고 구간에서 차가 음수가 아닙니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-031) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0342",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "곡선 $y=x^2$와 직선 $y=4$로 둘러싸인 도형의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{26}{3}$",
+      "② $\\frac{29}{3}$",
+      "③ $\\frac{32}{3}$",
+      "④ $\\frac{35}{3}$",
+      "⑤ $\\frac{38}{3}$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> 교점은 $x=\\pm2$입니다. 직선이 위에 있으므로\n\n<b>2단계.</b> $$S=\\int_{-2}^2(4-x^2)dx=\\left[4x-\\frac{x^3}3\\right]_{-2}^2=\\boxed{\\frac{32}{3}}$$\n\n<b>검산:</b> $4-x^2\\ge0$가 적분구간에서 성립합니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-032) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0343",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "$0\\le x\\le1$에서 $y=x$와 $y=x^2$ 사이의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{1}{6}$",
+      "② $- \\frac{11}{6}$",
+      "③ $- \\frac{5}{6}$",
+      "④ $\\frac{7}{6}$",
+      "⑤ $\\frac{13}{6}$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> $0\\le x\\le1$에서는 $x\\ge x^2$입니다.\n\n<b>2단계.</b> $$S=\\int_0^1(x-x^2)dx=\\left[\\frac{x^2}2-\\frac{x^3}3\\right]_0^1=\\boxed{\\frac16}$$\n\n<b>검산:</b> $x-x^2=x(1-x)\\ge0$.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-033) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0344",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "곡선 $y=|x|$와 $y=x^2$로 둘러싸인 도형의 전체 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{5}{3}$",
+      "② $- \\frac{2}{3}$",
+      "③ $\\frac{4}{3}$",
+      "④ $\\frac{1}{3}$",
+      "⑤ $\\frac{7}{3}$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> 교점은 $x=-1,0,1$입니다. 두 곡선은 $y$축 대칭입니다.\n\n<b>2단계.</b> $$S=2\\int_0^1(x-x^2)dx=2\\left(\\frac12-\\frac13\\right)=\\boxed{\\frac13}$$\n\n<b>검산:</b> $-1\\le x\\le1$에서 $|x|\\ge x^2$입니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-034) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0345",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "곡선 $y=x^2-1$과 $x$축으로 둘러싸인 도형의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "① $- \\frac{2}{3}$",
+      "② $\\frac{4}{3}$",
+      "③ $\\frac{1}{3}$",
+      "④ $\\frac{7}{3}$",
+      "⑤ $\\frac{10}{3}$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 교점은 $x=-1,1$이고 그 사이에서 곡선은 $x$축 아래에 있습니다.\n\n<b>2단계.</b> $$S=\\int_{-1}^1(1-x^2)dx=\\boxed{\\frac43}$$\n\n<b>검산:</b> 적분함수 $1-x^2\\ge0$의 넓이만 계산했습니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-035) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0346",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "곡선 $y=x+1$, $x$축 및 $x=0,\\;x=2$로 둘러싸인 도형을 $x$축 둘레로 회전시킨 부피는?",
+    "answerType": "choice",
+    "choices": [
+      "① $-2 + \\frac{26 \\pi}{3}$",
+      "② $-1 + \\frac{26 \\pi}{3}$",
+      "③ $1 + \\frac{26 \\pi}{3}$",
+      "④ $2 + \\frac{26 \\pi}{3}$",
+      "⑤ $\\frac{26 \\pi}{3}$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> 회전 원판의 반지름은 $x+1$입니다.\n\n<b>2단계.</b> $$V=\\pi\\int_0^2(x+1)^2dx=\\frac\\pi3\\left[(x+1)^3\\right]_0^2=\\boxed{\\frac{26\\pi}{3}}$$\n\n<b>검산:</b> $x+1$은 적분 구간에서 항상 양수입니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-036) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0347",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "곡선 $y=\\sqrt{2x+1}$, $x$축 및 $x=0,\\;x=2$로 둘러싸인 도형을 $x$축 둘레로 회전시킨 부피는?",
+    "answerType": "choice",
+    "choices": [
+      "① $-2 + 6 \\pi$",
+      "② $-1 + 6 \\pi$",
+      "③ $6 \\pi$",
+      "④ $1 + 6 \\pi$",
+      "⑤ $2 + 6 \\pi$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> 회전 원판법을 적용하면\n\n<b>2단계.</b> $$V=\\pi\\int_0^2(\\sqrt{2x+1})^2dx=\\pi\\int_0^2(2x+1)dx$$\n\n<b>3단계.</b> $$=\\pi\\left[x^2+x\\right]_0^2=\\boxed{6\\pi}$$\n\n<b>검산:</b> 반지름의 제곱은 $2x+1$입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-037) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0348",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "곡선 $y=3-x^2$와 $x$축으로 둘러싸인 도형의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "① $4 \\sqrt{3}$",
+      "② $-2 + 4 \\sqrt{3}$",
+      "③ $-1 + 4 \\sqrt{3}$",
+      "④ $1 + 4 \\sqrt{3}$",
+      "⑤ $2 + 4 \\sqrt{3}$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> 교점은 $x=\\pm\\sqrt3$이고 곡선은 그 사이에서 $x$축 위에 있습니다.\n\n<b>2단계.</b> $$S=2\\int_0^{\\sqrt3}(3-x^2)dx=2\\left[3x-\\frac{x^3}3\\right]_0^{\\sqrt3}=\\boxed{4\\sqrt3}$$\n\n<b>검산:</b> $3-x^2\\ge0$이므로 부호 반전이 필요 없습니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-038) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0349",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "$0\\le x\\le1$에서 $y=x^2$, $x$축으로 둘러싸인 도형을 $x$축 둘레로 회전시킨 부피는?",
+    "answerType": "choice",
+    "choices": [
+      "① $-2 + \\frac{\\pi}{5}$",
+      "② $-1 + \\frac{\\pi}{5}$",
+      "③ $\\frac{\\pi}{5} + 1$",
+      "④ $\\frac{\\pi}{5}$",
+      "⑤ $\\frac{\\pi}{5} + 2$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> 회전 반지름은 $y=x^2$입니다.\n\n<b>2단계.</b> $$V=\\pi\\int_0^1(x^2)^2dx=\\pi\\left[\\frac{x^5}5\\right]_0^1=\\boxed{\\frac\\pi5}$$\n\n<b>검산:</b> 반지름의 제곱 $x^4$을 사용했습니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-039) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0350",
+    "_type": "area",
+    "type": "넓이·부피",
+    "problem": "$0\\le x\\le2$에서 위쪽 곡선 $y=3$, 아래쪽 곡선 $y=x+1$ 사이 도형을 $x$축 둘레로 회전시킨 부피는?",
+    "answerType": "choice",
+    "choices": [
+      "① $-2 + \\frac{28 \\pi}{3}$",
+      "② $\\frac{28 \\pi}{3}$",
+      "③ $-1 + \\frac{28 \\pi}{3}$",
+      "④ $1 + \\frac{28 \\pi}{3}$",
+      "⑤ $2 + \\frac{28 \\pi}{3}$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 와셔법에서 바깥반지름은 3, 안쪽반지름은 $x+1$입니다.\n\n<b>2단계.</b> $$V=\\pi\\int_0^2\\{9-(x+1)^2\\}dx=\\pi\\left(18-\\frac{26}3\\right)=\\boxed{\\frac{28\\pi}3}$$\n\n<b>검산:</b> 구간에서 $3\\ge x+1\\ge1$이므로 바깥/안쪽 반지름이 올바릅니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-040) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0351",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "점의 속도가 $v(t)=2t-3\\;(0\\le t\\le3)$일 때 실제 이동거리는?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{5}{2}$",
+      "② $\\frac{7}{2}$",
+      "③ $\\frac{11}{2}$",
+      "④ $\\frac{13}{2}$",
+      "⑤ $\\frac{9}{2}$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> 속도가 0이 되는 시각은 $t=3/2$이며 그 전후로 부호가 바뀝니다.\n\n<b>2단계.</b> $$D=-\\int_0^{3/2}(2t-3)dt+\\int_{3/2}^3(2t-3)dt=\\frac94+\\frac94=\\boxed{\\frac92}$$\n\n<b>검산:</b> 변위는 0이나 실제 이동거리는 $9/2$로 구별됩니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-041) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0352",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "점의 속도가 $v(t)=t^2-4\\;(0\\le t\\le3)$일 때 실제 이동거리는?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{17}{3}$",
+      "② $\\frac{20}{3}$",
+      "③ $\\frac{23}{3}$",
+      "④ $\\frac{26}{3}$",
+      "⑤ $\\frac{29}{3}$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> $v(t)=(t-2)(t+2)$이므로 $t=2$에서 방향이 바뀝니다.\n\n<b>2단계.</b> $$D=\\int_0^2(4-t^2)dt+\\int_2^3(t^2-4)dt=\\frac{16}3+\\frac73=\\boxed{\\frac{23}3}$$\n\n<b>검산:</b> 변위 $\\int_0^3(t^2-4)dt=-3$과 실제 이동거리 $23/3$은 다릅니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-042) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0353",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "가속도가 $a(t)=6t-2$, 초기속도가 $v(0)=1$일 때 $v(2)$는?",
+    "answerType": "choice",
+    "choices": [
+      "① $9$",
+      "② $7$",
+      "③ $8$",
+      "④ $10$",
+      "⑤ $11$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> $v\\prime(t)=a(t)$이므로\n\n<b>2단계.</b> $$v(t)=\\int(6t-2)dt=3t^2-2t+C$$\n\n<b>3단계.</b> $v(0)=1$에서 $C=1$, 따라서 $v(2)=12-4+1=\\boxed9$.\n\n<b>검산:</b> $v\\prime(t)=6t-2$, $v(0)=1$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-043) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0354",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "위치함수의 도함수가 $s\\prime(t)=3t^2-6t+2$이고 $s(0)=4$일 때 $s(2)$는?",
+    "answerType": "choice",
+    "choices": [
+      "① $2$",
+      "② $3$",
+      "③ $5$",
+      "④ $4$",
+      "⑤ $6$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> 위치함수는 $s(t)=t^3-3t^2+2t+C$입니다.\n\n<b>2단계.</b> $s(0)=4$에서 $C=4$, 따라서 $s(2)=8-12+4+4=\\boxed4$.\n\n<b>검산:</b> $s\\prime(t)=(t^3-3t^2+2t+4)\\prime=3t^2-6t+2$.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-044) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0355",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "점의 속도가 $v(t)=t^2-2t\\;(0\\le t\\le3)$일 때 실제 이동거리는?",
+    "answerType": "choice",
+    "choices": [
+      "① $\\frac{2}{3}$",
+      "② $\\frac{8}{3}$",
+      "③ $\\frac{5}{3}$",
+      "④ $\\frac{11}{3}$",
+      "⑤ $\\frac{14}{3}$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 속도가 0인 점은 $t=0,2$이며 $0&lt;t&lt;2$에서는 음수입니다.\n\n<b>2단계.</b> $$D=-\\int_0^2(t^2-2t)dt+\\int_2^3(t^2-2t)dt=\\frac43+\\frac43=\\boxed{\\frac83}$$\n\n<b>검산:</b> 변위 $\\int_0^3(t^2-2t)dt=0$와 이동거리를 혼동하지 않았습니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-045) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0356",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "$A(x)=\\displaystyle\\int_0^x(t^2+2t+1)dt$일 때 $A\\prime(2)$는?",
+    "answerType": "choice",
+    "choices": [
+      "① $7$",
+      "② $8$",
+      "③ $10$",
+      "④ $11$",
+      "⑤ $9$"
+    ],
+    "answer": 4,
+    "explanation": "<b>1단계.</b> 미적분학의 기본정리를 이용하여 $A\\prime(x)=x^2+2x+1$입니다.\n\n<b>2단계.</b> $$A\\prime(2)=4+4+1=\\boxed9$$\n\n<b>검산:</b> $A(x)=x^3/3+x^2+x$를 미분해도 같습니다.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-046) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0357",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "점의 속도가 $v(t)=4-t\\;(0\\le t\\le6)$일 때 실제 이동거리는?",
+    "answerType": "choice",
+    "choices": [
+      "① $8$",
+      "② $9$",
+      "③ $10$",
+      "④ $11$",
+      "⑤ $12$"
+    ],
+    "answer": 2,
+    "explanation": "<b>1단계.</b> $t=4$에서 방향이 바뀌므로\n\n<b>2단계.</b> $$D=\\int_0^4(4-t)dt+\\int_4^6(t-4)dt=8+2=\\boxed{10}$$\n\n<b>검산:</b> 변위는 $6$이고 실제 이동거리는 10입니다.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-047) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0358",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "물의 유입률이 $q(t)=3t^2+1$ L/min일 때 처음 2분 동안 유입된 물의 양은 몇 L인가?",
+    "answerType": "choice",
+    "choices": [
+      "① $10$",
+      "② $8$",
+      "③ $9$",
+      "④ $11$",
+      "⑤ $12$"
+    ],
+    "answer": 0,
+    "explanation": "<b>1단계.</b> 총 유입량은 유입률의 정적분입니다.\n\n<b>2단계.</b> $$Q=\\int_0^2(3t^2+1)dt=\\left[t^3+t\\right]_0^2=8+2=\\boxed{10\\text{ L}}$$\n\n<b>검산:</b> $dQ/dt=3t^2+1$이고 유입률이 항상 양수입니다.",
+    "difficulty": "lv1",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-048) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0359",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "비용함수 $C(x)$가 $C\\prime(x)=2x+4$, $C(0)=5$를 만족한다. $C(3)$은?",
+    "answerType": "choice",
+    "choices": [
+      "① $24$",
+      "② $25$",
+      "③ $27$",
+      "④ $26$",
+      "⑤ $28$"
+    ],
+    "answer": 3,
+    "explanation": "<b>1단계.</b> $C(x)=x^2+4x+K$로 적분합니다.\n\n<b>2단계.</b> $C(0)=5$에서 $K=5$이므로 $C(3)=9+12+5=\\boxed{26}$.\n\n<b>검산:</b> $C\\prime(x)=2x+4$, $C(0)=5$.",
+    "difficulty": "lv2",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-049) + 독립검산 완료"
+  },
+  {
+    "_qid": "A-0360",
+    "_type": "velocity_dist",
+    "type": "속도·응용",
+    "problem": "같은 위치에서 출발한 두 점 A, B의 속도가 각각 $v_A(t)=2t+1$, $v_B(t)=t+4$이다. $t=4$에서 두 점 사이의 거리는?",
+    "answerType": "choice",
+    "choices": [
+      "① $2$",
+      "② $4$",
+      "③ $3$",
+      "④ $5$",
+      "⑤ $6$"
+    ],
+    "answer": 1,
+    "explanation": "<b>1단계.</b> 상대속도는 $v_A(t)-v_B(t)=t-3$입니다.\n\n<b>2단계.</b> $$s_A(4)-s_B(4)=\\int_0^4(t-3)dt=\\left[\\frac{t^2}{2}-3t\\right]_0^4=8-12=-4$$\n\n<b>3단계.</b> 두 점 사이의 거리는 위치 차의 절댓값이므로 $\\boxed4$입니다.\n\n<b>검산:</b> 직접 계산하면 A의 변위는 20, B의 변위는 24이므로 거리는 4입니다.",
+    "difficulty": "lv3",
+    "_reviewed": true,
+    "_source": "manual_verified",
+    "_review_note": "신규 창작 (PAI-INT-050) + 독립검산 완료"
   }
 ];
