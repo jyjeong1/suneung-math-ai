@@ -489,7 +489,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 던질 때, 3 이상의 눈이 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -508,7 +508,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 동전을 3번 던질 때, 적어도 1번 앞면이 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -527,7 +527,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 20까지의 자연수가 하나씩 적힌 20장의 카드에서 한 장을 뽑을 때, 3의 배수 또는 5의 배수가 적힌 카드를 뽑을 확률은?",
     "answerType": "choice",
     "choices": [
@@ -546,7 +546,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "A 주머니에는 빨간 공 2개, 파란 공 3개가 있고, B 주머니에는 빨간 공 4개, 파란 공 1개가 있다. 각 주머니에서 공을 1개씩 꺼낼 때, 두 공의 색이 같을 확률은?",
     "answerType": "choice",
     "choices": [
@@ -565,7 +565,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "주머니에 흰 공 4개, 검은 공 3개가 들어 있다. 2개의 공을 동시에 꺼낼 때, 2개 모두 흰 공일 확률을 구하시오. (기약분수의 분자와 분모의 합을 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -578,7 +578,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "어느 양궁 선수가 과녁에 맞힐 확률이 $\\frac{4}{5}$이다. 이 선수가 3발을 쏠 때, 적어도 1발 이상 맞힐 확률을 구하시오. (기약분수의 분모를 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -591,7 +591,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "빨간 공 3개, 흰 공 4개, 파란 공 5개가 들어 있는 주머니에서 공을 하나씩 3개 꺼낸다(비복원). 꺼낸 3개의 공이 모두 다른 색일 확률을 구하시오. (기약분수의 분모를 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -604,7 +604,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "상자 안에 1부터 9까지의 자연수가 적힌 공이 하나씩 들어 있다. 이 중 3개를 동시에 꺼낼 때, 꺼낸 세 수의 곱이 짝수일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -751,7 +751,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, 상수 $a$의 값은?\n\n| $X$ | 1 | 2 | 3 | 4 |\n|-----|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{6}$ | $a$ | $\\frac{1}{3}$ | $\\frac{1}{4}$ |",
     "answerType": "choice",
     "choices": [
@@ -770,7 +770,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(100, \\frac{1}{5})$을 따를 때, $V(X)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -789,7 +789,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$에 대하여 $E(X) = 3$, $V(X) = 2$일 때, $E(3X + 5)$와 $V(3X + 5)$의 값의 합을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -802,7 +802,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "한 개의 동전을 8번 던질 때, 앞면이 나오는 횟수를 확률변수 $X$라 하자. $P(X = 2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -821,7 +821,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(n, p)$를 따르고 $E(X) = 6$, $V(X) = 2$일 때, $n$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -834,7 +834,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "주머니에 1이 적힌 공 1개, 2가 적힌 공 2개, 3이 적힌 공 1개가 있다. 이 주머니에서 2개의 공을 동시에 꺼내어 꺼낸 공에 적힌 수의 합을 확률변수 $X$라 할 때, $E(X)$의 값을 구하시오. (답을 6배 하여 정수로 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -847,7 +847,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률질량함수가 $P(X = k) = c \\cdot k^2$ ($k = 1, 2, 3, 4$)일 때, $P(X \\geq 3)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -866,7 +866,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같다.\n\n| $X$ | $-1$ | $0$ | $1$ | $2$ |\n|-----|------|-----|-----|-----|\n| $P$ | $a$ | $b$ | $b$ | $a$ |\n\n$E(X) = \\frac{1}{2}$, $V(X) = \\frac{5}{4}$일 때, $a$의 값을 구하시오. (기약분수의 분모를 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -1147,7 +1147,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "1부터 6까지의 자연수가 하나씩 적힌 6장의 카드에서 3장을 동시에 뽑아 세 수의 합이 짝수인 경우의 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1160,7 +1160,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "흰 공 5개, 검은 공 3개가 들어 있는 주머니에서 3개를 동시에 꺼낼 때, 흰 공이 적어도 2개 포함되어 있을 확률은?",
     "answerType": "choice",
     "choices": [
@@ -1179,7 +1179,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$가 이항분포 $B(n, p)$를 따르고 $E(X) = 6$, $V(X) = 2$일 때, $n + p$의 값을 구하시오. (답을 3배 하여 정수로 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -1192,7 +1192,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주사위 2개를 동시에 던져 나온 두 눈의 수를 각각 $a$, $b$라 할 때, $a + b \\leq 5$일 확률과 $ab$가 짝수일 확률의 합을 구하시오. (기약분수의 분자를 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -1205,7 +1205,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "정규분포 $N(50, 10^2)$을 따르는 모집단에서 크기 25인 표본을 추출하여 표본평균 $\\bar{x}$를 구했다. 모평균 $m$에 대한 95% 신뢰구간에 $m = 47$이 포함되려면 $\\bar{x}$의 범위를 구하시오. 이때 $\\bar{x}$가 취할 수 있는 구간의 길이를 구하시오. (소수 둘째 자리까지 구한 후, 100을 곱하여 정수로 답하시오.) (단, $P(|Z| \\leq 1.96) = 0.95$)",
     "answerType": "short",
     "choices": null,
@@ -1218,7 +1218,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "흰 공 $n$개, 검은 공 2개가 들어 있는 주머니에서 2개를 동시에 꺼낸다. 꺼낸 공이 모두 같은 색일 확률이 $\\frac{7}{15}$일 때, $n$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1231,7 +1231,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "A, B 두 사람이 각각 주사위를 한 번씩 던진다. A가 나온 눈의 수만큼 점수를 얻고, B도 나온 눈의 수만큼 점수를 얻는다. A의 점수가 B의 점수보다 높을 확률을 구하시오. (기약분수의 분모를 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -1244,7 +1244,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주머니에 1부터 $n$까지의 자연수가 적힌 공이 하나씩 들어 있다. 이 중 2개를 동시에 꺼내어 큰 수에서 작은 수를 뺀 값을 확률변수 $X$라 하자. $n = 5$일 때, $E(X)$의 값을 구하시오. (답을 10배 하여 정수로 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -3123,7 +3123,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 한 번 던질 때, 3의 배수의 눈이 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3142,7 +3142,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "52장의 트럼프 카드에서 1장을 뽑을 때, 하트가 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3161,7 +3161,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "동전 한 개를 두 번 던질 때, 두 번 모두 앞면이 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3180,7 +3180,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 한 번 던질 때, 짝수 또는 5 이상의 눈이 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3199,7 +3199,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 한 번 던질 때, 홀수의 눈이 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3218,7 +3218,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 10까지 자연수가 적힌 카드 10장에서 1장을 뽑을 때, 소수가 적힌 카드를 뽑을 확률을 구하시오. (답을 기약분수로 나타낼 때, 분자와 분모의 합을 구하시오.)",
     "answerType": "short",
     "choices": null,
@@ -3231,7 +3231,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "빨간 공 3개와 파란 공 2개가 들어 있는 주머니에서 1개를 꺼낼 때, 빨간 공이 나올 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3244,7 +3244,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "동전 한 개를 3번 던질 때, 앞면이 정확히 1번 나올 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3257,7 +3257,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 한 번 던질 때, 2 이하 또는 5 이상의 눈이 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3276,7 +3276,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 한 번 던질 때, 4 이하의 눈이 나오지 않을 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3295,7 +3295,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "주사위 두 개를 동시에 던질 때, 두 눈의 합이 4가 될 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3314,7 +3314,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "두 사건 $A$, $B$가 서로 배반이고 $P(A) = 0.3$, $P(B) = 0.5$일 때, $P(A \\cup B)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3333,7 +3333,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "주사위 두 개를 동시에 던질 때, 적어도 하나가 6인 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3346,7 +3346,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "두 사건 $A$, $B$에 대해 $P(A) = 0.4$, $P(B) = 0.5$, $P(A \\cap B) = 0.2$일 때, $P(A \\cup B)$의 값에 10을 곱한 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -3359,7 +3359,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "동전 한 개를 4번 던질 때, 앞면이 적어도 1번 나올 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3372,7 +3372,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "주머니에 빨간 공 4개, 파란 공 3개, 노란 공 2개가 들어 있다. 이 주머니에서 공을 하나씩 비복원으로 2개를 꺼낼 때, 2개가 같은 색일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3391,7 +3391,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "A 상자에는 흰 공 3개, 검은 공 2개가 들어 있고, B 상자에는 흰 공 2개, 검은 공 4개가 들어 있다. 각 상자에서 공을 1개씩 꺼낼 때, 두 공의 색이 같을 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3410,7 +3410,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "흰 공 5개, 검은 공 4개가 들어 있는 주머니에서 비복원으로 3개를 꺼낼 때, 흰 공이 2개이고 검은 공이 1개일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3429,7 +3429,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "두 사건 $A$, $B$가 독립이고 $P(A^c) = \\frac{2}{3}$, $P(A \\cup B) = \\frac{5}{6}$일 때, $P(B)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3448,7 +3448,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "A 주머니에 빨간 공 2개, 흰 공 3개가 있고, B 주머니에 빨간 공 4개, 흰 공 1개가 있다. 동전을 던져 앞면이면 A에서, 뒷면이면 B에서 공 1개를 꺼낼 때, 빨간 공이 나올 확률을 $\\frac{p}{q}$라 하자. $p \\times q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3461,7 +3461,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "10명의 학생 중에서 4명의 대표를 뽑을 때, 특정 2명이 모두 대표에 포함될 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3474,7 +3474,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 3번 던질 때, 나온 눈의 최댓값이 5일 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3487,7 +3487,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 9까지의 자연수가 하나씩 적힌 9장의 카드에서 비복원으로 3장을 뽑을 때, 뽑은 세 수의 합이 짝수일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3506,7 +3506,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "A, B, C 세 사람이 각각 독립적으로 과녁을 한 번씩 쏜다. A가 맞힐 확률은 $\\frac{1}{2}$, B가 맞힐 확률은 $\\frac{1}{3}$, C가 맞힐 확률은 $\\frac{1}{4}$일 때, 적어도 한 명이 맞힐 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3525,7 +3525,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "빨간 공 3개, 파란 공 3개, 노란 공 3개가 들어 있는 주머니에서 비복원으로 4개를 꺼낼 때, 세 가지 색이 모두 포함될 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3544,7 +3544,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "주사위 2개를 동시에 던지는 시행을 2번 반복할 때, 두 눈의 합이 7인 경우가 적어도 1번 나올 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3563,7 +3563,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "검은 공 5개, 흰 공 4개가 들어 있는 주머니에서 비복원으로 공을 하나씩 꺼낸다. 3번째로 꺼낸 공이 처음으로 흰 공일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -3582,7 +3582,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "A, B 두 팀이 시합을 하여 먼저 3승을 하는 팀이 우승한다. 매 시합에서 A가 이길 확률이 $\\frac{2}{3}$이고 비기는 것은 없다고 할 때, A가 정확히 4번째 시합에서 우승할 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수, 각 시합은 독립)",
     "answerType": "short",
     "choices": null,
@@ -3595,7 +3595,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 10까지 자연수가 적힌 카드 10장에서 비복원으로 3장을 뽑을 때, 뽑은 세 수가 연속하는 세 자연수일 확률을 $\\frac{p}{q}$라 하자. $p+q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -3608,7 +3608,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "세 개의 주사위를 동시에 던질 때, 나온 세 눈이 모두 다를 확률을 $\\frac{p}{q}$라 하자. $p \\times q$의 값을 구하시오. (단, $\\frac{p}{q}$는 기약분수)",
     "answerType": "short",
     "choices": null,
@@ -4138,7 +4138,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, $E(X)$의 값은?\n\n| $X$ | 1 | 2 | 3 |\n|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{6}$ | $\\frac{1}{2}$ | $\\frac{1}{3}$ |",
     "answerType": "choice",
     "choices": [
@@ -4157,7 +4157,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, 상수 $a$의 값은?\n\n| $X$ | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{4}$ | $a$ | $\\frac{1}{4}$ | $\\frac{1}{8}$ |",
     "answerType": "choice",
     "choices": [
@@ -4176,7 +4176,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 $1, 2, 3, 4$의 값을 같은 확률로 가질 때, $E(X)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4195,7 +4195,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, $P(X \\leq 2)$의 값은?\n\n| $X$ | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $P(X=x)$ | $0.1$ | $0.3$ | $0.4$ | $0.2$ |",
     "answerType": "choice",
     "choices": [
@@ -4214,7 +4214,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, $E(2X)$의 값은?\n\n| $X$ | 1 | 2 | 3 |\n|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{3}$ | $\\frac{1}{3}$ | $\\frac{1}{3}$ |",
     "answerType": "choice",
     "choices": [
@@ -4233,7 +4233,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, $E(X)$의 값을 구하시오.\n\n| $X$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{10}$ | $\\frac{2}{10}$ | $\\frac{3}{10}$ | $\\frac{3}{10}$ | $\\frac{1}{10}$ |\n\n(답을 $\\frac{p}{q}$ (기약분수)로 나타낼 때, $p+q$의 값을 구하시오.)",
     "answerType": "short",
     "choices": null,
@@ -4246,7 +4246,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같다.\n\n| $X$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{4}$ | $a$ | $\\frac{1}{4}$ | $\\frac{1}{8}$ |\n\n이때 $E(X)$의 값을 $\\frac{p}{q}$ (기약분수)로 나타낼 때, $p+q$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4259,7 +4259,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, $E(3X+1)$의 값을 구하시오.\n\n| $X$ | 1 | 2 | 3 |\n|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{2}$ | $\\frac{1}{3}$ | $\\frac{1}{6}$ |",
     "answerType": "short",
     "choices": null,
@@ -4272,7 +4272,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, $V(X)$의 값은?\n\n| $X$ | 1 | 2 | 3 |\n|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{4}$ | $\\frac{1}{2}$ | $\\frac{1}{4}$ |",
     "answerType": "choice",
     "choices": [
@@ -4291,7 +4291,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$에 대해 $E(X) = 3$, $V(X) = 4$일 때, $E(2X + 5)$와 $V(2X + 5)$의 값은 각각?",
     "answerType": "choice",
     "choices": [
@@ -4310,7 +4310,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$에 대해 $E(X) = 5$, $E(X^2) = 29$일 때, $V(3X - 2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4329,7 +4329,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$에 대해 $E(X) = 4$, $V(X) = 5$일 때, $E(X^2)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4342,7 +4342,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$에 대해 $E(X) = 2$, $V(X) = 3$일 때, $E\\left((X-1)^2\\right)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4355,7 +4355,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$에 대해 $E(2X+1) = 9$, $V(2X+1) = 16$일 때, $E(X) + V(X)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4368,7 +4368,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(10, 0.3)$을 따를 때, $E(X)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4387,7 +4387,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(20, \\frac{1}{4})$를 따를 때, $V(X)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4406,7 +4406,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(n, \\frac{1}{3})$을 따르고 $V(X) = 4$일 때, $n$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4425,7 +4425,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(6, \\frac{1}{2})$을 따를 때, $P(X = 2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4444,7 +4444,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(8, \\frac{1}{4})$를 따를 때, $E(X^2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4463,7 +4463,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(n, p)$를 따르고 $E(X) = 6$, $V(X) = 2$일 때, $n$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4476,7 +4476,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "한 개의 동전을 12번 던져서 앞면이 나오는 횟수를 $X$라 할 때, $E(X^2) - E(X)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4489,7 +4489,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(100, 0.4)$를 따를 때, $\\sigma(2X - 10)$의 값을 구하시오. (답이 $a\\sqrt{b}$ 형태일 때, $a+b$의 값을 구하시오. 단, $b$는 제곱인수를 갖지 않는 자연수)",
     "answerType": "short",
     "choices": null,
@@ -4502,7 +4502,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률생성함수가 $G(t) = E(t^X) = \\left(\\frac{1}{3} + \\frac{2t}{3}\\right)^5$일 때, $V(X)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4521,7 +4521,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "서로 독립인 확률변수 $X$, $Y$에 대해 $X \\sim B(10, \\frac{1}{3})$, $Y \\sim B(20, \\frac{1}{3})$일 때, $V(X + Y)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4540,7 +4540,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포표가 다음과 같을 때, $E\\left(\\frac{1}{X+1}\\right)$의 값은?\n\n| $X$ | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| $P(X=x)$ | $\\frac{1}{4}$ | $\\frac{1}{4}$ | $\\frac{1}{4}$ | $\\frac{1}{4}$ |",
     "answerType": "choice",
     "choices": [
@@ -4559,7 +4559,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "서로 독립인 확률변수 $X \\sim B(5, \\frac{1}{2})$, $Y \\sim B(3, \\frac{1}{2})$에 대해 $E((X-Y)^2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4578,7 +4578,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$의 확률분포가 $P(X = k) = c \\cdot k^2$ ($k = 1, 2, 3, 4$)일 때, $E(X)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4597,7 +4597,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 $P(X=k) = \\frac{k}{15}$ ($k = 1, 2, 3, 4, 5$)를 만족할 때, $V(X)$의 값을 $\\frac{p}{q}$ (기약분수)로 나타내자. $p+q$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4610,7 +4610,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "독립인 확률변수 $X_1, X_2, \\ldots, X_9$가 각각 이항분포 $B(4, \\frac{1}{2})$를 따를 때, $Y = X_1 + X_2 + \\cdots + X_9$의 분산을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4623,7 +4623,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B(n, p)$를 따르고 $E(X) = 8$, $E(X^2) = 68$일 때, $n$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5693,7 +5693,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "6명의 학생 중에서 3명을 선택하여 일렬로 세우는 경우의 수를 $a$, 6명 중 3명을 선택하는 조합의 수를 $b$라 하자. 이 $b$명을 한 모둠으로 만들어 각 모둠에서 대표 1명을 뽑을 때, 대표가 될 확률이 $\\frac{1}{b}$인 특정 학생이 대표로 뽑히지 않을 확률은?",
     "answerType": "choice",
     "choices": [
@@ -5712,7 +5712,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주머니에 빨간 공 3개, 파란 공 4개가 들어 있다. 이 중 3개를 동시에 꺼낼 때, 빨간 공이 2개 이상 포함될 확률은?",
     "answerType": "choice",
     "choices": [
@@ -5731,7 +5731,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "숫자 1, 2, 3, 4, 5에서 서로 다른 3개를 선택하여 세 자리 수를 만든다. 이 세 자리 수가 짝수일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -5750,7 +5750,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "A, B 두 사람이 가위바위보를 1회 할 때, A가 이길 확률을 $p$라 하자. 5명이 원형으로 앉는 경우의 수를 $n$이라 할 때, $n \\times p$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5769,7 +5769,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주사위를 2번 던져 나온 눈의 수를 차례로 $a$, $b$라 하자. 순서쌍 $(a, b)$에서 $a + b \\leq 4$인 경우의 수를 $k$라 할 때, $\\frac{k}{36}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5782,7 +5782,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "집합 $S = \\{1, 2, 3, 4, 5\\}$에서 서로 다른 2개의 원소를 선택하는 조합의 수를 $m$이라 하자. 한 개의 동전을 $m$번 던질 때, 앞면이 정확히 5번 나올 확률을 $P$라 할 때, $2^{m} \\times P$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5795,7 +5795,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "6명의 학생을 2명씩 3개 조로 나누는 경우의 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5808,7 +5808,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "빨간 공 2개, 흰 공 3개가 들어 있는 주머니에서 2개를 동시에 꺼낼 때, 꺼낸 공이 같은 색일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -5827,7 +5827,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "어느 공장에서 생산되는 제품의 불량률은 $0.1$이다. 이 공장에서 생산된 제품 중 10개를 임의로 선택할 때, 불량품이 2개 이상일 확률을 $P$라 하자. $P = 1 - \\left(\\frac{9}{10}\\right)^{10} - {}_{10}C_1 \\left(\\frac{1}{10}\\right) \\left(\\frac{9}{10}\\right)^{9}$일 때, $P$의 값에 가장 가까운 것은? (단, $0.9^{10} \\approx 0.349$, $0.9^{9} \\approx 0.387$로 계산한다.)",
     "answerType": "choice",
     "choices": [
@@ -5846,7 +5846,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주머니에 1부터 10까지의 자연수가 적힌 공이 하나씩 들어 있다. 임의로 한 개를 꺼낼 때, 짝수가 적힌 공이 나오는 사건을 $A$, 3의 배수가 적힌 공이 나오는 사건을 $B$라 하자. $P(A|B) + P(B|A)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5865,7 +5865,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$가 이항분포 $B(n, p)$를 따르고, $E(X) = 6$, $V(X) = 2$일 때, $n$과 $p$의 값을 각각 구한 후, ${}_nC_2 \\times p$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5884,7 +5884,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "흰 공 5개, 검은 공 3개가 들어 있는 주머니에서 공을 하나씩 비복원추출한다. 첫 번째 공이 흰 공이었을 때, 두 번째 공도 흰 공일 조건부확률을 $P_1$, 첫 번째 공이 검은 공이었을 때 두 번째 공이 흰 공일 조건부확률을 $P_2$라 하자. $P_1 + P_2$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5903,7 +5903,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$가 정규분포 $N(50, 5^2)$을 따른다. $P(X \\leq a) = P(X \\geq 2a - 30)$을 만족하는 $a$의 값을 구한 후, 이항분포 $B(a, 0.5)$의 분산을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -5922,7 +5922,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$가 이항분포 $B(8, p)$를 따르고, $P(X=2) = P(X=6)$일 때, $V(X)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5935,7 +5935,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "어떤 시험에서 5지선다 문제 4개를 찍어서 맞힌 문제의 수를 $X$라 하자. $E(X^2)$의 값을 구하시오. (답에 25를 곱한 값을 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -5948,7 +5948,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "A, B 두 상자가 있다. A에는 1, 2, 3이 적힌 카드가, B에는 4, 5, 6이 적힌 카드가 하나씩 들어 있다. 각 상자에서 카드를 1장씩 꺼내어 두 수의 곱이 짝수일 확률을 구하시오. (답은 분모가 9인 기약분수의 분자를 답하시오.)",
     "answerType": "short",
     "choices": null,
@@ -5961,7 +5961,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주머니에 1부터 9까지의 자연수가 적힌 카드 9장이 있다. 이 중 4장을 동시에 꺼낼 때, 꺼낸 카드에 적힌 수의 합이 짝수이고 최댓값이 8 이상일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -5980,7 +5980,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$가 정규분포 $N(m, \\sigma^2)$을 따르고 $P(X \\leq 14) = P(X \\geq 26)$이다. 또한 $P(m - \\sigma \\leq X \\leq m + \\sigma) = 0.6826$일 때, $P(14 \\leq X \\leq 26)$의 값에 가장 가까운 것은? (단, $Z \\sim N(0,1)$일 때 $P(0 \\leq Z \\leq 1) = 0.3413$이다.)",
     "answerType": "choice",
     "choices": [
@@ -5999,7 +5999,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "어느 학교의 전체 학생 중 남학생의 비율은 $60\\%$이다. 남학생 중 안경 착용 비율은 $40\\%$, 여학생 중 안경 착용 비율은 $30\\%$이다. 이 학교에서 임의로 선택한 1명이 안경을 착용하고 있을 때, 이 학생이 남학생일 확률은? (답은 기약분수로 나타내시오.)",
     "answerType": "choice",
     "choices": [
@@ -6018,7 +6018,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "집합 $\\{1, 2, 3, 4, 5, 6, 7\\}$에서 서로 다른 3개의 수를 선택하여 만든 집합을 $A$라 하자. $A$의 원소의 합이 12 이상이면서 $A$에 연속하는 두 자연수가 포함되지 않을 확률은?",
     "answerType": "choice",
     "choices": [
@@ -6037,7 +6037,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$가 이항분포 $B(100, p)$를 따르고, 정규분포로 근사할 때 $P(X \\geq 55) = P(Z \\geq 1)$이 성립한다. 이때 $p$의 값을 구한 후 $V(X)$의 값은? (단, $Z \\sim N(0,1)$이고 $P(Z \\geq 1) = 0.1587$이다.)",
     "answerType": "choice",
     "choices": [
@@ -6056,7 +6056,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "두 사건 $A$, $B$가 독립이고 $P(A) = \\frac{1}{3}$, $P(A \\cup B) = \\frac{3}{5}$일 때, $P(B)$의 값을 구한 후, $30 \\times P(A^c \\cap B)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -6069,7 +6069,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "양의 정수 $n$에 대하여 $\\sum_{k=0}^{n} {}_nC_k \\cdot 3^k = 4^n$이 성립한다. $\\sum_{k=0}^{8} k \\cdot {}_8C_k \\cdot 3^k$의 값을 $4^6$으로 나눈 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -6082,7 +6082,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "집합 $S = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$의 부분집합 중에서 원소의 개수가 4인 부분집합 $A$를 택한다. $A$의 원소의 합이 짝수이고, $A$의 원소 중 최댓값과 최솟값의 차가 5 이상일 확률을 $p$라 할 때, $70p$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -6101,7 +6101,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$는 정규분포 $N(\\mu, \\sigma^2)$을 따른다. $n$개의 표본평균 $\\bar{X}$에 대하여 $P(\\bar{X} \\geq \\mu + 1) = P(Z \\geq 2)$이 성립하고, $\\sigma = 4$일 때, 표본의 크기 $n$의 값을 구한 후, 이 $n$명을 원형으로 배열하는 경우의 수를 $m!$로 표현하시오. ($m$의 값을 답하시오.)",
     "answerType": "choice",
     "choices": [
@@ -6120,7 +6120,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "자연수 $n$에 대하여 $f(n) = \\sum_{k=1}^{n} {}_nC_k \\cdot k \\cdot (-1)^{k+1}$이라 하자. $f(1) + f(2) + f(3) + \\cdots + f(10)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -6139,7 +6139,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주사위를 $n$번 던져서 나온 눈의 합을 $S_n$이라 하자. $P(S_3 = 10)$을 구한 후, 이 값에 $216$을 곱한 값은?",
     "answerType": "choice",
     "choices": [
@@ -6158,7 +6158,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 $X$의 확률질량함수가 $P(X = k) = \\frac{{}_5C_k \\cdot {}_5C_{3-k}}{{{}_{10}C_3}}$ ($k = 0, 1, 2, 3$)일 때, $E(X)$의 값을 구한 후 $E(X)$에 $8$을 곱한 값을 구하시오. (단, ${}_5C_k = 0$ ($k > 5$))",
     "answerType": "choice",
     "choices": [
@@ -6177,7 +6177,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "양의 정수 $n$에 대하여 $(1+x)^n$의 전개식에서 $x^2$의 계수를 $a_n$이라 하자. $\\sum_{n=2}^{\\infty} \\frac{a_n}{2^n}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -6190,7 +6190,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "1부터 $n$까지의 자연수가 각각 하나씩 적힌 $n$장의 카드에서 2장을 뽑는다. 뽑은 두 수의 차의 절댓값이 2 이하일 확률이 $\\frac{2}{5}$ 이상이 되는 가장 큰 자연수 $n$의 값을 구하시오. (단, $n \\geq 3$)",
     "answerType": "short",
     "choices": null,
@@ -6203,7 +6203,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "상자에 빨간 공 $r$개와 파란 공 $b$개가 들어 있다 ($r + b = 10$). 이 상자에서 3개를 동시에 꺼낼 때, 3개 모두 같은 색일 확률을 $f(r)$이라 하자. $f(r)$이 최대가 되는 $r$의 값을 $r_0$, 최솟값이 되는 $r$의 값을 $r_1$이라 할 때, $r_0 + r_1$의 값을 구하시오. (단, $r \\geq 3$이고 $b \\geq 3$)",
     "answerType": "short",
     "choices": null,
@@ -6430,7 +6430,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "repeated",
-    "type": "중복순열",
+    "type": "중복순열·중복조합",
     "problem": "1, 2, 3, 4, 5 중에서 중복을 허락하여 4개를 택해 일렬로 나열하여 만든 네 자리의 자연수 중 4000 이상인 홀수의 개수를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -6450,7 +6450,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "repeated",
-    "type": "중복순열",
+    "type": "중복순열·중복조합",
     "problem": "$a, b, c, d$ 네 개의 문자 중에서 중복을 허락하여 3개를 택해 일렬로 나열하는 경우의 수를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -6470,7 +6470,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "repeated",
-    "type": "중복순열",
+    "type": "중복순열·중복조합",
     "problem": "$a, b, c$ 세 개의 문자 중에서 중복을 허락하여 4개를 택해 일렬로 나열하는 경우의 수를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7064,7 +7064,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B\\left(n, \\dfrac{1}{3}\\right)$을 따르고 $V(2X)=40$일 때, $n$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7084,7 +7084,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B\\left(60, \\dfrac{1}{4}\\right)$을 따를 때, $E(X)$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7104,7 +7104,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 이항분포 $B\\left(30, \\dfrac{1}{5}\\right)$을 따를 때, $E(X)$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7164,7 +7164,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "cond_prob",
-    "type": "조건부확률",
+    "type": "조건부 확률",
     "problem": "한 개의 주사위를 두 번 던져 첫 번째 나온 눈의 수를 $a$, 두 번째 나온 눈의 수를 $b$라 하자. $a \\times b$가 4의 배수일 때, $a + b \\leq 7$일 확률을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7264,7 +7264,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 $-1, 0, 1$의 값을 가지며 $P(X=x) = \\dfrac{|2x-1|}{12}$일 때, $V\\left(\\dfrac{X}{a}\\right)$의 값을 구하시오. (단, $a$는 양의 상수이다.)",
     "answerType": "choice",
     "choices": [
@@ -7284,7 +7284,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 0, 1, $a$ $(a>1)$의 값을 가지고 $\\sigma(X)=E(X)$를 만족시킬 때, $E(X^2)+E(X)$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7304,7 +7304,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "permutation",
-    "type": "원순열",
+    "type": "순열",
     "problem": "남학생 4명과 여학생 4명, 총 8명 중에서 남학생 4명을 반드시 포함하는 5명을 선택한 후, 선택된 5명을 원형 탁자에 앉히는 경우의 수를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7324,7 +7324,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "combination",
-    "type": "순서쌍",
+    "type": "이항정리",
     "problem": "13 이하의 자연수 $a, b, c, d$가 $a \\leq b \\leq c \\leq d$를 만족시킨다. $a \\times d$가 홀수이고 $b + c$가 짝수일 때, 순서쌍 $(a, b, c, d)$의 개수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7338,7 +7338,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "combination",
-    "type": "순서쌍",
+    "type": "이항정리",
     "problem": "자연수 $a, b, c, d$가 $a + b + c + d = 14$를 만족시킨다. $10a \\geq d$이고 $c < d^2$일 때, 순서쌍 $(a, b, c, d)$의 개수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7352,7 +7352,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "combination",
-    "type": "분배",
+    "type": "이항정리",
     "problem": "같은 종류의 사인펜 14자루를 학생 A, B, C, D에게 남김없이 나누어 주려고 한다. 각 학생이 1자루 이상 9자루 이하로 받고, 각 학생이 받는 사인펜의 수가 짝수일 때, 나누어 주는 경우의 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7366,7 +7366,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "combination",
-    "type": "분배",
+    "type": "이항정리",
     "problem": "같은 종류의 흰 공 4개와 같은 종류의 검은 공 4개, 총 8개의 공을 학생 A, B, C에게 남김없이 나누어 준다. A는 0개 이상 2개 이하, B는 2개 이상 받을 때, 공을 나누어 주는 경우의 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7400,7 +7400,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 $X$가 0, 1, 2, 3, 4의 값을 가지고 $P(X = k) = P(X = k+2)$ ($k = 0, 1, 2$)를 만족시키며 $E(X^2) = \\dfrac{35}{6}$일 때, $P(X = 0)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7440,7 +7440,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "normal_dist",
-    "type": "표본평균",
+    "type": "통계적 추정",
     "problem": "모집단이 정규분포 $N(m, 6^2)$을 따르고 크기 9인 표본의 표본평균을 $\\bar{X}_1$이라 하자. 또 다른 모집단이 정규분포 $N(6, 2^2)$을 따르고 크기 4인 표본의 표본평균을 $\\bar{X}_2$라 하자. $P(\\bar{X}_1 \\geq 7) + P(\\bar{X}_2 \\leq 5) = 1$일 때, $m$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7500,7 +7500,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "normal_dist",
-    "type": "표본평균",
+    "type": "통계적 추정",
     "problem": "1, 3, 5, 7, 9가 하나씩 적힌 5장의 카드에서 3장을 복원추출하여 그 수의 표본평균을 $\\bar{X}$라 하자. $V(a\\bar{X} + 6) = 24$일 때, 양수 $a$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7520,7 +7520,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률 응용",
+    "type": "확률의 계산",
     "problem": "1부터 5까지의 자연수 중에서 서로 다른 4개를 택하여 만든 네 자리 자연수가 5의 배수이거나 3500 이상일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7540,7 +7540,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률 응용",
+    "type": "확률의 계산",
     "problem": "집합 $X = \\{1, 2, 3, 4\\}$에서 $Y = \\{1, 2, 3, 4, 5, 6, 7\\}$로의 일대일함수 $f$ 중에서 $f(2) = 2$인 것을 임의로 택할 때, $f(1) \\times f(3) \\times f(4)$가 4의 배수일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7560,7 +7560,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률 응용",
+    "type": "확률의 계산",
     "problem": "16명의 학생 중 과목 A만 선택한 학생이 $a$명, 과목 B만 선택한 학생이 $b$명, 두 과목 모두 선택한 학생이 $c$명이다. 이 16명 중에서 3명을 임의로 선택할 때, 적어도 1명이 과목 B를 선택한 학생일 확률이 $\\dfrac{39}{40}$일 때, $b + c$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7580,7 +7580,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "동전 4개를 동시에 던져서 앞면이 나온 동전의 수를 $X$라 하자. $Y = X^2 - 4X$일 때, $E(Y)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7620,7 +7620,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 한 번 던질 때, 3의 배수의 눈이 나올 확률을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7639,7 +7639,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 10까지의 자연수가 하나씩 적힌 10장의 카드 중에서 한 장을 뽑을 때, 짝수가 적힌 카드를 뽑을 확률을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7658,7 +7658,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "흰 공 4개, 검은 공 6개가 들어 있는 주머니에서 공 1개를 꺼낼 때, 흰 공이 나올 확률을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7677,7 +7677,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "두 개의 동전을 동시에 던질 때, 적어도 한 개가 앞면이 나올 확률을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -7696,7 +7696,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 한 번 던질 때, 2 이하의 눈이 나오는 사건을 \\(A\\), 5 이상의 눈이 나오는 사건을 \\(B\\)라 하자. \\(P(A \\cup B)\\)의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7715,7 +7715,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 20까지의 자연수 중에서 하나를 택할 때, 3의 배수 또는 5의 배수인 수를 택할 확률을 \\(\\dfrac{p}{20}\\)이라 하자. \\(p\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7728,7 +7728,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "서로 독립인 두 사건 \\(A\\), \\(B\\)에 대하여 \\(P(A) = \\dfrac{1}{3}\\), \\(P(B) = \\dfrac{1}{4}\\)일 때, \\(P(A \\cap B)\\)의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7747,7 +7747,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "주머니에 빨간 공 3개, 파란 공 5개, 노란 공 2개가 들어 있다. 이 주머니에서 임의로 2개의 공을 동시에 꺼낼 때, 2개 모두 파란 공일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7766,7 +7766,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "한 개의 주사위를 두 번 던질 때, 나오는 눈의 합이 8인 경우의 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7779,7 +7779,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "서로 독립인 두 사건 \\(A\\), \\(B\\)에 대하여 \\(P(A) = \\dfrac{2}{5}\\), \\(P(B) = \\dfrac{1}{3}\\)일 때, \\(P(A^c \\cap B^c)\\)의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7798,7 +7798,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 9까지의 자연수가 하나씩 적힌 9장의 카드 중에서 3장을 동시에 뽑을 때, 뽑은 카드에 적힌 수가 모두 홀수일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7817,7 +7817,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "주머니에 1부터 6까지의 자연수가 하나씩 적힌 6개의 공이 들어 있다. 이 주머니에서 임의로 하나의 공을 꺼내어 적힌 수를 확인한 후 다시 넣는 시행을 3번 반복할 때, 꺼낸 공에 적힌 세 수의 합이 짝수인 경우의 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7830,7 +7830,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 5까지의 자연수가 하나씩 적힌 5장의 카드를 일렬로 나열할 때, 양 끝에 놓인 카드에 적힌 수가 모두 홀수일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7849,7 +7849,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "흰 공 3개, 검은 공 4개가 들어 있는 주머니에서 임의로 3개의 공을 동시에 꺼낼 때, 흰 공 1개, 검은 공 2개가 나올 확률과 흰 공 2개, 검은 공 1개가 나올 확률의 합을 \\(\\dfrac{p}{35}\\)라 하자. \\(p\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7862,7 +7862,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "1, 2, 3, 4, 5의 숫자가 하나씩 적힌 5장의 카드에서 임의로 2장을 동시에 뽑아 두 수의 곱을 구할 때, 그 곱이 짝수일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7881,7 +7881,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주머니에 1부터 5까지의 자연수가 하나씩 적힌 5개의 공이 들어 있다. 이 주머니에서 임의로 2개의 공을 동시에 꺼내어 큰 수에서 작은 수를 뺀 값을 \\(X\\)라 할 때, \\(X \\geq 3\\)일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7900,7 +7900,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "6명의 학생을 3명, 3명의 두 조로 나누는 경우의 수를 구한 후, 이 중에서 특정 2명이 같은 조에 속할 확률을 \\(\\dfrac{a}{b}\\) (기약분수)라 하자. \\(a\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7913,7 +7913,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "A, B를 포함한 5명의 학생이 원형으로 앉을 때, A와 B가 이웃할 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7932,7 +7932,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "어느 공장에서 생산하는 제품의 불량률이 \\(\\dfrac{1}{10}\\)이다. 이 공장에서 생산한 제품 중에서 임의로 3개를 검사할 때, 불량품이 정확히 1개일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -7951,7 +7951,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주사위를 4번 던질 때, 1의 눈이 정확히 2번 나올 확률을 \\(\\dfrac{q}{p}\\) (기약분수)라 하자. \\(p\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7964,7 +7964,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "확률변수 \\(X\\)가 이항분포 \\(B(n, p)\\)를 따르고, \\(E(X) = 6\\), \\(V(X) = 2\\)일 때, \\(n + p\\)의 값을 \\(\\dfrac{a}{b}\\) (기약분수)라 하자. \\(a\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -7977,7 +7977,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "두 사건 \\(A\\), \\(B\\)에 대하여 \\(P(A) = \\dfrac{1}{2}\\), \\(P(B|A) = \\dfrac{2}{5}\\), \\(P(A^c \\cap B) = \\dfrac{1}{5}\\)일 때, \\(P(B)\\)의 값은?",
     "answerType": "choice",
     "choices": [
@@ -7996,7 +7996,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "두 사건 \\(A\\), \\(B\\)가 서로 독립이고, \\(P(A \\cup B) = \\dfrac{7}{12}\\), \\(P(A) = \\dfrac{1}{3}\\)일 때, \\(P(B)\\)의 값은?",
     "answerType": "choice",
     "choices": [
@@ -8015,7 +8015,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주머니에 1부터 8까지의 자연수가 하나씩 적힌 8개의 공이 들어 있다. 이 주머니에서 임의로 3개의 공을 동시에 꺼낼 때, 꺼낸 공에 적힌 세 수 중 가장 큰 수가 6일 확률을 \\(\\dfrac{p}{56}\\)이라 하자. \\(p\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -8028,7 +8028,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "흰 공 3개, 검은 공 2개가 들어 있는 주머니에서 임의로 1개의 공을 꺼낸 후 다시 넣지 않고 또 1개의 공을 꺼낸다. 첫 번째에 꺼낸 공이 흰 공이었을 때, 두 번째에 꺼낸 공도 흰 공일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -8047,7 +8047,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "집합 \\(\\{1, 2, 3, 4, 5\\}\\)에서 집합 \\(\\{1, 2, 3, 4, 5\\}\\)로의 함수 \\(f\\) 중에서 임의로 하나를 택할 때, \\(f(1) + f(2)\\)가 짝수일 확률을 \\(\\dfrac{p}{25}\\)라 하자. \\(p\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -8060,7 +8060,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "1부터 6까지의 자연수가 하나씩 적힌 6장의 카드 중에서 3장을 택하여 일렬로 나열하여 세 자리 자연수를 만들 때, 만들어진 수가 500 이상일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -8079,7 +8079,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "주머니 A에는 흰 공 2개와 검은 공 3개가, 주머니 B에는 흰 공 4개와 검은 공 1개가 들어 있다. 한 개의 동전을 던져서 앞면이 나오면 주머니 A에서, 뒷면이 나오면 주머니 B에서 공 1개를 꺼낸다. 꺼낸 공이 흰 공이었을 때, 주머니 A에서 꺼낸 것일 확률은?",
     "answerType": "choice",
     "choices": [
@@ -8098,7 +8098,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "집합 \\(X = \\{1, 2, 3, 4, 5, 6\\}\\)에서 \\(X\\)로의 함수 \\(f\\) 중에서 임의로 하나를 택한다. \\(f(1) \\leq f(2) \\leq f(3)\\)이고 \\(f(1) \\times f(2) \\times f(3)\\)이 짝수일 확률을 \\(\\dfrac{q}{p}\\) (기약분수)라 하자. \\(p + q\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -8233,7 +8233,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 \\(X\\)의 확률분포표가 다음과 같을 때, \\(E(2X + 4)\\)의 값을 구하시오.\n\n| \\(X\\) | 1 | 2 | 3 | 4 | 합계 |\n|---|---|---|---|---|---|\n| \\(P(X=x)\\) | \\(\\dfrac{1}{4}\\) | \\(a\\) | \\(\\dfrac{1}{4}\\) | \\(\\dfrac{1}{4}\\) | 1 |",
     "answerType": "short",
     "choices": null,
@@ -8246,7 +8246,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "discrete_dist",
-    "type": "이산확률분포",
+    "type": "확률분포",
     "problem": "확률변수 \\(X\\)의 확률질량함수가 \\(P(X = k) = \\dfrac{k}{10}\\) (\\(k = 1, 2, 3, 4\\))일 때, \\(V(X)\\)의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -8297,7 +8297,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "prob_basic",
-    "type": "확률의 덧셈·곱셈",
+    "type": "확률의 계산",
     "problem": "1부터 8까지의 자연수가 하나씩 적힌 8장의 카드 중에서 3장을 동시에 뽑을 때, 뽑은 카드에 적힌 세 수의 합이 짝수일 확률은?",
     "answerType": "choice",
     "choices": [

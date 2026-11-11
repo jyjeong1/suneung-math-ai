@@ -1,7 +1,7 @@
 const QUESTION_BANK = [
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$2^3 \\times 2^5$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -20,7 +20,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$3^6 \\div 3^2$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -39,7 +39,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$(5^2)^3$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -58,7 +58,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$8^{\\frac{2}{3}}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -71,7 +71,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\dfrac{2^5 \\times 4^3}{8^2}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -90,7 +90,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$27^{\\frac{2}{3}} \\times 9^{\\frac{1}{2}}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -109,7 +109,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\left(\\dfrac{8}{27}\\right)^{-\\frac{2}{3}}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -128,7 +128,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\sqrt[3]{4} \\times \\sqrt[3]{2}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -141,7 +141,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$16^{\\frac{3}{4}} \\div 8^{\\frac{2}{3}}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -154,7 +154,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$a = 2^{\\frac{1}{3}}$, $b = 3^{\\frac{1}{2}}$일 때, $a^6 + b^4$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -173,7 +173,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\dfrac{3^{n+2} - 3^n}{3^{n+1} + 3^n}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -192,7 +192,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$x > 0$일 때, $(x^{\\frac{1}{2}} + x^{-\\frac{1}{2}})^2 = 6$이면 $x + x^{-1}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -211,7 +211,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\dfrac{6^n \\times 12^n}{4^n \\times 18^n}$을 간단히 하면 그 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -224,7 +224,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$x > 0$이고 $x^{\\frac{1}{2}} - x^{-\\frac{1}{2}} = 3$일 때, $x^{\\frac{3}{2}} - x^{-\\frac{3}{2}}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -243,7 +243,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$2^a = 5$, $5^b = 8$일 때, $ab$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -262,7 +262,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\dfrac{5^{n+1} + 5^{n-1}}{5^n - 5^{n-2}}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -281,7 +281,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$3^x + 3^{-x} = 5$일 때, $9^x + 9^{-x}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1264,7 +1264,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^{3x-1} = 32$일 때, $x$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1283,7 +1283,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$3^{x+2} = 81$일 때, $x$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1302,7 +1302,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$5^x = 125$일 때, $x$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1321,7 +1321,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$4^x = 64$일 때, $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1334,7 +1334,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^{2x} - 5 \\cdot 2^x + 4 = 0$의 모든 실근의 합은?",
     "answerType": "choice",
     "choices": [
@@ -1353,7 +1353,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$\\left(\\dfrac{1}{3}\\right)^x > 9$를 만족하는 $x$의 범위는?",
     "answerType": "choice",
     "choices": [
@@ -1372,7 +1372,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$8^x = 4^{x+1}$일 때, $x$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1391,7 +1391,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$3^{2x+1} = 27^x \\times 9$일 때, $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1404,7 +1404,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^x + 2^{x+2} = 40$일 때, $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1417,7 +1417,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$4^x - 3 \\cdot 2^{x+1} + 8 = 0$의 모든 실근의 곱은?",
     "answerType": "choice",
     "choices": [
@@ -1436,7 +1436,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$3^x = 2$일 때, $9^x + 9^{-x}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1455,7 +1455,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^x - 2^{2-x} = 0$일 때, $x$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1474,7 +1474,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^{x+1} + 2^{x-1} = 20$일 때, $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1487,7 +1487,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$3^{2x} > 3^{x+2}$를 만족하는 정수 $x$의 최솟값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1500,7 +1500,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$4^x - 5 \\cdot 2^x + a = 0$이 오직 하나의 실근을 가질 때, 양수 $a$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1519,7 +1519,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^x + 4^x = 2^x(1 + 2^x)$에서 $2^x = 3$일 때, 원래 식의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1538,7 +1538,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$3^{2x} - 12 \\cdot 3^x + 27 = 0$의 두 근을 $\\alpha, \\beta$ ($\\alpha < \\beta$)라 할 때, $\\beta - \\alpha$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1557,7 +1557,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^{2x} - 3 \\cdot 2^{x+1} + 2^3 = 0$의 모든 실근의 합을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1570,7 +1570,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "방정식 $9^x - 4 \\cdot 3^x + 3 = 0$의 두 실근 중 큰 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1915,7 +1915,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$2^3 \\times 2^4$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1934,7 +1934,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_2 8 + \\log_3 9$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1953,7 +1953,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\left(\\dfrac{1}{3}\\right)^{-2}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -1972,7 +1972,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_5 125$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1985,7 +1985,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$4^{3/2}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1998,7 +1998,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_2 3 \\times \\log_3 8$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2017,7 +2017,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\dfrac{\\log_2 32}{\\log_2 4}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2036,7 +2036,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$9^{1/2} \\times 27^{1/3}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2055,7 +2055,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_2 12 - \\log_2 3$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2068,7 +2068,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$8^{2/3} \\div 4^{1/2}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2081,7 +2081,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_2 3 = a$일 때, $\\log_8 27$을 $a$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -2100,7 +2100,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_3 2 = a$, $\\log_3 5 = b$일 때, $\\log_3 40$을 $a$, $b$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -2119,7 +2119,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$2^a = 3$, $3^b = 5$일 때, $\\log_4 15$의 값을 $a$, $b$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -2138,7 +2138,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_3 4 \\times \\log_4 5 \\times \\log_5 9$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2151,7 +2151,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$a = \\log_{12} 3$, $b = \\log_{12} 7$일 때, $\\log_{12} \\sqrt[3]{63}$을 $a$, $b$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -2170,7 +2170,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_2 3 = a$일 때, $\\log_{12} 18$의 값을 $a$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -2189,7 +2189,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $f(x) = 2^x$에 대하여 $f(3)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2208,7 +2208,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "지수함수 $y = 3^x$의 그래프가 지나는 점으로 옳은 것은?",
     "answerType": "choice",
     "choices": [
@@ -2227,7 +2227,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "로그함수 $y = \\log_2 x$에서 $y = 5$일 때 $x$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2246,7 +2246,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "세균이 매시간 2배로 증가한다. 처음 100마리일 때, 5시간 후 세균의 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2259,7 +2259,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "$2^x = 64$를 만족하는 $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2272,7 +2272,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $f(x) = 2^{x-1} + 3$의 치역에 대한 설명으로 옳은 것은?",
     "answerType": "choice",
     "choices": [
@@ -2291,7 +2291,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $y = \\log_2 (x-3)$의 정의역은?",
     "answerType": "choice",
     "choices": [
@@ -2310,7 +2310,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "지수함수 $y = \\left(\\dfrac{1}{2}\\right)^x$에서 $x$가 증가하면 $y$는 어떻게 변하는가?",
     "answerType": "choice",
     "choices": [
@@ -2329,7 +2329,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "어떤 방사성 물질의 반감기가 3시간이다. 처음 양이 $800\\text{g}$일 때, 9시간 후 남은 양(g)을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2342,7 +2342,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "지진의 규모 $M$은 에너지 $E$와 $\\log E = 4.8 + 1.5M$의 관계가 있다. 규모가 $1$ 증가하면 에너지는 약 몇 배가 되는지 구하시오. (정수로 답하시오, $10^{1.5} \\approx 31.6$)",
     "answerType": "short",
     "choices": null,
@@ -2355,7 +2355,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $f(x) = 2^{x+1} - 4$의 그래프와 $x$축의 교점의 $x$좌표는?",
     "answerType": "choice",
     "choices": [
@@ -2374,7 +2374,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $f(x) = \\log_3 (9x)$를 $f(x) = a + \\log_3 x$ 꼴로 나타낼 때, 상수 $a$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2393,7 +2393,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "연이율 $r$로 매년 복리로 $n$년간 투자할 때 원리합계는 $A = P(1+r)^n$이다. 원금 $1000$만원을 연이율 $5\\%$로 투자할 때, 원금의 2배가 되려면 최소 몇 년이 걸리는가? (단, $\\log 1.05 = 0.021$, $\\log 2 = 0.301$)",
     "answerType": "choice",
     "choices": [
@@ -2412,7 +2412,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "소리의 세기가 $10$배가 될 때 데시벨(dB)은 $10$만큼 증가한다. $60\\text{dB}$인 소리는 $20\\text{dB}$인 소리보다 세기가 몇 배인지 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2425,7 +2425,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $f(x) = \\log_2 (x+a)$의 그래프가 점 $(3, 2)$를 지날 때, 상수 $a$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2438,7 +2438,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $f(x) = 3^x$, $g(x) = \\log_3 x$에 대하여 $f(g(27))$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2457,7 +2457,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "연속 복리에서 원금 $P$가 $t$년 후 $Pe^{rt}$가 된다. 연이율 $6.93\\%$일 때, 원금이 2배가 되는 시간(년)은? (단, $\\ln 2 = 0.693$)",
     "answerType": "choice",
     "choices": [
@@ -2476,7 +2476,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $y = 2^x$의 그래프와 함수 $y = \\log_2 x$의 그래프는 직선 $y = x$에 대하여 대칭이다. $y = 2^x$ 위의 점 $(3, 8)$에 대응하는 $y = \\log_2 x$ 위의 점의 좌표는?",
     "answerType": "choice",
     "choices": [
@@ -2495,7 +2495,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "함수 $f(x) = 2^x + 2^{-x}$에 대하여 $f(x) = 3$일 때, $f(2x)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2782,7 +2782,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\log_2 (\\log_3 9)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2801,7 +2801,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$2^{\\log_2 5} + 3^{\\log_3 4}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2820,7 +2820,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\log_4 8$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2839,7 +2839,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\log_3 2 \\times \\log_2 3$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2852,7 +2852,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$9^{\\log_3 2}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2865,7 +2865,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\log_2 3 = a$일 때, $\\log_6 12$를 $a$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -2884,7 +2884,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$2^x = 3$일 때, $4^x + 4^{-x}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2903,7 +2903,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\log_2 5 = a$일 때, $\\log_4 50$을 $a$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -2922,7 +2922,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$27^x = 8$일 때, $3^x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2935,7 +2935,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$x > 0$, $x \neq 1$일 때, $\\log_x 2 + \\log_{x^2} 4 + \\log_{x^3} 8$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2954,7 +2954,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$2^a = 5$, $5^b = 8$일 때, $ab$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2973,7 +2973,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$x + y = 5$, $xy = 4$일 때, $\\log_2 x + \\log_2 y + \\log_2(x+y)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -2992,7 +2992,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$4^x - 2^{x+1} - 8 = 0$을 만족하는 실수 $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -3005,7 +3005,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\log_2(x-1) = \\log_4(3x+1)$을 만족하는 $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -3018,7 +3018,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "양수 $a$($a \neq 1$)에 대하여 $\\log_a (a+1) = 2$일 때, $a$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3037,7 +3037,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$9^x - 10 \\cdot 3^x + 9 = 0$을 만족하는 모든 실수 $x$의 합은?",
     "answerType": "choice",
     "choices": [
@@ -3056,7 +3056,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "함수 $f(x) = \\log_2 |x^2 - 4|$에 대하여 $f(x) = 2$를 만족하는 모든 실수 $x$의 곱은?",
     "answerType": "choice",
     "choices": [
@@ -3075,7 +3075,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$2^a = 3$, $3^b = 5$, $5^c = 2$일 때, $abc$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -3088,7 +3088,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\log_2(\\log_3(\\log_4 x)) = 0$을 만족하는 $x$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -3101,7 +3101,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$\\sqrt[3]{9} \\times 3^{-\\frac{5}{3}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3121,7 +3121,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$2^{\\frac{3}{2}} \\times 4^{-\\frac{1}{2}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3141,7 +3141,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$9^{\\frac{1}{4}} \\times 3^{-\\frac{1}{2}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3161,7 +3161,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$4^{\\frac{1}{4}} \\times 2^{\\frac{1}{2}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3181,7 +3181,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$5^{\\sqrt{2}+1} \\times \\left(\\dfrac{1}{5}\\right)^{\\sqrt{2}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3201,7 +3201,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$\\sqrt[3]{5} \\times 25^{\\frac{1}{3}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3221,7 +3221,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$\\left(\\dfrac{5}{\\sqrt[3]{25}}\\right)^{\\frac{3}{2}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3241,7 +3241,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$\\dfrac{\\sqrt[4]{32}}{\\sqrt[8]{4}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3261,7 +3261,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$\\sqrt[3]{24} \\times 3^{\\frac{2}{3}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3281,7 +3281,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$\\sqrt[3]{27} \\times 4^{-\\frac{1}{2}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3301,7 +3301,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$3^{1-\\sqrt{5}} \\times 3^{1+\\sqrt{5}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3321,7 +3321,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$\\left(\\dfrac{4}{2^{\\sqrt{2}}}\\right)^{2+\\sqrt{2}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3341,7 +3341,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수 계산",
+    "type": "지수 기본",
     "problem": "$(-\\sqrt{2})^4 \\times 8^{-\\frac{2}{3}}$의 값은? [2점]",
     "answerType": "choice",
     "choices": [
@@ -3361,7 +3361,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $3^{x-6} = \\left(\\dfrac{1}{9}\\right)^x$을 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3375,7 +3375,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $\\log_5(x+1) + \\log_5(x-1) = \\log_{25} 9$를 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3389,7 +3389,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $\\log_2(x-1) = \\log_4(13+2x)$를 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3403,7 +3403,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $\\log_2(x+1) - 5 = \\log_{\\frac{1}{2}}(x-3)$을 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3417,7 +3417,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $3^{x-8} = \\left(\\dfrac{1}{27}\\right)^x$을 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3431,7 +3431,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $\\log_3(x-3) = \\log_9(2x-3)$을 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3445,7 +3445,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $\\log_2(x-3) = \\log_4(3x-5)$를 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3459,7 +3459,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $\\log_3(x+2) - \\log_{\\frac{1}{3}}(x-4) = 3$을 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3473,7 +3473,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "지수 부등식",
+    "type": "지수방정식·부등식",
     "problem": "부등식 $2^{x-6} \\le \\left(\\dfrac{1}{4}\\right)^x$을 만족시키는 모든 자연수 $x$의 값의 합을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3487,7 +3487,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_eq",
-    "type": "로그 방정식",
+    "type": "로그방정식",
     "problem": "방정식 $\\log_2(x-1) = \\log_4(13+2x)$를 만족시키는 실수 $x$의 값을 구하시오. [3점]",
     "answerType": "short",
     "choices": null,
@@ -3601,7 +3601,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수·로그 연립",
+    "type": "지수·로그 응용",
     "problem": "두 양수 $a$, $b$가 $\\log_9 a + \\log_3 b = 2$, $\\log_3 a = 8\\log_9 b$를 만족시킬 때, $\\dfrac{a}{b}$의 값은? [4점]",
     "answerType": "choice",
     "choices": [
@@ -3621,7 +3621,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "log_func",
-    "type": "로그함수 그래프",
+    "type": "로그함수",
     "problem": "상수 $a$($a > 2$)에 대하여 함수 $y = \\log_2(x-a)$의 그래프의 점근선이 두 곡선 $y = \\log_2 \\dfrac{x}{4}$, $y = \\log_{\\frac{1}{2}} x$와 만나는 점을 각각 A, B라 하자. $\\overline{\\textrm{AB}} = 4$일 때, $a$의 값은? [3점]",
     "answerType": "choice",
     "choices": [
@@ -3641,7 +3641,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$5^0 + 3^0 + 7^0$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3660,7 +3660,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$(-2)^4 + (-2)^3$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3679,7 +3679,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$4^{-1} + 2^{-2}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3698,7 +3698,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\dfrac{2^{n+3} \\times 3^{n+1}}{6^n}$을 간단히 하면?",
     "answerType": "choice",
     "choices": [
@@ -3755,7 +3755,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$4^x = 64$일 때, $x$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3774,7 +3774,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$3^{\\log_3 5} + 2^{\\log_2 7}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -3787,7 +3787,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_2 3 \\times \\log_3 4 \\times \\log_4 8$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3806,7 +3806,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_4 3 = a$일 때, $\\log_{16} 27$을 $a$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -3825,7 +3825,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_3 2 = a$, $\\log_3 5 = b$일 때, $\\log_3 40$을 $a$, $b$로 나타내면?",
     "answerType": "choice",
     "choices": [
@@ -3895,7 +3895,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\left(\\dfrac{9}{4}\\right)^{\\frac{3}{2}}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4003,7 +4003,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$9^x - 4 \\times 3^x + 3 = 0$의 모든 실수 해의 합은?",
     "answerType": "choice",
     "choices": [
@@ -4041,7 +4041,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$2^{\\log_4 9}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4086,7 +4086,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\sqrt[3]{2} \\times \\sqrt[3]{4} \\times \\sqrt[3]{8}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4118,7 +4118,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "세포가 매 시간마다 $2$배로 분열한다. 현재 $100$개의 세포가 $10$시간 후에 몇 개가 되는가?",
     "answerType": "choice",
     "choices": [
@@ -4137,7 +4137,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$2^{x+1} + 2^x = 12$일 때, $x$의 값은?",
     "answerType": "short",
     "choices": null,
@@ -4201,7 +4201,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$4^x - 3 \\times 2^x - 4 = 0$을 만족하는 양수 $x$의 값은?",
     "answerType": "short",
     "choices": null,
@@ -4233,7 +4233,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "어떤 방사성 물질의 반감기가 $5$년이다. $100$g의 물질이 $\\dfrac{25}{2}$g이 되는 데 걸리는 시간은?",
     "answerType": "choice",
     "choices": [
@@ -4252,7 +4252,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "실수 $x$에 대하여 $4^x - 2^{x+1} - 8 \\leq 0$을 만족하는 $x$의 최댓값은?",
     "answerType": "short",
     "choices": null,
@@ -4265,7 +4265,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_basic",
-    "type": "지수법칙",
+    "type": "지수 기본",
     "problem": "$\\dfrac{(2^3)^4 \\times 2^{-5}}{(2^2)^3}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4323,7 +4323,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_2 5 \\times \\log_{25} 8$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4374,7 +4374,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_eq",
-    "type": "지수방정식",
+    "type": "지수방정식·부등식",
     "problem": "$3^{2x} - 10 \\times 3^x + 9 = 0$의 두 근을 $\\alpha$, $\\beta$라 할 때, $\\alpha + \\beta$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4400,7 +4400,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_app",
-    "type": "지수로그 응용",
+    "type": "지수·로그 응용",
     "problem": "지진의 규모 $M$과 에너지 $E$의 관계가 $\\log E = 1.5M + 4.8$일 때, 규모가 $2$ 증가하면 에너지는 몇 배가 되는가?",
     "answerType": "choice",
     "choices": [
@@ -4419,7 +4419,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$x > 0$, $y > 0$이고 $\\log_2 x + \\log_4 y = 4$, $\\log_4 x + \\log_2 y = 5$일 때, $xy$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4438,7 +4438,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$f(x) = 2^x$일 때, $f(a) \\times f(b) = 32$이고 $\\dfrac{f(a)}{f(b)} = 8$이면 $a - b$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4451,7 +4451,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "exp_log_calc",
-    "type": "지수로그 계산",
+    "type": "지수·로그 응용",
     "problem": "$\\log_9 4 \\times \\log_8 27$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4470,7 +4470,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "양수 $a$가 $a \neq 1$일 때, $\\log_a 2 = s$, $\\log_a 3 = t$이면 $\\log_a \\sqrt{\\dfrac{72}{a}}$을 $s$, $t$로 나타내면?",
     "answerType": "choice",
     "choices": [

@@ -1661,7 +1661,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{10} k$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1674,7 +1674,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{5} (2k-1)$의 값은?\n\n① 15\n② 20\n③ 25\n④ 30\n⑤ 35",
     "answerType": "choice",
     "choices": [
@@ -1693,7 +1693,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{20} 3$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1706,7 +1706,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{8} k^2$의 값은?\n\n① 168\n② 192\n③ 204\n④ 216\n⑤ 240",
     "answerType": "choice",
     "choices": [
@@ -1725,7 +1725,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{10} (3k+2)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1738,7 +1738,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{n} (4k-3) = 276$일 때, 자연수 $n$의 값은?\n\n① 10\n② 11\n③ 12\n④ 13\n⑤ 14",
     "answerType": "choice",
     "choices": [
@@ -1757,7 +1757,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{6} k(k+1)$의 값은?\n\n① 98\n② 112\n③ 126\n④ 140\n⑤ 154",
     "answerType": "choice",
     "choices": [
@@ -1776,7 +1776,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{5} k^3$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1789,7 +1789,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{n} k^2 = 385$일 때, 자연수 $n$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1802,7 +1802,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{10} \\frac{1}{k(k+1)}$의 값은?\n\n① $\\dfrac{9}{11}$\n② $\\dfrac{10}{11}$\n③ $\\dfrac{9}{10}$\n④ $\\dfrac{10}{12}$\n⑤ $\\dfrac{11}{12}$",
     "answerType": "choice",
     "choices": [
@@ -1821,7 +1821,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{n} (6k^2 - 2k + 1) = 2n^3 + 2n^2 + an + b$일 때, 상수 $a$와 $b$의 합 $a+b$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1834,7 +1834,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{n} k \\cdot 2^k = (n-1)\\cdot 2^{n+1} + 2$일 때, $\\displaystyle\\sum_{k=1}^{8} k \\cdot 2^k$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1847,7 +1847,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{10} (k^3 - k)$의 값은?\n\n① 2970\n② 2985\n③ 2970\n④ 3000\n⑤ 2970",
     "answerType": "choice",
     "choices": [
@@ -1866,7 +1866,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{n}\\frac{1}{\\sqrt{k+1}+\\sqrt{k}} = 4$일 때, 자연수 $n$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1879,7 +1879,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{n}\\frac{2}{k(k+2)} = \\frac{a}{b}\\left(1+\\frac{1}{2}-\\frac{1}{n+1}-\\frac{1}{n+2}\\right)$에서 $a=1, b=1$일 때, $\\displaystyle\\sum_{k=1}^{18}\\frac{2}{k(k+2)}$의 값은?\n\n① $\\dfrac{29}{20}$\n② $\\dfrac{58}{40}$\n③ $\\dfrac{265}{190}$\n④ $\\dfrac{145}{100}$\n⑤ $\\dfrac{29}{19}$",
     "answerType": "choice",
     "choices": [
@@ -1898,7 +1898,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$a_n = 2n-1$일 때, $\\displaystyle\\sum_{k=1}^{n} a_k \\cdot a_{k+1}$을 $n$에 대한 식으로 나타내면?\n\n① $\\dfrac{n(2n-1)(2n+1)}{3}$\n② $\\dfrac{n(4n^2-1)}{3}$\n③ $\\dfrac{n(2n+1)(2n-1)}{3}$\n④ $\\dfrac{n(4n^2+2n-1)}{3}$\n⑤ $\\dfrac{n(4n^2+6n-1)}{3}$",
     "answerType": "choice",
     "choices": [
@@ -1917,7 +1917,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$\\displaystyle\\sum_{k=1}^{n}\\frac{1}{(3k-2)(3k+1)} = \\frac{5}{16}$일 때, 자연수 $n$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -1930,7 +1930,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "sigma",
-    "type": "시그마 계산",
+    "type": "시그마",
     "problem": "$f(x) = x^2+x$일 때, $\\displaystyle\\sum_{k=1}^{n}\\{f(k)-f(k-1)\\}$의 값은?\n\n① $n^2$\n② $n^2+n$\n③ $n^2-n$\n④ $n^2+2n$\n⑤ $2n^2+n$",
     "answerType": "choice",
     "choices": [
@@ -2756,7 +2756,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "등차수열 $\\{a_n\\}$에서 $a_3 = 5$이고 등비수열 $\\{b_n\\}$에서 $b_1 = 1$, $b_4 = 27$일 때, $a_{b_2}$의 값은?\n\n① 5\n② 7\n③ 9\n④ 11\n⑤ 13",
     "answerType": "choice",
     "choices": [
@@ -2775,7 +2775,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "등차수열 $\\{a_n\\}$의 공차가 2이고 $\\displaystyle\\sum_{k=1}^{10} a_{2k-1} = 100$일 때, $a_1$의 값은?\n\n① 1\n② 2\n③ 3\n④ 4\n⑤ 5",
     "answerType": "choice",
     "choices": [
@@ -2794,7 +2794,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$에서 $a_n = n \\cdot 2^n$일 때, $\\displaystyle\\sum_{k=1}^{5} \\frac{a_{k+1}}{a_k}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2807,7 +2807,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\displaystyle\\sum_{k=1}^{n} \\frac{1}{k(k+1)(k+2)} = \\frac{n(n+3)}{4(n+1)(n+2)}$일 때, $\\displaystyle\\sum_{k=1}^{\\infty}\\frac{1}{k(k+1)(k+2)}$의 값은?\n\n① $\\dfrac{1}{6}$\n② $\\dfrac{1}{4}$\n③ $\\dfrac{1}{3}$\n④ $\\dfrac{1}{2}$\n⑤ $1$",
     "answerType": "choice",
     "choices": [
@@ -2826,7 +2826,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$에서 $a_n = \\displaystyle\\sum_{k=1}^{n}\\frac{1}{k(k+1)}$일 때, $\\displaystyle\\sum_{n=1}^{\\infty}\\frac{1}{(n+1)a_n a_{n+1}}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2839,7 +2839,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "등차수열 $\\{a_n\\}$에서 $S_{20} = 200$일 때, $a_3 + a_8 + a_{13} + a_{18}$의 값은?\n\n① 30\n② 35\n③ 40\n④ 45\n⑤ 50",
     "answerType": "choice",
     "choices": [
@@ -2858,7 +2858,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "$\\displaystyle\\sum_{k=1}^{n}\\frac{k}{(k+1)!} = 1 - \\frac{1}{(n+1)!}$을 이용하여 $\\displaystyle\\sum_{k=1}^{\\infty}\\frac{k}{(k+1)!}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2871,7 +2871,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$이 $a_1 = 1$, $S_n = n^2 a_n$ ($n \\geq 1$)을 만족할 때, $a_n$을 구하면?\n\n① $\\dfrac{2}{n(n+1)}$\n② $\\dfrac{1}{n(n+1)}$\n③ $\\dfrac{2}{n^2}$\n④ $\\dfrac{1}{n}$\n⑤ $\\dfrac{n+1}{n}$",
     "answerType": "choice",
     "choices": [
@@ -2890,7 +2890,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$에서 $a_1 = 1$이고 모든 자연수 $n$에 대하여 $a_{n+1} = a_n + 2S_n$일 때, $a_4$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2903,7 +2903,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$에서 $a_n = \\dfrac{2^n}{3^n+1}$일 때, $\\displaystyle\\prod_{k=1}^{n}(1+a_k)$를 $n$에 대한 식으로 나타내면?\n\n① $\\dfrac{3^{n+1}+1}{3+1}$\n② $\\dfrac{3^{n+1}+1}{4}$\n③ $\\dfrac{3^n+1}{2}$\n④ $\\dfrac{3^{n+1}-1}{2}$\n⑤ $\\dfrac{3^n+1}{4}$",
     "answerType": "choice",
     "choices": [
@@ -2922,7 +2922,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "자연수 $n$에 대하여 $\\displaystyle\\sum_{k=1}^{n}\\left\\lfloor\\frac{k}{3}\\right\\rfloor$의 값을 $n=12$일 때 구하시오. (단, $\\lfloor x \\rfloor$는 $x$를 넘지 않는 최대 정수)",
     "answerType": "short",
     "choices": null,
@@ -2935,7 +2935,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$에서 $a_1 = 1$, $a_2 = 3$이고 $a_{n+2} = 3a_{n+1}-2a_n$일 때, $a_n$의 일반항은?\n\n① $2^n-1$\n② $2^n+1$\n③ $2^{n-1}+1$\n④ $2^n-n$\n⑤ $3 \\cdot 2^{n-1}-1$",
     "answerType": "choice",
     "choices": [
@@ -2954,7 +2954,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "양의 정수 $n$에 대하여 $\\displaystyle\\sum_{k=1}^{n} \\left(\\sum_{j=1}^{k} j\\right) = \\frac{n(n+1)(n+2)}{6}$일 때, $\\displaystyle\\sum_{k=1}^{10}\\left(\\sum_{j=1}^{k} j\\right)$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -2967,7 +2967,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$에서 $a_n = n \\cdot 3^n$일 때, $S_n = \\displaystyle\\sum_{k=1}^{n} a_k$를 $n$에 대한 식으로 나타내면?\n\n① $\\dfrac{(2n-1)\\cdot 3^{n+1}+3}{4}$\n② $\\dfrac{(2n-1)\\cdot 3^{n+1}-3}{4}$\n③ $\\dfrac{(n-1)\\cdot 3^{n+1}+3}{4}$\n④ $\\dfrac{(n+1)\\cdot 3^{n+1}+3}{4}$\n⑤ $\\dfrac{n \\cdot 3^{n+1}+3}{4}$",
     "answerType": "choice",
     "choices": [
@@ -2986,7 +2986,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "복합 킬러",
+    "type": "킬러",
     "problem": "수열 $\\{a_n\\}$이 $a_1 = 1$, $a_{n+1} = \\dfrac{3a_n+4}{a_n+2}$를 만족할 때, $\\displaystyle\\lim_{n\\to\\infty} a_n$의 값은?\n\n① 1\n② 2\n③ 3\n④ 4\n⑤ 수렴하지 않는다",
     "answerType": "choice",
     "choices": [
@@ -4751,7 +4751,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$의 부분합이 $S_n = 3n + 1$일 때, $a_1$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4764,7 +4764,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = n^2 + 2n$일 때, $a_5$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4783,7 +4783,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = 2n^2 - n$일 때, $a_n$의 일반항은?",
     "answerType": "choice",
     "choices": [
@@ -4802,7 +4802,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_4 = 20$, $S_7 = 56$일 때, $a_5 + a_6 + a_7$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4815,7 +4815,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = 5n$일 때, 이 수열은 어떤 수열인가?",
     "answerType": "choice",
     "choices": [
@@ -4834,7 +4834,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = n^3$일 때, $a_n$의 일반항은?",
     "answerType": "choice",
     "choices": [
@@ -4853,7 +4853,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = 3^n + c$일 때, $\\\\{a_n\\\\}$이 등비수열이 되기 위한 상수 $c$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4866,7 +4866,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = 2^{n+1} - 2$일 때, $\\frac{a_{n+1}}{a_n}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4885,7 +4885,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = \\frac{n}{n+1}$일 때, $\\\\lim_{n \\\\to \\\\infty} na_n$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4904,7 +4904,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $3S_n = 2a_n + n$일 때, $a_1$과 $a_n$의 일반항을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4917,7 +4917,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = a_n \\cdot 2^n$이고 $a_1 = \\frac{1}{2}$일 때, $a_2$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4936,7 +4936,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n = n^2 a_n$ ($n \\\\geq 1$)이고 $a_1 = 1$일 때, $a_3$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4955,7 +4955,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $a_n > 0$이고 $S_n = \\frac{1}{2}(a_n + \\frac{1}{a_n})$일 때, $a_1$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -4968,7 +4968,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "partial_sum",
-    "type": "부분합",
+    "type": "부분합과 일반항",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $S_n^2 = S_{n-1}^2 + a_n^2$ ($n \\\\geq 2$), $a_1 = 1$일 때, $a_2$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4987,7 +4987,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "어떤 극장의 좌석이 첫째 줄에 $20$석, 둘째 줄부터 한 줄에 $2$석씩 증가할 때, 제$10$줄의 좌석 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5000,7 +5000,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "매년 $10\\\\%$씩 성장하는 투자금이 처음 $100$만 원일 때, $3$년 후의 금액은?",
     "answerType": "choice",
     "choices": [
@@ -5019,7 +5019,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "블록을 쌓아 삼각형 모양을 만들 때, $n$번째 줄에 $n$개의 블록을 놓는다면 $10$줄까지 필요한 총 블록 수는?",
     "answerType": "choice",
     "choices": [
@@ -5038,7 +5038,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "매일 전날의 2배씩 세균이 번식한다. 처음 $100$마리가 있을 때, $7$일 후의 세균 수를 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5051,7 +5051,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "한 변이 $1$인 정삼각형의 각 변의 중점을 연결하면 새로운 정삼각형이 생긴다. 이 과정을 무한히 반복할 때, 모든 정삼각형의 둘레의 합은?",
     "answerType": "choice",
     "choices": [
@@ -5070,7 +5070,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "연이율 $5\\\\%$의 복리로 매년 초에 $100$만 원씩 $3$년간 적립할 때, $3$년 후의 원리합계는? ($1.05^3 = 1.157625$)",
     "answerType": "choice",
     "choices": [
@@ -5089,7 +5089,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "한 변이 $a$인 정사각형의 각 변의 중점을 연결하면 새 정사각형이 생긴다. 이 과정을 무한히 반복할 때, 모든 정사각형의 넓이의 합은?",
     "answerType": "choice",
     "choices": [
@@ -5108,7 +5108,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "어떤 약물이 체내에서 매시간 $20\\\\%$씩 분해된다. 초기 농도가 $100$mg일 때, 농도가 처음으로 $50$mg 이하가 되는 시간은? ($\\\\log 2 \\\\approx 0.301$, $\\\\log 0.8 \\\\approx -0.097$)",
     "answerType": "short",
     "choices": null,
@@ -5121,7 +5121,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "도형의 넓이가 $\\frac{1}{3}$씩 줄어들며 무한히 반복될 때, 첫째 도형의 넓이가 $27$이면 모든 도형의 넓이의 합은?",
     "answerType": "choice",
     "choices": [
@@ -5140,7 +5140,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "연이율 $r$의 복리로 매년 말에 $A$원씩 $n$년간 적립할 때의 원리합계 공식은?",
     "answerType": "choice",
     "choices": [
@@ -5159,7 +5159,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "피보나치 수열 $1, 1, 2, 3, 5, 8, 13, \\cdots$에서 처음 $10$항의 합을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5172,7 +5172,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "좌표평면 위의 점 $P_n$이 $P_1 = (1, 0)$에서 시작하여 $P_{n+1} = \\left(\\frac{P_n \\\\text{의 } x\\\\text{좌표}}{2}, P_n \\\\text{의 } y\\\\text{좌표} + 1\\right)$으로 이동할 때, $P_5$의 좌표는?",
     "answerType": "choice",
     "choices": [
@@ -5191,7 +5191,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "양의 정수 $n$을 $1$ 이상의 양의 정수의 합으로 나타내는 방법의 수를 $p(n)$이라 할 때 (순서 무시), $p(5)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5210,7 +5210,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "카탈란 수 $C_n = \\frac{1}{n+1}\\\\binom{2n}{n}$에서 $C_4$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5229,7 +5229,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "$2 \\times n$ 크기의 직사각형을 $1 \\times 2$ 도미노로 채우는 방법의 수를 $a_n$이라 할 때, $a_6$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5242,7 +5242,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "seq_applied",
-    "type": "수열의 활용",
+    "type": "수열 응용",
     "problem": "체스판의 첫 칸에 쌀 1알, 둘째 칸에 2알, 셋째 칸에 4알, ... 이렇게 64칸을 채울 때 필요한 총 쌀알의 수는?",
     "answerType": "choice",
     "choices": [
@@ -5261,7 +5261,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "자연수 $n$에 대하여 $\\sum_{k=1}^{n} \\\\lfloor \\sqrt{k} \\\\rfloor = 50$을 만족하는 $n$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5280,7 +5280,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "수열 $\\\\{a_n\\\\}$이 $a_1 = 2$, $a_{n+1} = \\\\begin{cases} a_n + 3 & (a_n\\text{이 홀수}) \\\\\\\\ \\frac{a_n}{2} & (a_n\\text{이 짝수}) \\\\end{cases}$일 때, $a_{10}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5293,7 +5293,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "양의 정수 $n$에 대하여 $f(n) = \\sum_{k=1}^{n} \\\\gcd(k, n)$이라 할 때, $f(6)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5312,7 +5312,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "양의 실수 수열 $\\\\{a_n\\\\}$이 $a_1 = 1$, $a_{n+1} = \\sqrt{2 + a_n}$으로 정의될 때, $\\\\lim_{n \\\\to \\\\infty} a_n$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5331,7 +5331,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "수열 $\\\\{a_n\\\\}$이 $a_1 = 1$, $a_2 = 2$, $a_{n+2} = a_{n+1} + 2a_n$으로 정의될 때, $a_n$의 일반항은?",
     "answerType": "choice",
     "choices": [
@@ -5350,7 +5350,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "수열 $\\\\{a_n\\\\}$이 $a_1 = 1$, $a_{n+1} = \\frac{na_n + 1}{n+1}$로 정의될 때, $\\\\lim_{n \\\\to \\\\infty} a_n$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5369,7 +5369,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "자연수 $n$에 대하여 $a_n = \\sum_{k=0}^{n} \\\\binom{n}{k}^2$일 때, $a_4$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -5382,7 +5382,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "양의 실수 수열 $\\\\{a_n\\\\}$이 $a_1 = 2$이고 $a_{n+1}^2 - a_n a_{n+1} - 2a_n^2 = 0$을 만족할 때, $a_n$의 일반항은?",
     "answerType": "choice",
     "choices": [
@@ -5401,7 +5401,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "수열 $\\\\{a_n\\\\}$에서 $a_n = \\sum_{k=1}^{n} \\frac{1}{k(k+1)(k+2)(k+3)}$일 때, $\\\\lim_{n \\\\to \\\\infty} a_n$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -5420,7 +5420,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "killer",
-    "type": "킬러 문항",
+    "type": "킬러",
     "problem": "수열 $\\\\{a_n\\\\}$이 $a_1 = 1$, $a_2 = 2$이고 $a_{n+2} = \\frac{a_{n+1}^2}{a_n}$으로 정의될 때, $\\\\log_2 a_{10}$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
