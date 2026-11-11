@@ -3,7 +3,7 @@
 const QUESTION_BANK = [
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "다항함수 $f(x) = 3x^2 + 2x + 1$에 대하여 $\\int f(x) \\, dx$를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -23,7 +23,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "$\\int (3x^2 + 2x + 1) dx$를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -43,7 +43,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "다항함수 $f(x) = 3x^2 + 2x$에 대하여 $\\int f(x) \\, dx$를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -63,7 +63,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = 3x^2 + 2x$에 대하여 $\\int_0^1 f(x) \\, dx$를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -83,7 +83,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = 3x^2 - 2x + 1$에 대하여 $\\int_0^2 f(x)\\,dx$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -103,7 +103,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = 3x^2 - 2x + 1$에 대하여 $F'(x) = f(x)$이고 $F(1) = 2$일 때, $F(2)$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -123,7 +123,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = 3x^2 - 2x + 1$에 대하여 $F'(x) = f(x)$이고 $F(1) = 3$일 때, $F(2)$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -143,7 +143,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = ax^2 + bx + c$에 대하여 다음 조건들이 주어져 있다.\n\n(가) $f(0) = 3$\n\n(나) $\\int_0^2 f(x)dx = 10$\n\n(다) $f'(1) = 4$\n\n이때 $\\int_1^3 f(x)dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -163,7 +163,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = ax^2 + bx + c$에 대하여 다음 조건을 만족한다.\n\n(가) $f(0) = 3$\n\n(나) $\\int_0^2 f(x)dx = 10$\n\n(다) $\\int_0^1 f(x)dx = \\int_1^2 f(x)dx$\n\n이 조건들을 모두 만족하는 $f(2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -183,7 +183,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = ax^2 + bx + c$에 대하여 다음 조건을 만족한다.\n\n(가) $f'(1) = 4$\n(나) $\\int_0^2 f(x)dx = 10$\n(다) $f(0) = 3$\n\n이때 $f(2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -203,7 +203,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = ax^2 + bx + c$가 다음 조건을 만족한다.\n\n(가) $f(0) = 2$\n\n(나) $\\int_0^2 f(x) dx = 10$\n\n(다) $f'(1) = 4$\n\n이때 $f(2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -223,7 +223,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = ax^2 + bx + c$에 대하여 다음 조건을 만족한다.\n\n(가) $f(0) = 2$\n\n(나) $\\int_0^1 f(x)\\,dx = 3$\n\n(다) $f'(1) = 5$\n\n이 조건들을 만족할 때, $\\int_0^2 f(x)\\,dx$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -243,7 +243,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $f(x) = x^2 + ax + b$에 대하여 다음 조건을 만족한다.\n\n(가) $\\int_0^2 f(x)dx = 10$\n\n(나) $f'(1) = 4$\n\n이때 $\\int_1^3 f(x)dx$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -1103,7 +1103,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시각 $t$초에서 물체의 속도가 $v(t) = 3t + 2$ (m/s)일 때, $t=0$에서 $t=2$까지 물체의 변위는?",
     "answerType": "choice",
     "choices": [
@@ -1123,7 +1123,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$에서 물체의 속도가 $v(t) = 3t + 2$ (m/s)일 때, $t=0$에서 $t=2$까지 물체의 변위를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -1143,7 +1143,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$에서 물체의 속도가 $v(t) = 3t + 2$ (m/s)일 때, $t=0$에서 $t=2$까지 물체의 변위는?",
     "answerType": "choice",
     "choices": [
@@ -1163,7 +1163,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$에서의 속도가 $v(t) = 3t + 2$ (m/s)로 주어진다. $t = 0$에서 $t = 4$초까지 물체의 변위를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -1183,7 +1183,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "어떤 물체의 속도가 $v(t) = 3t + 2$ (m/s)로 주어질 때, $t=0$에서 $t=2$초 사이의 변위(위치의 변화량)를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -1203,7 +1203,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "어떤 물체의 속도가 $v(t) = 3t + 2$ (m/s)로 주어질 때, $t=0$에서 $t=2$초까지 물체의 변위는?",
     "answerType": "choice",
     "choices": [
@@ -1223,7 +1223,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "어느 물체의 속도가 $v(t) = 3t + 2$ (m/s)로 주어질 때, $t=0$에서 $t=2$초까지 물체의 변위를 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -1243,7 +1243,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시각 $t=0$에서 $t=3$까지 물체의 속도가 $v(t) = 2t + 1$ (m/s)일 때, 이 시간 동안 물체의 변위는 몇 m인가?",
     "answerType": "choice",
     "choices": [
@@ -1263,7 +1263,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "질점이 직선 위를 움직이고 있으며, 시간 $t$ (단위: 초)에서의 속도는 $v(t) = t^2 - 4t + 3$ (단위: m/s)이다. $t = 0$에서 $t = 4$까지 질점이 이동한 거리는?",
     "answerType": "choice",
     "choices": [
@@ -1283,7 +1283,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$초에서 물체의 속도가 $v(t) = t^2 - 4t + 3$ (m/s)일 때, $0 \\leq t \\leq 3$ 구간에서 물체가 움직인 **이동거리**는?",
     "answerType": "choice",
     "choices": [
@@ -1303,7 +1303,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$에서 물체의 속도가 $v(t) = t^2 - 4t + 3$ (m/s)일 때, $0 \\leq t \\leq 4$에서 물체가 실제로 이동한 거리는?",
     "answerType": "choice",
     "choices": [
@@ -1323,7 +1323,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$에 따른 물체의 속도가 $v(t) = t^2 - 4t + 3$ (단위: m/s, $0 \\leq t \\leq 4$)일 때, $t=0$에서 $t=4$까지 물체가 이동한 거리는?",
     "answerType": "choice",
     "choices": [
@@ -1343,7 +1343,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "어떤 물체의 속도가 $v(t) = t^2 - 4t + 3$ (m/s)로 주어진다. $t = 0$에서 $t = 4$초 동안 물체가 이동한 거리를 구하시오. (단, $t$는 시간)",
     "answerType": "choice",
     "choices": [
@@ -1363,7 +1363,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$ (단위: 초)에서 $0 \\leq t \\leq 10$일 때, 점 P의 속도 $v(t) = t^2 - 8t + 12$ (단위: m/s)이다. 다음 중 옳은 것은?\n\n(가) $t = 2$일 때와 $t = 6$일 때 속도의 크기가 같다.\n\n(나) $0$초부터 $10$초까지 점 P가 움직인 총 이동거리는 $\\left|\\int_0^{10} v(t)dt\\right|$이다.\n\n(다) $0$초부터 $10$초까지 점 P의 변위는 $\\dfrac{104}{3}$ m이다.",
     "answerType": "choice",
     "choices": [
@@ -1383,7 +1383,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$ ($0 \\leq t \\leq 10$)에서 직선 위를 움직이는 점 P의 속도 $v(t) = t^2 - 8t + 12$ (단위: m/s)이다. 다음 중 옳은 것을 모두 고르시오.\n\n(가) $0 \\leq t \\leq 10$ 구간에서 점 P의 이동거리는 $\\int_0^{10} |t^2 - 8t + 12| dt$이다.\n\n(나) $t=2$일 때와 $t=6$일 때 점 P의 속력은 같다.\n\n(다) $0$에서 $10$초까지 점 P의 변위는 $\\int_0^{10} (t^2 - 8t + 12) dt$와 같다.\n\n**정답을 위한 추가 조건:**\n- 점 P의 초기 위치는 원점 (0, 0)\n- $v(t) = (t-2)(t-6)$로 인수분해됨\n- 이동거리와 변위의 차이를 묻는 문제\n\n옳은 것을 모두 고르시오.",
     "answerType": "choice",
     "choices": [
@@ -1403,7 +1403,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$ ($0 \\leq t \\leq 6$)에서 질점의 속도가 $v(t) = t^2 - 5t + 4$ (m/s)로 주어진다. 다음 중 옳은 것은?\n\n**I. 질점이 정지하는 시각은 $t=1$과 $t=4$**\n\n**II. 구간 $[0, 6]$에서 변위는 $-6$ m**\n\n**III. 구간 $[0, 6]$에서 이동거리는 $\\frac{25}{6}$ m**",
     "answerType": "choice",
     "choices": [
@@ -1423,7 +1423,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "velocity_dist",
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "problem": "시간 $t$ ($0 \\leq t \\leq 8$)에서 점 P의 속도가 $v(t) = t^2 - 6t + 5$ (m/s)로 주어진다. 다음 중 옳은 것은?\n\n(가) 점 P가 정지하는 시간은 $t=1$일 때와 $t=5$일 때이다.\n\n(나) $0 \\leq t \\leq 8$ 구간에서 점 P의 변위는 $-\\frac{32}{3}$ m이다.\n\n(다) $0 \\leq t \\leq 8$ 구간에서 점 P가 움직인 총 거리는 $\\frac{136}{3}$ m이다.",
     "answerType": "choice",
     "choices": [
@@ -1443,7 +1443,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_app",
-    "type": "정적분 활용",
+    "type": "정적분",
     "problem": "함수 $f(x) = \\int_0^x (2t + 1) dt$에 대하여 $f(2)$의 값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -1463,7 +1463,7 @@ const QUESTION_BANK = [
   },
   {
     "_type": "integral_app",
-    "type": "정적분 활용",
+    "type": "정적분",
     "problem": "함수 $f(x) = x^2 - 2x$에 대하여 $F(x) = \\int_0^x f(t)dt$라고 정의할 때, 곡선 $y = F(x)$와 직선 $y = ax + b$가 $x=0$과 $x=3$에서만 만난다. $a + b$의 최솟값을 구하시오.",
     "answerType": "choice",
     "choices": [
@@ -1502,7 +1502,7 @@ const QUESTION_BANK = [
     "_review_note": "독립풀이검증: 정답→0"
   },
   {
-    "type": "합성함수 부정적분",
+    "type": "부정적분",
     "difficulty": "lv2",
     "problem": "$\\int (2x+1)^5\\,dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -1522,7 +1522,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 부정적분",
+    "type": "부정적분",
     "difficulty": "lv2",
     "problem": "$\\int (3x + 2)^4\\,dx$를 계산하시오.",
     "answerType": "multiple_choice",
@@ -1542,7 +1542,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "초기값으로 함수 결정",
+    "type": "부정적분 기본",
     "difficulty": "lv2",
     "problem": "$F'(x) = 2x^2 - 4x + 3$이고 $F(1) = 2$일 때, $F(2)$의 값은?",
     "answerType": "multiple_choice",
@@ -1562,7 +1562,7 @@ const QUESTION_BANK = [
     "_review_note": "독립풀이검증: 정답→2"
   },
   {
-    "type": "합성함수 부정적분",
+    "type": "부정적분",
     "difficulty": "lv2",
     "problem": "$\\int (2x + 1)^4\\,dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -1582,7 +1582,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 부정적분",
+    "type": "부정적분",
     "difficulty": "lv2",
     "problem": "$\\int (2x + 1)^3\\,dx$를 계산하시오.",
     "answerType": "multiple_choice",
@@ -1602,7 +1602,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "다항함수 부정적분 종합",
+    "type": "부정적분 기본",
     "difficulty": "lv4",
     "problem": "$\\int f(x)\\,dx = x^3 - 2x^2 + 5x + C$일 때, $f'(2)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1622,7 +1622,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "우함수·기함수 성질",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "함수 $f(x) = x^3 + 2x$는 기함수이다. $\\int_{-1}^{1} f(x) \\, dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1642,7 +1642,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "구간 분할 정적분",
+    "type": "정적분",
     "difficulty": "lv2",
     "problem": "함수 $f(x) = \\begin{cases} x + 1 & (0 \\leq x < 2) \\\\ 2x - 1 & (2 \\leq x \\leq 4) \\end{cases}$에 대해 $\\int_0^4 f(x) \\, dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1662,7 +1662,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 2→0"
   },
   {
-    "type": "정적분으로 정의된 함수",
+    "type": "정적분과 대칭성",
     "difficulty": "lv3",
     "problem": "함수 $F(x) = \\int_1^x (2t + 3) \\, dt$에 대해 $F(3)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1682,7 +1682,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "우함수·기함수 성질",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "$f(x) = x^3 + 2x$일 때, $\\int_{-2}^{2} f(x)\\,dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1702,7 +1702,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "구간 분할",
+    "type": "정적분",
     "difficulty": "lv3",
     "problem": "함수 $f(x) = \\begin{cases} x^2 & (0 \\le x < 2) \\\\ 2x - 2 & (2 \\le x \\le 4) \\end{cases}$에 대해 $\\int_0^4 f(x)\\,dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1722,7 +1722,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 3→2"
   },
   {
-    "type": "정적분 기본 계산",
+    "type": "정적분",
     "difficulty": "lv1",
     "problem": "$\\int_0^2 (3x^2 - 2x + 1)\\,dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1742,7 +1742,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "우함수·기함수 성질을 이용한 정적분",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "$\\int_{-2}^{2} (x^4 + 3x^2 + 2)\\,dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1762,7 +1762,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 2→1"
   },
   {
-    "type": "정적분 계산",
+    "type": "정적분",
     "difficulty": "lv1",
     "problem": "$\\int_0^2 (3x^2 + 2x) \\, dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1782,7 +1782,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 3→4"
   },
   {
-    "type": "정적분으로 정의된 함수",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "$f(x) = \\int_1^x (2t + 1) \\, dt$일 때, $f(3)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1802,7 +1802,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "구간 분할",
+    "type": "정적분",
     "difficulty": "lv3",
     "problem": "함수 $f(x) = |x - 1|$에 대해 $\\int_0^3 f(x) \\, dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1842,7 +1842,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "우함수·기함수 성질",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "$f(x) = x^3 + 2x$는 기함수이다. $\\int_{-2}^{2} f(x)\\,dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1862,7 +1862,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "구간 분할",
+    "type": "정적분",
     "difficulty": "lv2",
     "problem": "$f(x) = \\begin{cases} x+1 & (0 \\leq x < 1) \\\\ 2x & (1 \\leq x \\leq 2) \\end{cases}$일 때, $\\int_0^2 f(x)\\,dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1882,7 +1882,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 3→4"
   },
   {
-    "type": "정적분으로 정의된 함수",
+    "type": "정적분과 대칭성",
     "difficulty": "lv3",
     "problem": "$F(x) = \\int_1^x (t^2 - 3t + 2)\\,dt$라 할 때, $F'(2)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1902,7 +1902,7 @@ const QUESTION_BANK = [
     "_review_note": "재검토: 해설 변수 t→x 수정"
   },
   {
-    "type": "정적분 계산",
+    "type": "정적분",
     "difficulty": "lv1",
     "problem": "$\\int_0^3 (2x+1)\\,dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -1922,7 +1922,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "치환적분법 기본",
+    "type": "치환적분",
     "difficulty": "lv1",
     "problem": "다음 부정적분을 구하시오.\n$$\\int (3x+2)^5 \\, dx$$",
     "answerType": "multiple_choice",
@@ -1942,7 +1942,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "$\\int f(ax+b)\\,dx$ 형태",
+    "type": "부정적분 기본",
     "difficulty": "lv2",
     "problem": "다음 부정적분을 구하시오.\n$$\\int \\sin(2x-1) \\, dx$$",
     "answerType": "multiple_choice",
@@ -1962,7 +1962,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분 기본",
+    "type": "부분적분",
     "difficulty": "lv2",
     "problem": "다음 부정적분을 구하시오.\n$$\\int x e^x \\, dx$$",
     "answerType": "multiple_choice",
@@ -1982,7 +1982,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분 심화",
+    "type": "부분적분",
     "difficulty": "lv4",
     "problem": "다음 부정적분을 구하시오.\n$$\\int x^2 \\cos x \\, dx$$",
     "answerType": "multiple_choice",
@@ -2002,7 +2002,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "치환적분법 - 기본",
+    "type": "치환적분",
     "difficulty": "lv1",
     "problem": "$\\int (3x+2)^5 \\, dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2022,7 +2022,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분법 - 지수함수",
+    "type": "부분적분",
     "difficulty": "lv2",
     "problem": "$\\int xe^{2x} \\, dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2042,7 +2042,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "치환적분법 - 삼각함수",
+    "type": "치환적분",
     "difficulty": "lv2",
     "problem": "$\\int \\sin(4x-1) \\, dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2062,7 +2062,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분법 - 삼각함수",
+    "type": "부분적분",
     "difficulty": "lv3",
     "problem": "$\\int x\\cos x \\, dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2082,7 +2082,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분법 - 로그함수",
+    "type": "부분적분",
     "difficulty": "lv4",
     "problem": "$\\int x^2 \\ln x \\, dx$를 구하시오.\n(단, $x > 0$)",
     "answerType": "multiple_choice",
@@ -2102,7 +2102,7 @@ const QUESTION_BANK = [
     "_review_note": "재검토: ln x 정의역 x>0 조건 추가"
   },
   {
-    "type": "치환적분법",
+    "type": "치환적분",
     "difficulty": "lv1",
     "problem": "다음 부정적분을 계산하시오.\n$$\\int (2x+3)^5 \\, dx$$",
     "answerType": "multiple_choice",
@@ -2122,7 +2122,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 적분 (삼각함수)",
+    "type": "치환적분",
     "difficulty": "lv2",
     "problem": "다음 부정적분을 계산하시오.\n$$\\int \\cos(3x) \\, dx$$",
     "answerType": "multiple_choice",
@@ -2142,7 +2142,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분법",
+    "type": "부분적분",
     "difficulty": "lv2",
     "problem": "다음 부정적분을 계산하시오.\n$$\\int x e^{2x} \\, dx$$",
     "answerType": "multiple_choice",
@@ -2162,7 +2162,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분 (삼각함수와 지수함수)",
+    "type": "부분적분",
     "difficulty": "lv4",
     "problem": "다음 부정적분을 계산하시오.\n$$\\int e^x \\sin(x) \\, dx$$",
     "answerType": "multiple_choice",
@@ -2182,7 +2182,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 적분 응용",
+    "type": "치환적분",
     "difficulty": "lv2",
     "problem": "다음 부정적분을 구하시오.\n$$\\int 2x\\sqrt{x^2+1} \\, dx$$",
     "answerType": "multiple_choice",
@@ -2202,7 +2202,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "적분 공식 응용",
+    "type": "부정적분 기본",
     "difficulty": "lv3",
     "problem": "다음 부정적분을 구하시오.\n$$\\int \\frac{3x^2+2}{x^3+2x} \\, dx$$",
     "answerType": "multiple_choice",
@@ -2222,7 +2222,7 @@ const QUESTION_BANK = [
     "_review_note": "재검토: ⑤번 선지 교체 (①과 상수차이 문제)"
   },
   {
-    "type": "부분적분 + 치환적분 복합",
+    "type": "부분적분",
     "difficulty": "lv4",
     "problem": "다음 부정적분을 구하시오.\n$$\\int x \\sin(2x) \\, dx$$",
     "answerType": "multiple_choice",
@@ -2242,7 +2242,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 적분 - 지수함수",
+    "type": "치환적분",
     "difficulty": "lv2",
     "problem": "$\\int e^{2x+1} \\, dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2262,7 +2262,7 @@ const QUESTION_BANK = [
     "_review_note": "재검토: ③번 선지 교체 (④와 동일식 문제)"
   },
   {
-    "type": "치환적분 - 삼각함수 합성",
+    "type": "치환적분",
     "difficulty": "lv3",
     "problem": "$\\int \\sin(4x-\\pi) \\, dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2282,7 +2282,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "적분 공식 응용",
+    "type": "부정적분 기본",
     "difficulty": "lv2",
     "problem": "다음 부정적분을 구하시오.\n$$\\int \\sin(2x+1) \\, dx$$",
     "answerType": "multiple_choice",
@@ -2302,7 +2302,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부분적분법",
+    "type": "부분적분",
     "difficulty": "lv2",
     "problem": "다음 부정적분을 구하시오.\n$$\\int x\\cos x \\, dx$$",
     "answerType": "multiple_choice",
@@ -2322,7 +2322,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 1→0"
   },
   {
-    "type": "부분적분과 치환의 결합",
+    "type": "부분적분",
     "difficulty": "lv4",
     "problem": "다음 부정적분을 구하시오.\n$$\\int e^x\\sin x \\, dx$$",
     "answerType": "multiple_choice",
@@ -2342,7 +2342,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "치환적분법 기본",
+    "type": "치환적분",
     "difficulty": "lv1",
     "problem": "다음 적분을 계산하시오.\n$$\\int (3x+2)^5 \\,dx$$",
     "answerType": "multiple_choice",
@@ -2362,7 +2362,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 적분과 치환",
+    "type": "치환적분",
     "difficulty": "lv2",
     "problem": "다음 적분을 계산하시오.\n$$\\int \\frac{2x}{(x^2+1)^3} \\,dx$$",
     "answerType": "multiple_choice",
@@ -2382,7 +2382,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "회전체의 부피",
+    "type": "부피",
     "difficulty": "lv2",
     "problem": "곡선 $y = \\sqrt{x}$를 $x$축 중심으로 $x=0$부터 $x=4$까지 회전시킨 회전체의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -2402,7 +2402,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 2→1"
   },
   {
-    "type": "회전체의 부피",
+    "type": "부피",
     "difficulty": "lv3",
     "problem": "곡선 $y = e^{-x}$를 $x$축 중심으로 $x=0$부터 $x=1$까지 회전시킨 회전체의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -2422,7 +2422,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 0→1"
   },
   {
-    "type": "회전체의 부피",
+    "type": "부피",
     "difficulty": "lv2",
     "problem": "$y=\\sqrt{x}$ $(0 \\leq x \\leq 4)$를 $x$축 중심으로 회전시킨 회전체의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -2442,7 +2442,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "회전체의 부피",
+    "type": "부피",
     "difficulty": "lv3",
     "problem": "$y=2-x$ $(0 \\leq x \\leq 2)$를 $x$축 중심으로 회전시킨 회전체의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -2462,7 +2462,7 @@ const QUESTION_BANK = [
     "_review_note": "검증5원칙: 해설 재작성(자기수정 흔적 제거)"
   },
   {
-    "type": "회전체의 부피(y축 중심)",
+    "type": "부피",
     "difficulty": "lv4",
     "problem": "$x=e^y$ $(0 \\leq y \\leq 1)$를 $y$축 중심으로 회전시킨 회전체의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -2482,7 +2482,7 @@ const QUESTION_BANK = [
     "_review_note": "재검토: 해설 정리 (불필요한 재계산 내용 제거)"
   },
   {
-    "type": "적분과 미분의 관계 종합",
+    "type": "부정적분 기본",
     "difficulty": "lv4",
     "problem": "함수 $f(x)$가 연속이고, $F(x) = \\int_0^x f(t)\\,dt$일 때 $V(x) = \\pi\\int_0^x \\{f(t)\\}^2\\,dt$로 정의된 회전체의 부피함수에서 $\\frac{dV}{dx} = \\pi\\{f(x)\\}^2$이다. 만약 $f(x) = 2x$이고 $x=3$에서의 회전체 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -2502,7 +2502,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 3→4"
   },
   {
-    "type": "속도에서 거리",
+    "type": "속도와 거리",
     "difficulty": "lv1",
     "problem": "자동차가 일정한 속도 $v(t)=20$ m/s로 움직인다. $t=0$초에서 $t=5$초 동안 이동한 거리는?",
     "answerType": "multiple_choice",
@@ -2522,7 +2522,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "속도에서 거리",
+    "type": "속도와 거리",
     "difficulty": "lv1",
     "problem": "자동차가 일정한 속도 $v(t) = 20$ (m/s)로 직진한다. 처음 $t=0$에서 $t=5$초 동안 움직인 거리는?",
     "answerType": "multiple_choice",
@@ -2542,7 +2542,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "위치 함수 결정",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "물체의 속도가 $v(t) = 3t^2 - 6t$ (m/s)이고, 초기 위치가 $s(0) = 5$ m일 때, $t=2$초에서의 위치는?",
     "answerType": "multiple_choice",
@@ -2562,7 +2562,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 4→0"
   },
   {
-    "type": "속도에서 거리",
+    "type": "속도와 거리",
     "difficulty": "lv1",
     "problem": "어떤 물체가 일정한 속도 $v(t) = 5$ m/s로 움직인다. $t=0$에서 $t=4$초 동안 이동한 거리는 몇 미터인가?",
     "answerType": "multiple_choice",
@@ -2582,7 +2582,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "가속도에서 속도",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "물체의 가속도가 $a(t) = 3t$ m/s²이고, $t=0$에서 초속도 $v_0 = 2$ m/s이다. $t=2$초일 때 속도를 구하시오.",
     "answerType": "multiple_choice",
@@ -2602,7 +2602,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "위치 함수 결정",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "물체의 속도 함수가 $v(t) = 2t + 1$ m/s이고, $t=0$일 때 위치 $s_0 = 3$ m이다. $t=3$초일 때 물체의 위치를 구하시오.",
     "answerType": "multiple_choice",
@@ -2622,7 +2622,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "속도에서 거리",
+    "type": "속도와 거리",
     "difficulty": "lv1",
     "problem": "물체가 일정한 속도 $v(t)=5$ m/s로 움직일 때, $t=0$에서 $t=4$초 동안 이동한 거리는?",
     "answerType": "multiple_choice",
@@ -2642,7 +2642,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "가속도에서 속도",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "물체가 초기 속도 $v_0=3$ m/s에서 시작하여 일정한 가속도 $a=2$ m/s²로 가속한다. $t=5$초일 때의 속도는?",
     "answerType": "multiple_choice",
@@ -2662,7 +2662,7 @@ const QUESTION_BANK = [
     "_review_note": "재검증 정답수정: 3→2"
   },
   {
-    "type": "다항함수 부정적분",
+    "type": "부정적분 기본",
     "difficulty": "lv1",
     "problem": "$f'(x) = 6x^2 - 8x + 3$일 때, $\\int f'(x)dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2682,7 +2682,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "초기조건을 이용한 함수값 구하기",
+    "type": "부정적분 기본",
     "difficulty": "lv2",
     "problem": "$f'(x) = 4x + 5$이고 $f(2) = 15$일 때, $f(3)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -2702,7 +2702,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 부정적분",
+    "type": "부정적분",
     "difficulty": "lv2",
     "problem": "$\\int (3x + 2)^4 dx$를 구하시오.",
     "answerType": "multiple_choice",
@@ -2722,7 +2722,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "부정적분의 성질과 함수결정",
+    "type": "부정적분 기본",
     "difficulty": "lv3",
     "problem": "$f'(x) = 12x^2 - 6x$이고 $f(1) = 8$일 때, $f(-1)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -2742,7 +2742,7 @@ const QUESTION_BANK = [
     "_review_note": "검증: 정답 인덱스 수정→0"
   },
   {
-    "type": "도함수를 통한 함수값 계산",
+    "type": "부정적분 기본",
     "difficulty": "lv4",
     "problem": "$f'(x) = 3x^2 + 2x - 1$이고 $f(0) = 2$일 때, $f(2) - f(-1)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -2762,7 +2762,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "초기조건을 이용한 함수값 구하기",
+    "type": "부정적분 기본",
     "difficulty": "lv1",
     "problem": "$f'(x) = 6x + 5$이고 $f(0) = 3$일 때, $f(2)$의 값은?",
     "answerType": "multiple_choice",
@@ -2782,7 +2782,7 @@ const QUESTION_BANK = [
     "_review_note": "검증: 정답 인덱스 수정→3"
   },
   {
-    "type": "다항함수 부정적분",
+    "type": "부정적분 기본",
     "difficulty": "lv2",
     "problem": "$\\int (4x^3 - 6x^2 + 2) dx$를 계산하면?",
     "answerType": "multiple_choice",
@@ -2802,7 +2802,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "합성함수 부정적분",
+    "type": "부정적분",
     "difficulty": "lv2",
     "problem": "$f'(x) = (2x + 1)^3$일 때, $f(0) = 1$을 만족하는 $f(1)$의 값은?",
     "answerType": "multiple_choice",
@@ -2882,7 +2882,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "치환적분과 부분적분 복합",
+    "type": "부분적분",
     "difficulty": "lv4",
     "problem": "다음 적분을 계산하시오.\n\n$$\\int x \\sin(3x^2) \\, dx$$",
     "answerType": "multiple_choice",
@@ -3042,7 +3042,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "회전체의 부피",
+    "type": "부피",
     "difficulty": "lv2",
     "problem": "곡선 $y = \\sqrt{x}$ ($0 \\leq x \\leq 4$)를 $x$축 중심으로 회전시킨 회전체의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -3062,7 +3062,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "정적분으로 정의된 함수의 극값",
+    "type": "정적분과 대칭성",
     "difficulty": "lv3",
     "problem": "함수 $F(x) = \\int_1^x (2t - 6) dt$의 최솟값을 구하시오.",
     "answerType": "multiple_choice",
@@ -3082,7 +3082,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "단면적을 이용한 부피 계산",
+    "type": "부피",
     "difficulty": "lv4",
     "problem": "$0 \\leq x \\leq 2$에서 $x$축에 수직인 평면으로 자른 단면의 넓이가 $A(x) = 4x^2$인 입체도형의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -3102,7 +3102,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "회전체의 부피",
+    "type": "부피",
     "difficulty": "lv2",
     "problem": "곡선 $y = \\sqrt{x}$ $(0 \\le x \\le 4)$를 $x$축 중심으로 회전시킨 회전체의 부피를 구하시오.",
     "answerType": "multiple_choice",
@@ -3122,7 +3122,7 @@ const QUESTION_BANK = [
     "_review_note": "검증: 정답 인덱스 수정→1"
   },
   {
-    "type": "적분으로 정의된 함수의 극값",
+    "type": "정적분과 대칭성",
     "difficulty": "lv3",
     "problem": "함수 $F(x) = \\int_0^x (t^2 - 4t + 3) dt$가 $0 \\le x \\le 4$에서 최댓값을 가질 때, 그 최댓값을 구하시오.",
     "answerType": "multiple_choice",
@@ -3142,7 +3142,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "회전체의 부피와 최적화",
+    "type": "부피",
     "difficulty": "lv4",
     "problem": "곡선 $y = 2\\sqrt{x}$ $(0 \\le x \\le a)$를 $x$축 중심으로 회전시킨 회전체의 부피가 $32\\pi$일 때, $a$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -3162,7 +3162,7 @@ const QUESTION_BANK = [
     "_review_note": "검증: 정답 인덱스 수정→1"
   },
   {
-    "type": "기함수·우함수 성질을 이용한 정적분",
+    "type": "정적분과 대칭성",
     "difficulty": "lv1",
     "problem": "함수 $f(x) = x^3 + 2x$는 기함수이다. $\\int_{-3}^{3} f(x) dx$의 값은?",
     "answerType": "multiple_choice",
@@ -3182,7 +3182,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "우함수 성질과 정적분의 활용",
+    "type": "정적분과 대칭성",
     "difficulty": "lv4",
     "problem": "함수 $f(x)$가 우함수이고, $\\int_{0}^{3} f(x) dx = 12$일 때, $\\int_{-3}^{3} xf(x) dx + \\int_{-3}^{3} f(x) dx$의 값은?",
     "answerType": "multiple_choice",
@@ -3202,7 +3202,7 @@ const QUESTION_BANK = [
     "_review_note": "검증: 정답 인덱스 수정→2"
   },
   {
-    "type": "다항함수 부정적분",
+    "type": "부정적분 기본",
     "difficulty": "lv1",
     "problem": "함수 $f(x) = 6x^2 + 5x - 3$의 부정적분을 $F(x)$라 할 때, $F(x)$를 구하시오. (단, 적분상수는 0으로 처리)",
     "answerType": "multiple_choice",
@@ -3222,7 +3222,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "초기조건을 이용한 부정적분",
+    "type": "부정적분 기본",
     "difficulty": "lv2",
     "problem": "$f'(x) = 8x^3 - 6x + 2$이고 $f(1) = 5$일 때, $f(2)$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -3242,7 +3242,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "합성함수 부정적분",
+    "type": "부정적분",
     "difficulty": "lv2",
     "problem": "$\\int (3x + 2)^5 dx$를 구하시오. (단, 적분상수는 생략)",
     "answerType": "multiple_choice",
@@ -3342,7 +3342,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "좌표평면에서 두 점 $A(1, 2)$와 $B(4, 6)$ 사이의 거리는?",
     "answerType": "multiple_choice",
@@ -3362,7 +3362,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "직선 위를 움직이는 물체의 가속도가 $a(t) = 2t + 1$ (m/s²)이고, $t=0$일 때 속도가 $v(0) = 3$ m/s일 때, $t=2$에서의 속도는?",
     "answerType": "multiple_choice",
@@ -3402,7 +3402,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "초기조건을 이용한 적분",
+    "type": "부정적분 기본",
     "difficulty": "lv2",
     "problem": "$f'(x) = 2x + 5$이고 $f(2) = 20$일 때, $f(1)$의 값은?",
     "answerType": "multiple_choice",
@@ -3442,7 +3442,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "기함수성질을 이용한 정적분",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "함수 $g(x) = \\frac{x^3}{1+x^2}$에 대하여 $\\int_{-1}^{1} g(x) dx$의 값을 구하시오.",
     "answerType": "multiple_choice",
@@ -3462,7 +3462,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "기함수 성질을 이용한 정적분",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "함수 $f(x) = x^3 - 2x$는 기함수이다. $\\int_{-3}^{3} f(x) dx$의 값은?",
     "answerType": "multiple_choice",
@@ -3482,7 +3482,7 @@ const QUESTION_BANK = [
     "_review_note": "전수검증 통과 (2026-11-10)"
   },
   {
-    "type": "변위와 방향전환",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "질점이 직선 위를 움직이며, 시각 $t$에서의 속도가 $v(t) = 3t^2 - 12t$ (단위: m/s)이다. $t=0$에서 $t=5$초까지 질점의 변위는?",
     "answerType": "multiple_choice",
@@ -3657,7 +3657,7 @@ const QUESTION_BANK = [
     "_source": "manual_verified"
   },
   {
-    "type": "정적분(기함수)",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "$f(x)=x^3-3x$일 때, $\\int_{-2}^{2}f(x)\\,dx$의 값은?",
     "answerType": "multiple_choice",
@@ -3696,7 +3696,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "정적분(우함수)",
+    "type": "정적분과 대칭성",
     "difficulty": "lv2",
     "problem": "$f(x)=x^4+x^2+1$일 때, $\\int_{-1}^{1}f(x)\\,dx$의 값은?",
     "answerType": "multiple_choice",
@@ -3716,7 +3716,7 @@ const QUESTION_BANK = [
     "_review_note": "검증5원칙: 해설 재작성(자기수정 흔적 제거)"
   },
   {
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "difficulty": "lv1",
     "problem": "직선 위를 움직이는 점 P의 속도가 $v(t)=3t^2-6t$ (m/s)일 때, $t=0$에서 $t=3$까지 점 P의 변위는?",
     "answerType": "multiple_choice",
@@ -3735,7 +3735,7 @@ const QUESTION_BANK = [
     "_source": "manual_verified"
   },
   {
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "difficulty": "lv3",
     "problem": "점 P의 속도가 $v(t)=t^2-4t+3=(t-1)(t-3)$ (m/s)일 때, $t=0$에서 $t=2$까지 이동 거리는?",
     "answerType": "multiple_choice",
@@ -3755,7 +3755,7 @@ const QUESTION_BANK = [
     "_review_note": "2차검증: 정답→3"
   },
   {
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "가속도 $a(t)=6t-2$ (m/s²), 초기속도 $v(0)=1$일 때, $v(2)$의 값은?",
     "answerType": "multiple_choice",
@@ -3774,7 +3774,7 @@ const QUESTION_BANK = [
     "_source": "manual_verified"
   },
   {
-    "type": "회전체 부피",
+    "type": "부피",
     "difficulty": "lv2",
     "problem": "곡선 $y=x^2$을 $x$축 중심으로 $x=0$에서 $x=2$까지 회전시킨 회전체의 부피는?",
     "answerType": "multiple_choice",
@@ -3794,7 +3794,7 @@ const QUESTION_BANK = [
     "_review_note": "외부검토 반영: 해설 재작성"
   },
   {
-    "type": "회전체 부피",
+    "type": "부피",
     "difficulty": "lv3",
     "problem": "곡선 $y=\\sqrt{x}$를 $x$축 중심으로 $x=0$에서 $x=3$까지 회전시킨 회전체의 부피는?",
     "answerType": "multiple_choice",
@@ -3833,7 +3833,7 @@ const QUESTION_BANK = [
     "_review_note": "검증5원칙: 해설 재작성(자기수정 흔적 제거)"
   },
   {
-    "type": "속도·거리",
+    "type": "속도와 거리",
     "difficulty": "lv2",
     "problem": "점 P의 속도가 $v(t)=3t^2-6t$ (m/s)일 때, $t=0$에서 $t=3$까지 이동 거리는?",
     "answerType": "multiple_choice",
@@ -3955,7 +3955,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0306",
     "_type": "definite",
-    "type": "정적분 최적화",
+    "type": "정적분",
     "problem": "$0 \\le a \\le 3$인 실수 $a$에 대하여\n$$I(a) = \\int_0^3 |x-a|\\,dx$$\n의 최솟값은?",
     "answerType": "choice",
     "choices": [
@@ -3975,7 +3975,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0307",
     "_type": "integral_app",
-    "type": "적분 응용",
+    "type": "정적분",
     "problem": "곡선 $y = \\sqrt{x+1}$, $x$축 및 두 직선 $x=0$, $x=3$으로 둘러싸인 도형을 $x$축 둘레로 한 바퀴 회전시킬 때 생기는 회전체의 부피는?",
     "answerType": "choice",
     "choices": [
@@ -4015,7 +4015,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0309",
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "함수 $G(x)$를\n$$G(x) = \\int_1^{x^2}(3t^2-2t)\\,dt$$\n로 정의할 때, $G'(2)$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4035,7 +4035,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0310",
     "_type": "integral_basic",
-    "type": "적분 기본",
+    "type": "부정적분 기본",
     "problem": "이차함수 $f(x) = x^2 + ax + b$가 다음 두 조건을 만족한다.\n$$\\int_0^1 f(x)\\,dx = 3, \\qquad \\int_1^2 f(x)\\,dx = 7$$\n이때 $a+b$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4455,7 +4455,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0331",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^1\\frac{x}{x^2+1}dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4475,7 +4475,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0332",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^1xe^{x^2}dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4495,7 +4495,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0333",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^{\\pi/3}\\sin(2x)dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4515,7 +4515,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0334",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_1^e\\ln x\\,dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4535,7 +4535,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0335",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^1x^2e^x dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4555,7 +4555,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0336",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^{\\pi/2}x\\sin x\\,dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4575,7 +4575,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0337",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^1\\frac{2x+1}{x^2+x+2}dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4595,7 +4595,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0338",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^1\\frac{x+1}{x^2+2x+3}dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4615,7 +4615,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0339",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^1(1+2x)\\sqrt{1+x+x^2}dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4635,7 +4635,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0340",
     "_type": "definite",
-    "type": "치환·부분적분",
+    "type": "부분적분",
     "problem": "$\\displaystyle\\int_0^1x\\cos x\\,dx$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -4655,7 +4655,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0341",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "$0\\le x\\le2$에서 $y=2x$와 $y=x^2$ 사이의 넓이는?",
     "answerType": "choice",
     "choices": [
@@ -4675,7 +4675,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0342",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "곡선 $y=x^2$와 직선 $y=4$로 둘러싸인 도형의 넓이는?",
     "answerType": "choice",
     "choices": [
@@ -4695,7 +4695,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0343",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "$0\\le x\\le1$에서 $y=x$와 $y=x^2$ 사이의 넓이는?",
     "answerType": "choice",
     "choices": [
@@ -4715,7 +4715,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0344",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "곡선 $y=|x|$와 $y=x^2$로 둘러싸인 도형의 전체 넓이는?",
     "answerType": "choice",
     "choices": [
@@ -4735,7 +4735,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0345",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "곡선 $y=x^2-1$과 $x$축으로 둘러싸인 도형의 넓이는?",
     "answerType": "choice",
     "choices": [
@@ -4755,7 +4755,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0346",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "곡선 $y=x+1$, $x$축 및 $x=0,\\;x=2$로 둘러싸인 도형을 $x$축 둘레로 회전시킨 부피는?",
     "answerType": "choice",
     "choices": [
@@ -4775,7 +4775,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0347",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "곡선 $y=\\sqrt{2x+1}$, $x$축 및 $x=0,\\;x=2$로 둘러싸인 도형을 $x$축 둘레로 회전시킨 부피는?",
     "answerType": "choice",
     "choices": [
@@ -4795,7 +4795,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0348",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "곡선 $y=3-x^2$와 $x$축으로 둘러싸인 도형의 넓이는?",
     "answerType": "choice",
     "choices": [
@@ -4815,7 +4815,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0349",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "$0\\le x\\le1$에서 $y=x^2$, $x$축으로 둘러싸인 도형을 $x$축 둘레로 회전시킨 부피는?",
     "answerType": "choice",
     "choices": [
@@ -4835,7 +4835,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0350",
     "_type": "area",
-    "type": "넓이·부피",
+    "type": "부피",
     "problem": "$0\\le x\\le2$에서 위쪽 곡선 $y=3$, 아래쪽 곡선 $y=x+1$ 사이 도형을 $x$축 둘레로 회전시킨 부피는?",
     "answerType": "choice",
     "choices": [
@@ -4855,7 +4855,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0351",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "점의 속도가 $v(t)=2t-3\\;(0\\le t\\le3)$일 때 실제 이동거리는?",
     "answerType": "choice",
     "choices": [
@@ -4875,7 +4875,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0352",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "점의 속도가 $v(t)=t^2-4\\;(0\\le t\\le3)$일 때 실제 이동거리는?",
     "answerType": "choice",
     "choices": [
@@ -4895,7 +4895,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0353",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "가속도가 $a(t)=6t-2$, 초기속도가 $v(0)=1$일 때 $v(2)$는?",
     "answerType": "choice",
     "choices": [
@@ -4915,7 +4915,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0354",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "위치함수의 도함수가 $s\\prime(t)=3t^2-6t+2$이고 $s(0)=4$일 때 $s(2)$는?",
     "answerType": "choice",
     "choices": [
@@ -4935,7 +4935,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0355",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "점의 속도가 $v(t)=t^2-2t\\;(0\\le t\\le3)$일 때 실제 이동거리는?",
     "answerType": "choice",
     "choices": [
@@ -4955,7 +4955,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0356",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "$A(x)=\\displaystyle\\int_0^x(t^2+2t+1)dt$일 때 $A\\prime(2)$는?",
     "answerType": "choice",
     "choices": [
@@ -4975,7 +4975,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0357",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "점의 속도가 $v(t)=4-t\\;(0\\le t\\le6)$일 때 실제 이동거리는?",
     "answerType": "choice",
     "choices": [
@@ -4995,7 +4995,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0358",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "물의 유입률이 $q(t)=3t^2+1$ L/min일 때 처음 2분 동안 유입된 물의 양은 몇 L인가?",
     "answerType": "choice",
     "choices": [
@@ -5015,7 +5015,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0359",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "비용함수 $C(x)$가 $C\\prime(x)=2x+4$, $C(0)=5$를 만족한다. $C(3)$은?",
     "answerType": "choice",
     "choices": [
@@ -5035,7 +5035,7 @@ const QUESTION_BANK = [
   {
     "_qid": "A-0360",
     "_type": "velocity_dist",
-    "type": "속도·응용",
+    "type": "속도와 거리",
     "problem": "같은 위치에서 출발한 두 점 A, B의 속도가 각각 $v_A(t)=2t+1$, $v_B(t)=t+4$이다. $t=4$에서 두 점 사이의 거리는?",
     "answerType": "choice",
     "choices": [
