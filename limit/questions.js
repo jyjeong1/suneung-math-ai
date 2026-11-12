@@ -2118,25 +2118,6 @@ const QUESTION_BANK = [
   {
     "_type": "limit_infinity",
     "type": "무한대 극한",
-    "problem": "$\\lim_{x \\to \\infty}\\dfrac{(-2)^x+3^x}{(-2)^{x+1}+3^{x+1}}$의 값은?",
-    "answerType": "choice",
-    "choices": [
-      "$-\\dfrac{1}{2}$",
-      "$\\dfrac{1}{2}$",
-      "$\\dfrac{1}{3}$",
-      "$-\\dfrac{1}{3}$",
-      "$0$"
-    ],
-    "answer": 3,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** 밑이 음수인 지수함수에서도 절댓값이 가장 큰 밑의 지수가 지배적이다. $|{-2}| = 2 < 3$이므로 $3^x$이 지배적이다. $\\left(\\dfrac{-2}{3}\\right)^x$는 $|\\text{밑}| < 1$이므로 $0$에 수렴한다.\n\n**Step 1.** 분자·분모를 $3^x$으로 나눕니다.\n$\\dfrac{\\left(\\frac{-2}{3}\\right)^x+1}{(-2)\\left(\\frac{-2}{3}\\right)^x+3}$\n\n**Step 2.** $x \\to \\infty$이면 $\\left(\\frac{-2}{3}\\right)^x \\to 0$이므로\n$\\to \\dfrac{0+1}{0+3} = \\dfrac{1}{3}$\n\n**∴ 답: ③ $\\dfrac{1}{3}$**\n\n① $-\\dfrac{1}{2}$: $(-2)^x$를 지배적이라고 본 경우이다.\n② $\\dfrac{1}{2}$: 분모를 $2$로 잘못 계산한 경우이다.\n④ $-\\dfrac{1}{3}$: 부호를 잘못 처리한 경우이다.\n⑤ $0$: 모든 항이 상쇄된다고 착각한 경우이다.\n\n**💡 포인트:** $\\left|\\dfrac{-2}{3}\\right| < 1$이므로 $\\left(\\dfrac{-2}{3}\\right)^x \\to 0$이다. 밑이 음수여도 절댓값이 $1$보다 작으면 $0$에 수렴한다.",
-    "difficulty": "lv3",
-    "_qid": "R-0125",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "limit_infinity",
-    "type": "무한대 극한",
     "problem": "$\\lim_{x \\to \\infty}\\dfrac{\\sqrt{x+1}-\\sqrt{x}}{\\sqrt{x}}$의 값은?",
     "answerType": "choice",
     "choices": [
@@ -3303,19 +3284,6 @@ const QUESTION_BANK = [
   {
     "_type": "continuity_prop",
     "type": "연속함수 성질",
-    "problem": "Intermediate Value Theorem에서 'Intermediate'의 글자 수를 구하시오.",
-    "answerType": "short",
-    "choices": null,
-    "answer": 12,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** Intermediate Value Theorem(사잇값의 정리, 중간값의 정리)에서 'Intermediate'는 '중간의'라는 뜻이다.\n\n**Step 1.** 글자를 세어본다.\nI-n-t-e-r-m-e-d-i-a-t-e\n$1-2-3-4-5-6-7-8-9-10-11-12$\n\n**∴ 답: $12$**\n\n**💡 포인트:** Intermediate(12글자) Value(5글자) Theorem(7글자)이다.",
-    "difficulty": "lv1",
-    "_qid": "R-0194",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "continuity_prop",
-    "type": "연속함수 성질",
     "problem": "$f$가 $[1,3]$에서 연속, $f(1)=2$, $f(3)=8$일 때, 반드시 성립하는 것은?",
     "answerType": "choice",
     "choices": [
@@ -3488,25 +3456,6 @@ const QUESTION_BANK = [
   {
     "_type": "continuity_prop",
     "type": "연속함수 성질",
-    "problem": "$f(x)=1/x$가 $(0,1)$에서 최댓값을 갖지 않는 이유는?",
-    "answerType": "choice",
-    "choices": [
-      "연속 아님",
-      "개구간이기 때문",
-      "$f>0$이기 때문",
-      "단조감소",
-      "정의역 유한"
-    ],
-    "answer": 2,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** 최대·최소 정리의 조건 — 최대·최소 정리는 **폐구간** $[a,b]$에서 연속인 함수에 대해 최대·최소의 존재를 보장한다. **개구간** $(a,b)$에서는 함수값이 끝점에 가까워질 때 한없이 커지거나 작아질 수 있으므로, 최대·최소가 보장되지 않는다.\n\n**Step 1.** $f(x) = 1/x$는 $(0,1)$에서 연속이다. ($x = 0$은 구간에 포함되지 않으므로 불연속과 무관한다.)\n\n**Step 2.** $x \\to 0^+$이면 $f(x) = 1/x \\to +\\infty$이므로, 아무리 큰 값을 잡아도 더 큰 함수값이 존재한다.\n\n**Step 3.** 따라서 $(0,1)$에서 최댓값을 갖지 않는다. 이는 구간이 개구간이기 때문이다.\n\n**∴ 답: ② 개구간이기 때문**\n\n① 연속 아님: $f(x) = 1/x$는 $(0,1)$에서 연속이다.\n③ $f > 0$이기 때문: 양수인 것과 최댓값 존재 여부는 무관한다.\n④ 단조감소: 단조감소이더라도 폐구간이면 최댓값이 존재한다.\n⑤ 정의역 유한: 정의역이 유한하다는 표현은 정확하지 않으며, 핵심 이유가 아닙니다.\n\n**💡 포인트:** 최대·최소 정리는 반드시 '폐구간 + 연속' 조건이 필요하다. 개구간에서는 연속이어도 최대·최소가 보장되지 않는다.",
-    "difficulty": "lv2",
-    "_qid": "R-0205",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "continuity_prop",
-    "type": "연속함수 성질",
     "problem": "$f(x)=x^3-x$에서 $f(0)=0, f(2)=6$일 때, $(0,2)$에서 $f(c)=2$를 보이면 $0+2$의 값을 구하시오.",
     "answerType": "short",
     "choices": null,
@@ -3565,25 +3514,6 @@ const QUESTION_BANK = [
     "explanation": "**[풀이]**\n\n**[핵심 개념]:** 사잇값의 정리 — $f$가 $[a,b]$에서 연속이고 $f(a) \\neq f(b)$이면, $f(a)$와 $f(b)$ 사이의 모든 값을 $f$가 가진다. 따라서 $-2$와 $6$ 사이(열린구간)의 모든 정수 $k$에 대해 $f(c) = k$인 $c$가 존재한다.\n\n**Step 1.** $-2 < k < 6$을 만족하는 정수를 나열한다.\n$k = -1, 0, 1, 2, 3, 4, 5$\n\n**Step 2.** 개수를 셉니다.\n$-1, 0, 1, 2, 3, 4, 5$ → 총 $7$개\n\n**∴ 답: $7$**\n\n**💡 포인트:** 사잇값의 정리에 의해 $f(1) = -2$와 $f(5) = 6$ 사이의 모든 값을 함수가 가지므로, 열린구간 $(-2, 6)$에 속하는 정수를 모두 세면 된다.",
     "difficulty": "lv2",
     "_qid": "R-0209",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "continuity_prop",
-    "type": "연속함수 성질",
-    "problem": "$f$: $\\mathbb{R} \\to \\mathbb{R}$ 연속, $\\lim_{|x| \\to \\infty}f(x)=0$이면 최대·최소를 가지는가?",
-    "answerType": "choice",
-    "choices": [
-      "최댓값만",
-      "최솟값만",
-      "둘 다",
-      "최대 또는 최소 하나",
-      "둘 다 아닐 수 있음"
-    ],
-    "answer": 3,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** $\\lim_{|x| \\to \\infty} f(x) = 0$이면 충분히 큰 $|x|$에서 $|f(x)|$가 작아진다. 이를 이용하면, 적절한 폐구간 $[-M, M]$을 잡아 그 바깥에서는 함수값이 $[-M, M]$ 안의 최대·최소보다 극단적이지 않음을 보일 수 있다.\n\n**Step 1.** $\\lim_{|x| \\to \\infty} f(x) = 0$이므로, 충분히 큰 $M$에 대해 $|x| > M$이면 $|f(x)| < 1$이다.\n\n**Step 2.** $f$는 $[-M, M]$에서 연속이므로, 최대·최소 정리에 의해 이 구간에서 최댓값 $f(x_1)$과 최솟값 $f(x_2)$를 가진다.\n\n**Step 3.** $|x| > M$에서 $|f(x)| < 1$이므로, 전체 $\\mathbb{R}$에서의 최댓값은 $\\max(f(x_1), 1)$ 이하의 유한한 값에서 달성되고, 최솟값도 마찬가지이다. 따라서 둘 다 존재한다.\n\n**∴ 답: ③ 둘 다**\n\n① 최댓값만: 최솟값도 같은 논리로 존재한다.\n② 최솟값만: 최댓값도 존재한다.\n④ 최대 또는 최소 하나: 둘 다 보장된다.\n⑤ 둘 다 아닐 수 있음: 무한대에서 $0$으로 수렴하는 조건이 양쪽 극단값의 존재를 보장한다.\n\n**💡 포인트:** $|x| \\to \\infty$에서 함수값이 수렴하면, 큰 구간 밖에서는 함수가 '통제'되므로 유한 폐구간의 최대·최소 정리로 돌아갈 수 있다.",
-    "difficulty": "lv4",
-    "_qid": "R-0210",
     "_reviewed": true,
     "_source": "original"
   },
@@ -3884,38 +3814,6 @@ const QUESTION_BANK = [
     "explanation": "**[풀이]**\n\n**[핵심 개념]:** 극한의 존재 조건 — $\\lim_{x \\to 1} \\dfrac{f(x)}{x-1}$이 유한한 값으로 존재하려면, 분모 $x - 1 \\to 0$이므로 분자 $f(x) \\to 0$이어야 한다. 즉, $f(1) = 0$이 필요하다. $f(1) \\neq 0$이면 극한이 $\\pm\\infty$로 발산한다.\n\n**Step 1.** $x \\to 1$일 때 분모 $x - 1 \\to 0$이고, 극한값이 $2$(유한)로 존재한다.\n\n**Step 2.** 극한이 유한하려면 분자도 $0$이어야 하므로\n$\\lim_{x \\to 1} f(x) = f(1) = 0$\n\n(다항함수는 연속이므로 $\\lim_{x \\to 1} f(x) = f(1)$)\n\n**∴ 답: ③ $0$**\n\n① $f(1) = -2$: 분자 → $-2$, 분모 → $0$이면 극한이 $\\pm\\infty$로 발산한다.\n② $f(1) = -1$: 마찬가지로 발산한다.\n④ $f(1) = 1$: 마찬가지로 발산한다.\n⑤ $f(1) = 2$: 극한값 $2$와 혼동하지 말아야 한다. $f(1)$은 $0$이어야 한다.\n\n**💡 포인트:** '$\\dfrac{0}{0}$ 부정형이어야 유한한 극한이 존재한다'는 것이 핵심이다. 극한값 $2$는 약분 후 대입하여 나오는 값이다.",
     "difficulty": "lv2",
     "_qid": "R-0228",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "coeff_determine",
-    "type": "미정계수 결정",
-    "problem": "$\\lim_{x \\to 1}\\dfrac{f(x)-2}{x-1}=3$이면 $f(1)$의 값은?",
-    "answerType": "choice",
-    "choices": [
-      "$0$",
-      "$1$",
-      "$2$",
-      "$3$",
-      "$5$"
-    ],
-    "answer": 3,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** 미분계수 형태의 극한 — $\\lim_{x \\to a} \\dfrac{f(x) - L}{x - a}$이 유한하면, $f(a) = L$이어야 한다. 이 극한은 사실 $f$가 $x = a$에서 미분가능할 때의 미분계수를 나타내며, $f(a) - L = 0$, 즉 $f(a) = L$이 전제된다.\n\n**Step 1.** 분모 $x - 1 \\to 0$이므로 극한이 유한($= 3$)하려면 분자도 $0$이어야 한다.\n$f(1) - 2 = 0$\n\n**Step 2.** $f(1) = 2$\n\n**∴ 답: ③ $2$**\n\n① $f(1) = 0$: 분자 $= 0 - 2 = -2 \\neq 0$이므로 발산한다.\n② $f(1) = 1$: 분자 $= 1 - 2 = -1 \\neq 0$이므로 발산한다.\n④ $f(1) = 3$: 극한값 $3$과 혼동한 경우이다. 분자 $= 3 - 2 = 1 \\neq 0$이다.\n⑤ $f(1) = 5$: $f(1) = 2 + 3 = 5$로 잘못 더한 경우이다.\n\n**💡 포인트:** $\\lim_{x \\to a} \\dfrac{f(x) - L}{x - a}$이 유한하면 $f(a) = L$이다. 극한값 $3$은 $f'(a)$에 해당한다.",
-    "difficulty": "lv2",
-    "_qid": "R-0229",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "coeff_determine",
-    "type": "미정계수 결정",
-    "problem": "$\\lim_{x \\to 2}\\dfrac{f(x)-3}{(x-2)^2}=1$이면 $f(2)$의 값을 구하시오.",
-    "answerType": "short",
-    "choices": null,
-    "answer": 3,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** 고차 부정형에서의 함수값 조건 — $\\lim_{x \\to 2} \\dfrac{f(x) - 3}{(x-2)^2}$이 유한하려면, 분모 $(x-2)^2 \\to 0$이므로 분자 $f(x) - 3 \\to 0$이어야 한다. 분모가 $0$으로 가는 속도가 더 빠르므로(2차), 분자도 반드시 $0$이어야 한다.\n\n**Step 1.** 분모 $(x - 2)^2 \\to 0$이고 극한이 유한($= 1$)이므로\n$\\lim_{x \\to 2}(f(x) - 3) = 0$\n\n**Step 2.** $f(2) - 3 = 0$이므로 $f(2) = 3$\n\n**∴ 답: $3$**\n\n**💡 포인트:** 분모가 $(x-a)^n$($n \\geq 1$) 형태이고 극한이 유한하면, 분자는 반드시 $x = a$에서 $0$이어야 한다.",
-    "difficulty": "lv2",
-    "_qid": "R-0230",
     "_reviewed": true,
     "_source": "original"
   },
@@ -4930,19 +4828,6 @@ const QUESTION_BANK = [
     "explanation": "**[풀이]**\n\n**[핵심 개념]:** 삼각함수 차의 극한 — $\\sin A - \\sin B = 2\\cos\\dfrac{A+B}{2}\\sin\\dfrac{A-B}{2}$ 또는 $\\sin u \\approx u$ 근사를 이용한다. $e^x - 1 \\approx x + \\dfrac{x^2}{2}$이므로 $\\sin(e^x - 1) - \\sin x$의 주요 차이를 분석한다.\n\n**Step 1.** $e^x - 1 = x + \\dfrac{x^2}{2} + O(x^3)$\n\n$\\sin(e^x - 1) \\approx (e^x - 1) - \\dfrac{(e^x-1)^3}{6} \\approx x + \\dfrac{x^2}{2} - \\dfrac{x^3}{6} + ...$\n\n$\\sin x \\approx x - \\dfrac{x^3}{6} + ...$\n\n**Step 2.** 차이:\n$\\sin(e^x-1) - \\sin x \\approx \\dfrac{x^2}{2} + O(x^3)$\n\n**Step 3.** $\\dfrac{x^2/2 + O(x^3)}{x^2} \\to \\dfrac{1}{2}$\n\n**∴ 답: ③ $\\dfrac{1}{2}$**\n\n① $-\\dfrac{1}{2}$: 부호를 반대로 한 경우이다.\n② $0$: $O(x^2)$ 항을 놓친 경우이다.\n④ $1$: $\\dfrac{x^2}{2}$가 아닌 $x^2$으로 계산한 경우이다.\n⑤ $\\dfrac{3}{2}$: 계산 오류이다.\n\n**💡 포인트:** $e^x - 1$과 $x$의 차이가 $\\dfrac{x^2}{2}$이고, 이것이 $\\sin$ 안에서 그대로 반영된다.",
     "difficulty": "lv4",
     "_qid": "R-0291",
-    "_reviewed": true,
-    "_source": "original"
-  },
-  {
-    "_type": "killer",
-    "type": "복합 킬러",
-    "problem": "$\\lim_{x \\to 0}\\dfrac{\\sin(\\tan x)-\\tan(\\sin x)}{x^7}$의 절댓값은 $\\dfrac{1}{30}$입니다. $30$의 약수의 개수를 구하시오.",
-    "answerType": "short",
-    "choices": null,
-    "answer": 8,
-    "explanation": "**[풀이]**\n\n**[핵심 개념]:** 약수의 개수 공식 — 자연수 $n = p_1^{a_1} \\times p_2^{a_2} \\times \\cdots$의 약수의 개수는 $(a_1+1)(a_2+1)\\cdots$이다. 이 문제는 극한값 자체보다 $30$의 약수 개수를 묻고 있다.\n\n**Step 1.** $30$을 소인수분해한다.\n$30 = 2 \\times 3 \\times 5 = 2^1 \\times 3^1 \\times 5^1$\n\n**Step 2.** 약수의 개수:\n$(1+1)(1+1)(1+1) = 2 \\times 2 \\times 2 = 8$\n\n**Step 3.** 약수 나열: $1, 2, 3, 5, 6, 10, 15, 30$ (총 $8$개)\n\n**∴ 답: $8$**\n\n**💡 포인트:** $\\sin(\\tan x) - \\tan(\\sin x)$의 $x^7$ 계수가 $-\\dfrac{1}{30}$이라는 것은 고난도 테일러 전개의 결과이다. 이 문제에서는 약수 개수만 묻고 있다.",
-    "difficulty": "lv4",
-    "_qid": "R-0292",
     "_reviewed": true,
     "_source": "original"
   },
