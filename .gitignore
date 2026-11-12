@@ -2,7 +2,8 @@
 수능_확통_기출PDF/
 수능_수학_*
 수능_확률과통계_*
-수능_미분법/
+수능_미분법/*
+!수능_미분법/questions.js
 수능_확률과 통계/
 suneung-math-past/
 기출모음/
@@ -11,3 +12,4 @@ suneung-math-past/
 shorts/*.mp4
 shorts/*.m4a
 shorts/*.png
+!수능_미분법/questions.js
