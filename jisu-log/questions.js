@@ -1898,5 +1898,1905 @@ const QUESTION_BANK = [
     "_qid": "R-0100",
     "_reviewed": true,
     "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "거듭제곱 지수 정리",
+    "problem": "$2^3\\times2^4\\div2^2=2^k$를 만족하는 $k$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "5",
+      "10",
+      "13",
+      "-5",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n지수법칙에 따라 $k=3+4-2=5$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0101",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "거듭제곱 지수 정리",
+    "problem": "$2^5\\times2^2\\div2^3=2^k$를 만족하는 $k$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "1",
+      "-6",
+      "4",
+      "-1"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n지수법칙에 따라 $k=5+2-3=4$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0102",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "거듭제곱 지수 정리",
+    "problem": "$2^4\\times2^5\\div2^1=2^k$를 만족하는 $k$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "3",
+      "8",
+      "13",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n지수법칙에 따라 $k=4+5-1=8$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0103",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "거듭제곱 지수 정리",
+    "problem": "$2^6\\times2^3\\div2^2=2^k$를 만족하는 $k$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "17",
+      "-3",
+      "19",
+      "7",
+      "10"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n지수법칙에 따라 $k=6+3-2=7$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0104",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "거듭제곱 지수 정리",
+    "problem": "$2^2\\times2^7\\div2^4=2^k$를 만족하는 $k$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "0",
+      "2",
+      "6",
+      "4",
+      "5"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n지수법칙에 따라 $k=2+7-4=5$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0105",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그를 지수로 변환",
+    "problem": "$\\log_{2}32$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "0",
+      "-5",
+      "8",
+      "9",
+      "5"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$2^5=32$이므로 $\\log_{2}32=5$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0106",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그를 지수로 변환",
+    "problem": "$\\log_{3}27$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "1",
+      "3",
+      "0",
+      "11",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$3^3=27$이므로 $\\log_{3}27=3$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0107",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그를 지수로 변환",
+    "problem": "$\\log_{4}16$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "-3",
+      "-1",
+      "-8",
+      "2",
+      "10"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$4^2=16$이므로 $\\log_{4}16=2$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0108",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그를 지수로 변환",
+    "problem": "$\\log_{5}125$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "13",
+      "4",
+      "3",
+      "7",
+      "-5"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$5^3=125$이므로 $\\log_{5}125=3$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0109",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그를 지수로 변환",
+    "problem": "$\\log_{2}256$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "9",
+      "6",
+      "12",
+      "10",
+      "8"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$2^8=256$이므로 $\\log_{2}256=8$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0110",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그의 합과 차",
+    "problem": "$\\log_2(2^2)+\\log_2(2^3)-\\log_2 2$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "-6",
+      "8",
+      "4",
+      "3",
+      "-4"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$\\log_2 2^n=n$을 적용하면 $2+3-1=4$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0111",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그의 합과 차",
+    "problem": "$\\log_2(2^3)+\\log_2(2^4)-\\log_2 2$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "8",
+      "6",
+      "-4",
+      "3",
+      "14"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$\\log_2 2^n=n$을 적용하면 $3+4-1=6$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0112",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그의 합과 차",
+    "problem": "$\\log_2(2^4)+\\log_2(2^2)-\\log_2 2$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "9",
+      "11",
+      "5",
+      "10",
+      "17"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$\\log_2 2^n=n$을 적용하면 $4+2-1=5$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0113",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그의 합과 차",
+    "problem": "$\\log_2(2^5)+\\log_2(2^3)-\\log_2 2$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "10",
+      "15",
+      "-3",
+      "2",
+      "7"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$\\log_2 2^n=n$을 적용하면 $5+3-1=7$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0114",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그의 합과 차",
+    "problem": "$\\log_2(2^2)+\\log_2(2^6)-\\log_2 2$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "4",
+      "6",
+      "12",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$\\log_2 2^n=n$을 적용하면 $2+6-1=7$이다.",
+    "difficulty": "lv1",
+    "_qid": "R-0115",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "밑 통일",
+    "problem": "$3^{x+2}=3^7$일 때 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "5",
+      "3",
+      "2",
+      "10",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n지수함수의 일대일성에서 $x+2=7$, 따라서 $x=5$.",
+    "difficulty": "lv1",
+    "_qid": "R-0116",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "밑 통일",
+    "problem": "$3^{x+3}=3^7$일 때 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "4",
+      "2",
+      "3",
+      "12",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n지수함수의 일대일성에서 $x+3=7$, 따라서 $x=4$.",
+    "difficulty": "lv1",
+    "_qid": "R-0117",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "밑 통일",
+    "problem": "$3^{x+4}=3^6$일 때 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "3",
+      "-6",
+      "10",
+      "7",
+      "2"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n지수함수의 일대일성에서 $x+4=6$, 따라서 $x=2$.",
+    "difficulty": "lv1",
+    "_qid": "R-0118",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "밑 통일",
+    "problem": "$3^{x+5}=3^6$일 때 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "11",
+      "1",
+      "2",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n지수함수의 일대일성에서 $x+5=6$, 따라서 $x=1$.",
+    "difficulty": "lv1",
+    "_qid": "R-0119",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_basic",
+    "type": "밑 통일",
+    "problem": "$3^{x+6}=3^9$일 때 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "8",
+      "3",
+      "6",
+      "1",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n지수함수의 일대일성에서 $x+6=9$, 따라서 $x=3$.",
+    "difficulty": "lv1",
+    "_qid": "R-0120",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "진수 조건을 갖는 로그 방정식",
+    "problem": "$\\log_2(x-2)=4$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "13",
+      "23",
+      "28",
+      "18",
+      "17"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$x-2=2^4$이므로 $x=2+16=18$이고 진수 조건을 만족한다.",
+    "difficulty": "lv1",
+    "_qid": "R-0121",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "진수 조건을 갖는 로그 방정식",
+    "problem": "$\\log_2(x-3)=3$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "9",
+      "16",
+      "1",
+      "11",
+      "8"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$x-3=2^3$이므로 $x=3+8=11$이고 진수 조건을 만족한다.",
+    "difficulty": "lv1",
+    "_qid": "R-0122",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "진수 조건을 갖는 로그 방정식",
+    "problem": "$\\log_2(x-4)=5$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "28",
+      "36",
+      "39",
+      "41",
+      "40"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$x-4=2^5$이므로 $x=4+32=36$이고 진수 조건을 만족한다.",
+    "difficulty": "lv1",
+    "_qid": "R-0123",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "진수 조건을 갖는 로그 방정식",
+    "problem": "$\\log_2(x-5)=2$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "9",
+      "1",
+      "21",
+      "7",
+      "4"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$x-5=2^2$이므로 $x=5+4=9$이고 진수 조건을 만족한다.",
+    "difficulty": "lv1",
+    "_qid": "R-0124",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "진수 조건을 갖는 로그 방정식",
+    "problem": "$\\log_2(x-6)=4$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "27",
+      "30",
+      "20",
+      "22",
+      "32"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$x-6=2^4$이므로 $x=6+16=22$이고 진수 조건을 만족한다.",
+    "difficulty": "lv1",
+    "_qid": "R-0125",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "역함수 관계 이용",
+    "problem": "$\\log_{2}(2^{x-2})=5$를 만족하는 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "4",
+      "6",
+      "13",
+      "15",
+      "7"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$\\log_a a^t=t$이므로 $x-2=5$, $x=7$.",
+    "difficulty": "lv2",
+    "_qid": "R-0126",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "역함수 관계 이용",
+    "problem": "$\\log_{3}(3^{x-1})=4$를 만족하는 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "5",
+      "0",
+      "17",
+      "6",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$\\log_a a^t=t$이므로 $x-1=4$, $x=5$.",
+    "difficulty": "lv2",
+    "_qid": "R-0127",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "역함수 관계 이용",
+    "problem": "$\\log_{2}(2^{x-3})=6$를 만족하는 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "11",
+      "-1",
+      "1",
+      "9",
+      "7"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$\\log_a a^t=t$이므로 $x-3=6$, $x=9$.",
+    "difficulty": "lv2",
+    "_qid": "R-0128",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "역함수 관계 이용",
+    "problem": "$\\log_{4}(4^{x-1})=3$를 만족하는 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "-4",
+      "4",
+      "10",
+      "14",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$\\log_a a^t=t$이므로 $x-1=3$, $x=4$.",
+    "difficulty": "lv2",
+    "_qid": "R-0129",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "역함수 관계 이용",
+    "problem": "$\\log_{3}(3^{x-2})=5$를 만족하는 $x$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "11",
+      "2",
+      "7",
+      "15",
+      "-3"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$\\log_a a^t=t$이므로 $x-2=5$, $x=7$.",
+    "difficulty": "lv2",
+    "_qid": "R-0130",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그합과 진수조건",
+    "problem": "$\\log_2x+\\log_2(x-2)=\\log_2 8$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "8",
+      "12",
+      "14",
+      "4",
+      "7"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$x&gt;2$에서 $x(x-2)=8$, $(x-4)(x+2)=0$이므로 $x=4$.",
+    "difficulty": "lv2",
+    "_qid": "R-0131",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그합과 진수조건",
+    "problem": "$\\log_2x+\\log_2(x-2)=\\log_2 3$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "4",
+      "-7",
+      "3",
+      "13",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$x&gt;2$에서 $x(x-2)=3$, $(x-3)(x+1)=0$이므로 $x=3$.",
+    "difficulty": "lv2",
+    "_qid": "R-0132",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그합과 진수조건",
+    "problem": "$\\log_2x+\\log_2(x-2)=\\log_2 15$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "0",
+      "7",
+      "17",
+      "2",
+      "5"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$x&gt;2$에서 $x(x-2)=15$, $(x-5)(x+3)=0$이므로 $x=5$.",
+    "difficulty": "lv2",
+    "_qid": "R-0133",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그합과 진수조건",
+    "problem": "$\\log_2x+\\log_2(x-2)=\\log_2 24$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "9",
+      "18",
+      "11",
+      "6",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$x&gt;2$에서 $x(x-2)=24$, $(x-6)(x+4)=0$이므로 $x=6$.",
+    "difficulty": "lv2",
+    "_qid": "R-0134",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그합과 진수조건",
+    "problem": "$\\log_2x+\\log_2(x-2)=\\log_2 35$의 해 $x$는?",
+    "answerType": "choice",
+    "choices": [
+      "11",
+      "-3",
+      "6",
+      "2",
+      "7"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$x&gt;2$에서 $x(x-2)=35$, $(x-7)(x+5)=0$이므로 $x=7$.",
+    "difficulty": "lv2",
+    "_qid": "R-0135",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "평행이동된 함수의 좌표",
+    "problem": "$y=2^{x-3}+5$의 그래프가 직선 $y=9$와 만나는 점의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "11",
+      "8",
+      "13",
+      "3",
+      "5"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$2^{x-3}=4$이므로 $x-3=2$, $x=5$.",
+    "difficulty": "lv2",
+    "_qid": "R-0136",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "평행이동된 함수의 좌표",
+    "problem": "$y=3^{x-2}+4$의 그래프가 직선 $y=13$와 만나는 점의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "10",
+      "7",
+      "9",
+      "4",
+      "12"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$3^{x-2}=9$이므로 $x-2=2$, $x=4$.",
+    "difficulty": "lv2",
+    "_qid": "R-0137",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "평행이동된 함수의 좌표",
+    "problem": "$y=2^{x-4}+7$의 그래프가 직선 $y=11$와 만나는 점의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "4",
+      "8",
+      "14",
+      "6",
+      "-2"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$2^{x-4}=4$이므로 $x-4=2$, $x=6$.",
+    "difficulty": "lv2",
+    "_qid": "R-0138",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "평행이동된 함수의 좌표",
+    "problem": "$y=4^{x-2}+3$의 그래프가 직선 $y=19$와 만나는 점의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "8",
+      "1",
+      "6",
+      "4"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$4^{x-2}=16$이므로 $x-2=2$, $x=4$.",
+    "difficulty": "lv2",
+    "_qid": "R-0139",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "평행이동된 함수의 좌표",
+    "problem": "$y=5^{x-2}+6$의 그래프가 직선 $y=31$와 만나는 점의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "4",
+      "-4",
+      "5",
+      "14",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$5^{x-2}=25$이므로 $x-2=2$, $x=4$.",
+    "difficulty": "lv2",
+    "_qid": "R-0140",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "평행이동과 역산",
+    "problem": "$y=\\log_{2}(x-1)$ 위의 점 $P$의 $y$좌표가 $3$일 때 $P$의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "1",
+      "10",
+      "-1",
+      "9",
+      "21"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$x-1=2^3=8$이므로 $x=9$이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0141",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "평행이동과 역산",
+    "problem": "$y=\\log_{3}(x-2)$ 위의 점 $P$의 $y$좌표가 $2$일 때 $P$의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "23",
+      "3",
+      "11",
+      "9",
+      "21"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$x-2=3^2=9$이므로 $x=11$이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0142",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "평행이동과 역산",
+    "problem": "$y=\\log_{2}(x-3)$ 위의 점 $P$의 $y$좌표가 $4$일 때 $P$의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "17",
+      "19",
+      "11",
+      "14",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$x-3=2^4=16$이므로 $x=19$이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0143",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "평행이동과 역산",
+    "problem": "$y=\\log_{4}(x-1)$ 위의 점 $P$의 $y$좌표가 $2$일 때 $P$의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "22",
+      "16",
+      "12",
+      "19",
+      "17"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$x-1=4^2=16$이므로 $x=17$이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0144",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "평행이동과 역산",
+    "problem": "$y=\\log_{3}(x-3)$ 위의 점 $P$의 $y$좌표가 $2$일 때 $P$의 $x$좌표는?",
+    "answerType": "choice",
+    "choices": [
+      "17",
+      "12",
+      "20",
+      "24",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$x-3=3^2=9$이므로 $x=12$이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0145",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "정수해 개수",
+    "problem": "정수 $x$가 $2^x&gt;2^1$, $x\\le 3$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "8",
+      "-1",
+      "2",
+      "6",
+      "-8"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$x&gt;1$이므로 $x=2,\\ldots,3$의 총 $2$개이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0146",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "정수해 개수",
+    "problem": "정수 $x$가 $3^x&gt;3^2$, $x\\le 4$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "-3",
+      "2",
+      "8",
+      "1",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$x&gt;2$이므로 $x=3,\\ldots,4$의 총 $2$개이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0147",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "정수해 개수",
+    "problem": "정수 $x$가 $2^x&gt;2^3$, $x\\le 5$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "2",
+      "1",
+      "6",
+      "-1",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$x&gt;3$이므로 $x=4,\\ldots,5$의 총 $2$개이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0148",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "정수해 개수",
+    "problem": "정수 $x$가 $4^x&gt;4^1$, $x\\le 6$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "9",
+      "2",
+      "17",
+      "10",
+      "5"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$x&gt;1$이므로 $x=2,\\ldots,6$의 총 $5$개이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0149",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "정수해 개수",
+    "problem": "정수 $x$가 $3^x&gt;3^4$, $x\\le 7$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "15",
+      "-7",
+      "3",
+      "-5",
+      "-2"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$x&gt;4$이므로 $x=5,\\ldots,7$의 총 $3$개이다.",
+    "difficulty": "lv2",
+    "_qid": "R-0150",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "지수함수의 수평 대칭과 교점",
+    "problem": "두 곡선 $y=2^{x-1}$, $y=2^{7-x}$의 교점을 $P$라 한다. $P$에서 두 좌표축에 내린 수선의 발을 $H,K$라 할 때 직사각형 $OH P K$의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "32",
+      "35",
+      "25",
+      "19",
+      "34"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n교점에서 $x-1=7-x$이므로 $x=4$, $y=8$. 넓이는 $32$이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0151",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "지수함수의 수평 대칭과 교점",
+    "problem": "두 곡선 $y=3^{x-2}$, $y=3^{6-x}$의 교점을 $P$라 한다. $P$에서 두 좌표축에 내린 수선의 발을 $H,K$라 할 때 직사각형 $OH P K$의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "55",
+      "36",
+      "33",
+      "51",
+      "27"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n교점에서 $x-2=6-x$이므로 $x=4$, $y=9$. 넓이는 $36$이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0152",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "로그함수 위 두 점의 좌표 차",
+    "problem": "곡선 $y=\\log_{2}x$ 위의 두 점 $A,B$의 세로 좌표는 각각 $3$, $4$이다. $A,B$를 대각선의 양 끝점으로 하는 축에 평행한 직사각형의 둘레는?",
+    "answerType": "choice",
+    "choices": [
+      "19",
+      "37",
+      "25",
+      "18",
+      "17"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$A=(8,3)$, $B=(16,4)$이므로 가로 $8$, 세로 $1$, 둘레는 $18$.",
+    "difficulty": "lv3",
+    "_qid": "R-0153",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "로그함수 위 두 점의 좌표 차",
+    "problem": "곡선 $y=\\log_{3}x$ 위의 두 점 $A,B$의 세로 좌표는 각각 $2$, $3$이다. $A,B$를 대각선의 양 끝점으로 하는 축에 평행한 직사각형의 둘레는?",
+    "answerType": "choice",
+    "choices": [
+      "47",
+      "53",
+      "33",
+      "38",
+      "41"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$A=(9,2)$, $B=(27,3)$이므로 가로 $18$, 세로 $1$, 둘레는 $38$.",
+    "difficulty": "lv3",
+    "_qid": "R-0154",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "서로 다른 지수함수의 평행이동 교점",
+    "problem": "곡선 $y=2^x+1$와 $y=2^{x+1}-5$의 교점 $P$에서 $y$좌표를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "0",
+      "19",
+      "-2",
+      "7",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$(2-1)2^x=6$이므로 $2^x=\\frac{6}{1}$. 따라서 $y=7$.",
+    "difficulty": "lv3",
+    "_qid": "R-0155",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "서로 다른 지수함수의 평행이동 교점",
+    "problem": "곡선 $y=3^x+1$와 $y=3^{x+1}-5$의 교점 $P$에서 $y$좌표를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "6",
+      "4",
+      "-3",
+      "-5"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$(3-1)3^x=6$이므로 $3^x=\\frac{6}{2}$. 따라서 $y=4$.",
+    "difficulty": "lv3",
+    "_qid": "R-0156",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그부등식과 짝수 조건",
+    "problem": "양의 짝수 $n$이 $\\log_{2}n&gt;2$ 및 $n\\le 18$을 만족한다. 가능한 $n$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "14",
+      "10",
+      "26",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n밑이 1보다 크므로 $n&gt;4$. 이를 만족하는 $18$ 이하 짝수를 세면 $7$개이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0157",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그부등식과 짝수 조건",
+    "problem": "양의 짝수 $n$이 $\\log_{3}n&gt;1$ 및 $n\\le 24$을 만족한다. 가능한 $n$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "11",
+      "2",
+      "23",
+      "4",
+      "30"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n밑이 1보다 크므로 $n&gt;3$. 이를 만족하는 $24$ 이하 짝수를 세면 $11$개이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0158",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "inverse_func",
+    "type": "역함수 합성 및 평행이동",
+    "problem": "$f(x)=2^{x-1}$, $g=f^{-1}$라 한다. $g(8)+f(4)$의 값을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "9",
+      "5",
+      "17",
+      "21",
+      "12"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$g(x)=1+\\log_{2}x$이므로 $g(8)=4$, $f(4)=8$이다. 합은 $12$.",
+    "difficulty": "lv3",
+    "_qid": "R-0159",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "inverse_func",
+    "type": "역함수 합성 및 평행이동",
+    "problem": "$f(x)=3^{x-1}$, $g=f^{-1}$라 한다. $g(9)+f(3)$의 값을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "21",
+      "11",
+      "12",
+      "16",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$g(x)=1+\\log_{3}x$이므로 $g(9)=3$, $f(3)=9$이다. 합은 $12$.",
+    "difficulty": "lv3",
+    "_qid": "R-0160",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "합성 로그의 정의역과 정수 개수",
+    "problem": "함수 $f(x)=\\log_{2}(x-2)+\\log_{2}(5-x)$의 정의역에 속하는 정수 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "-11",
+      "14",
+      "3",
+      "2",
+      "25"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$x&gt;2$이고 $x&lt;5$이므로 정수는 $3$부터 $4$까지 총 $2$개이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0161",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "합성 로그의 정의역과 정수 개수",
+    "problem": "함수 $f(x)=\\log_{3}(x-1)+\\log_{3}(3-x)$의 정의역에 속하는 정수 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "-6",
+      "-1",
+      "-8",
+      "10",
+      "1"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$x&gt;1$이고 $x&lt;3$이므로 정수는 $2$부터 $2$까지 총 $1$개이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0162",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "수평선 교점과 거리제곱",
+    "problem": "곡선 $y=\\log_{2}(x-1)$와 직선 $y=2$의 교점 $P$에 대하여 $OP^2$의 값을 구하시오. ($O$는 원점)",
+    "answerType": "choice",
+    "choices": [
+      "28",
+      "29",
+      "32",
+      "20",
+      "44"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$P=(5,2)$이므로 $OP^2=5^2+2^2=29$.",
+    "difficulty": "lv3",
+    "_qid": "R-0163",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "수평선 교점과 거리제곱",
+    "problem": "곡선 $y=\\log_{3}(x-2)$와 직선 $y=2$의 교점 $P$에 대하여 $OP^2$의 값을 구하시오. ($O$는 원점)",
+    "answerType": "choice",
+    "choices": [
+      "126",
+      "112",
+      "120",
+      "125",
+      "140"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$P=(11,2)$이므로 $OP^2=11^2+2^2=125$.",
+    "difficulty": "lv3",
+    "_qid": "R-0164",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "다중 로그 관계와 미지수",
+    "problem": "$\\log_{2}a=3$, $\\log_a c=2$를 만족하는 양수 $a,c$에 대하여 $\\log_{2}c$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "6",
+      "8",
+      "29",
+      "9",
+      "21"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$\\log_{2}c=\\log_{2}a\\cdot\\log_a c=3\\cdot2=6$.",
+    "difficulty": "lv3",
+    "_qid": "R-0165",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "다중 로그 관계와 미지수",
+    "problem": "$\\log_{3}a=2$, $\\log_a c=2$를 만족하는 양수 $a,c$에 대하여 $\\log_{3}c$의 값은?",
+    "answerType": "choice",
+    "choices": [
+      "11",
+      "16",
+      "2",
+      "23",
+      "4"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$\\log_{3}c=\\log_{3}a\\cdot\\log_a c=2\\cdot2=4$.",
+    "difficulty": "lv3",
+    "_qid": "R-0166",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "두 점과 중점의 좌표",
+    "problem": "곡선 $y=2^x$ 위의 점 $A(2,4)$, $B(4,16)$의 중점을 $M$이라 한다. $M$의 두 좌표 합의 2배는?",
+    "answerType": "choice",
+    "choices": [
+      "26",
+      "33",
+      "28",
+      "21",
+      "41"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$M=(3,(4+16)/2)$이므로 두 좌표 합의 2배는 $6+4+16=26$.",
+    "difficulty": "lv3",
+    "_qid": "R-0167",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "두 점과 중점의 좌표",
+    "problem": "곡선 $y=3^x$ 위의 점 $A(2,9)$, $B(4,81)$의 중점을 $M$이라 한다. $M$의 두 좌표 합의 2배는?",
+    "answerType": "choice",
+    "choices": [
+      "96",
+      "111",
+      "93",
+      "103",
+      "101"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$M=(3,(9+81)/2)$이므로 두 좌표 합의 2배는 $6+9+81=96$.",
+    "difficulty": "lv3",
+    "_qid": "R-0168",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그 이중 부등식의 정수해",
+    "problem": "정수 $x$가 $1&lt;\\log_{2}(x-1)&lt;3$을 만족할 때, 가능한 정수 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "4",
+      "5",
+      "7",
+      "2",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$2&lt;x-1&lt;8$에서 $3&lt;x&lt;9$이다. 정수해는 $5$개이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0169",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그 이중 부등식의 정수해",
+    "problem": "정수 $x$가 $1&lt;\\log_{3}(x-2)&lt;3$을 만족할 때, 가능한 정수 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "25",
+      "42",
+      "20",
+      "46",
+      "23"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$3&lt;x-2&lt;27$에서 $5&lt;x&lt;29$이다. 정수해는 $23$개이다.",
+    "difficulty": "lv3",
+    "_qid": "R-0170",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그 이차방정식의 두 해의 곱",
+    "problem": "방정식 $(\\log_{2}x)^2-5\\log_{2}x+6=0$의 서로 다른 두 양의 실근의 곱은?",
+    "answerType": "choice",
+    "choices": [
+      "32",
+      "34",
+      "39",
+      "31",
+      "51"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$t=\\log_{2}x$로 놓으면 $(t-3)(t-2)=0$이다. 따라서 $x=2^3$ 또는 $2^2$이며 곱은 $32$.",
+    "difficulty": "lv3",
+    "_qid": "R-0171",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그 이차방정식의 두 해의 곱",
+    "problem": "방정식 $(\\log_{3}x)^2-6\\log_{3}x+8=0$의 서로 다른 두 양의 실근의 곱은?",
+    "answerType": "choice",
+    "choices": [
+      "726",
+      "716",
+      "729",
+      "730",
+      "752"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$t=\\log_{3}x$로 놓으면 $(t-4)(t-2)=0$이다. 따라서 $x=3^4$ 또는 $3^2$이며 곱은 $729$.",
+    "difficulty": "lv3",
+    "_qid": "R-0172",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "평행이동과 지정 수평선 교점",
+    "problem": "$y=\\log_{2}(x-3)+1$의 그래프와 $y=2$의 교점을 $P$라 한다. $P$의 $x$좌표와 점근선 $x=3$ 사이 거리의 제곱은?",
+    "answerType": "choice",
+    "choices": [
+      "4",
+      "-3",
+      "1",
+      "13",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$\\log_{2}(x-3)=1$이므로 $x=5$. 점근선 $x=3$까지 거리는 $2$, 제곱은 $4$.",
+    "difficulty": "lv3",
+    "_qid": "R-0173",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "평행이동과 지정 수평선 교점",
+    "problem": "$y=\\log_{3}(x-2)+1$의 그래프와 $y=2$의 교점을 $P$라 한다. $P$의 $x$좌표와 점근선 $x=2$ 사이 거리의 제곱은?",
+    "answerType": "choice",
+    "choices": [
+      "10",
+      "9",
+      "12",
+      "21",
+      "28"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$\\log_{3}(x-2)=1$이므로 $x=5$. 점근선 $x=2$까지 거리는 $3$, 제곱은 $9$.",
+    "difficulty": "lv3",
+    "_qid": "R-0174",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "좌표축에 평행한 사각형 넓이",
+    "problem": "곡선 $y=\\log_{2}(x-2)$ 위의 점 $A,B$의 $y$좌표가 각각 1, 3이다. $A,B$를 마주 보는 꼭짓점으로 하는 축에 평행한 직사각형의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "5",
+      "12",
+      "21",
+      "10",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$x_A=4$, $x_B=10$이므로 가로 $6$, 세로 2로 넓이는 $12$.",
+    "difficulty": "lv3",
+    "_qid": "R-0175",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "inverse_func",
+    "type": "역함수 대칭과 행렬식 넓이",
+    "problem": "$f(x)=2^{x-1}$ 위의 점 $A(4,8)$를 직선 $y=x$에 대칭시킨 점을 $B$라 한다. 원점 $O$에 대해 삼각형 $OAB$의 넓이의 2배는?",
+    "answerType": "choice",
+    "choices": [
+      "39",
+      "41",
+      "48",
+      "46",
+      "55"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$B=(8,4)$이고 두 배 넓이는 $|4^2-8^2|=48$.",
+    "difficulty": "lv4",
+    "_qid": "R-0176",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "inverse_func",
+    "type": "역함수 대칭과 행렬식 넓이",
+    "problem": "$f(x)=3^{x-2}$ 위의 점 $A(4,9)$를 직선 $y=x$에 대칭시킨 점을 $B$라 한다. 원점 $O$에 대해 삼각형 $OAB$의 넓이의 2배는?",
+    "answerType": "choice",
+    "choices": [
+      "60",
+      "63",
+      "58",
+      "65",
+      "84"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$B=(9,4)$이고 두 배 넓이는 $|4^2-9^2|=65$.",
+    "difficulty": "lv4",
+    "_qid": "R-0177",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "inverse_func",
+    "type": "역함수 대응점 사이 거리 제곱",
+    "problem": "$A=(2,4)$는 $y=2^x$ 위의 점이고 $B$는 직선 $y=x$에 대한 대칭점이다. 선분 $AB$ 길이의 제곱을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "13",
+      "8",
+      "12",
+      "11",
+      "-5"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$B=(4,2)$이므로 $AB^2=(4-2)^2+(2-4)^2=8$.",
+    "difficulty": "lv4",
+    "_qid": "R-0178",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "inverse_func",
+    "type": "역함수 대응점 사이 거리 제곱",
+    "problem": "$A=(1,3)$는 $y=3^x$ 위의 점이고 $B$는 직선 $y=x$에 대한 대칭점이다. 선분 $AB$ 길이의 제곱을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "8",
+      "15",
+      "6",
+      "20",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$B=(3,1)$이므로 $AB^2=(3-1)^2+(1-3)^2=8$.",
+    "difficulty": "lv4",
+    "_qid": "R-0179",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "수평 이동한 지수함수와 사다리꼴",
+    "problem": "$y=2^{x-1}$ 위의 두 점 $A,B$의 함수값은 각각 $4,16$이다. $A,B$에서 $x$축에 내린 수선의 발을 $H,K$라 한다. 사다리꼴 $ABKH$의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "39",
+      "29",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n두 점의 가로 좌표 차는 2이고, 평행한 두 수선의 길이는 $4,16$이므로 넓이는 $(4+16)\\times2/2=20$.",
+    "difficulty": "lv4",
+    "_qid": "R-0180",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "수평 이동한 지수함수와 사다리꼴",
+    "problem": "$y=3^{x-2}$ 위의 두 점 $A,B$의 함수값은 각각 $3,27$이다. $A,B$에서 $x$축에 내린 수선의 발을 $H,K$라 한다. 사다리꼴 $ABKH$의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "31",
+      "49",
+      "33",
+      "29",
+      "30"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n두 점의 가로 좌표 차는 2이고, 평행한 두 수선의 길이는 $3,27$이므로 넓이는 $(3+27)\\times2/2=30$.",
+    "difficulty": "lv4",
+    "_qid": "R-0181",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "두 함수와 동일 수평선의 교점",
+    "problem": "$y=2^{x-2}$, $y=\\log_{2}(x-2)$와 직선 $y=2$의 교점을 차례로 $A,B$라 한다. 두 점 $A,B$의 거리에서 1을 뺀 값은?",
+    "answerType": "choice",
+    "choices": [
+      "25",
+      "2",
+      "14",
+      "6",
+      "-5"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$x_A=2+1$, $x_B=2+2^2=6$이므로 $AB=3$, 구하는 값은 $2$.",
+    "difficulty": "lv4",
+    "_qid": "R-0182",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "두 함수와 동일 수평선의 교점",
+    "problem": "$y=3^{x-1}$, $y=\\log_{3}(x-1)$와 직선 $y=3$의 교점을 차례로 $A,B$라 한다. 두 점 $A,B$의 거리에서 1을 뺀 값은?",
+    "answerType": "choice",
+    "choices": [
+      "20",
+      "26",
+      "12",
+      "16",
+      "25"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$x_A=1+1$, $x_B=1+3^3=28$이므로 $AB=26$, 구하는 값은 $25$.",
+    "difficulty": "lv4",
+    "_qid": "R-0183",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "두 점으로 함수 평행이동 결정 후 도형 넓이",
+    "problem": "밑이 $2$인 함수 $f(x)=\\log_{2}(x-a)+c$의 그래프가 $A(3,3)$, $B(5,4)$를 지난다. 원점 $O$에 대하여 $\\triangle OAB$의 넓이의 두 배와 $a+c$의 합을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "3",
+      "-7",
+      "8",
+      "6",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n두 점의 함수값 차로 $(5-a)/(3-a)=2$이다. 따라서 $a=1$, $c=2$이고 행렬식의 절댓값은 $3$이다. 구하는 값은 $3+1+2=6$.",
+    "difficulty": "lv4",
+    "_qid": "R-0184",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "두 점으로 함수 평행이동 결정 후 도형 넓이",
+    "problem": "밑이 $3$인 함수 $f(x)=\\log_{3}(x-a)+c$의 그래프가 $A(5,2)$, $B(11,3)$를 지난다. 원점 $O$에 대하여 $\\triangle OAB$의 넓이의 두 배와 $a+c$의 합을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "5",
+      "10",
+      "9",
+      "12",
+      "-3"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n두 점의 함수값 차로 $(11-a)/(5-a)=3$이다. 따라서 $a=2$, $c=1$이고 행렬식의 절댓값은 $7$이다. 구하는 값은 $7+2+1=10$.",
+    "difficulty": "lv4",
+    "_qid": "R-0185",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "이차식으로 치환한 두 실근의 합",
+    "problem": "방정식 $2^{2x}-12\\cdot2^x+32=0$의 모든 실근의 합은?",
+    "answerType": "choice",
+    "choices": [
+      "2",
+      "12",
+      "17",
+      "8",
+      "5"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$t=2^x&gt;0$로 놓으면 $(t-4)(t-8)=0$이다. 따라서 $x=2,3$로 합은 $5$.",
+    "difficulty": "lv4",
+    "_qid": "R-0186",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "이차식으로 치환한 두 실근의 합",
+    "problem": "방정식 $3^{2x}-12\\cdot3^x+27=0$의 모든 실근의 합은?",
+    "answerType": "choice",
+    "choices": [
+      "5",
+      "0",
+      "8",
+      "22",
+      "3"
+    ],
+    "answer": 4,
+    "explanation": "**[풀이]**\n\n$t=3^x&gt;0$로 놓으면 $(t-3)(t-9)=0$이다. 따라서 $x=1,2$로 합은 $3$.",
+    "difficulty": "lv4",
+    "_qid": "R-0187",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "두 로그부등식의 정수해 합",
+    "problem": "정수 $x$가 $\\log_{2}(x-2)\\ge1$ 및 $\\log_{2}(10-x)\\ge1$을 동시에 만족한다. 가능한 모든 $x$값의 합을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "30",
+      "42",
+      "33",
+      "28",
+      "35"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n조건은 각각 $x\\ge 4$와 $x\\le 8$이다. 연속하는 정수 4, 5, 6, 7, 8의 합은 $30$.",
+    "difficulty": "lv4",
+    "_qid": "R-0188",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "두 로그부등식의 정수해 합",
+    "problem": "정수 $x$가 $\\log_{3}(x-1)\\ge1$ 및 $\\log_{3}(11-x)\\ge1$을 동시에 만족한다. 가능한 모든 $x$값의 합을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "27",
+      "17",
+      "28",
+      "30",
+      "25"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n조건은 각각 $x\\ge 4$와 $x\\le 8$이다. 연속하는 정수 4, 5, 6, 7, 8의 합은 $30$.",
+    "difficulty": "lv4",
+    "_qid": "R-0189",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "로그 방정식의 정의역과 근의 합",
+    "problem": "$\\log_{2}\\!\\bigl((x-2)(8-x)\\bigr)=\\log_{2}5$의 서로 다른 실근의 합을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "10",
+      "15",
+      "33",
+      "12",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n진수 조건을 만족하면서 $(x-2)(8-x)=5$이다. $t=x-2$이면 $t(6-t)=5$이므로 $t=1,5$이고 $x=3,7$이다.",
+    "difficulty": "lv4",
+    "_qid": "R-0190",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_func",
+    "type": "로그 방정식의 정의역과 근의 합",
+    "problem": "$\\log_{3}\\!\\bigl((x-1)(7-x)\\bigr)=\\log_{3}5$의 서로 다른 실근의 합을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "10",
+      "15",
+      "5",
+      "8",
+      "17"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n진수 조건을 만족하면서 $(x-1)(7-x)=5$이다. $t=x-1$이면 $t(6-t)=5$이므로 $t=1,5$이고 $x=2,6$이다.",
+    "difficulty": "lv4",
+    "_qid": "R-0191",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그 정의역과 정수 합동조건의 동시 충족",
+    "problem": "정수 $x$가 $\\log_{2}(x-1)\\ge1$, $\\log_{2}(19-x)\\ge1$, $x\\equiv1\\pmod{4}$를 동시에 만족한다. 가능한 모든 $x^2$의 합은?",
+    "answerType": "choice",
+    "choices": [
+      "561",
+      "551",
+      "564",
+      "579",
+      "583"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n두 로그 조건을 합하면 $3\\le x\\le 17$이다. 이 중 $4$로 나눈 나머지가 $1$인 정수는 5, 9, 13, 17이다. 제곱합은 $564$.",
+    "difficulty": "lv4",
+    "_qid": "R-0192",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그 정의역과 정수 합동조건의 동시 충족",
+    "problem": "정수 $x$가 $\\log_{3}(x-2)\\ge1$, $\\log_{3}(25-x)\\ge1$, $x\\equiv2\\pmod{5}$를 동시에 만족한다. 가능한 모든 $x^2$의 합은?",
+    "answerType": "choice",
+    "choices": [
+      "970",
+      "966",
+      "967",
+      "963",
+      "953"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n두 로그 조건을 합하면 $5\\le x\\le 22$이다. 이 중 $5$로 나눈 나머지가 $2$인 정수는 7, 12, 17, 22이다. 제곱합은 $966$.",
+    "difficulty": "lv4",
+    "_qid": "R-0193",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그함수 위 점과 수직선 대칭 삼각형",
+    "problem": "$y=\\log_{2}(x-3)$ 위에서 $y=2$인 점을 $A$라 하고, 직선 $x=3$에 대하여 $A$의 대칭점을 $B$라 한다. 원점 $O$와 $A,B$가 이루는 삼각형의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "5",
+      "8",
+      "10",
+      "3",
+      "27"
+    ],
+    "answer": 1,
+    "explanation": "**[풀이]**\n\n$A=(7,2)$, $B=(-1,2)$이므로 밑변 $AB=2\\cdot4$, 원점에서 직선 $y=2$까지 높이는 2이다. 넓이는 $8$.",
+    "difficulty": "lv4",
+    "_qid": "R-0194",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_log",
+    "type": "로그함수 위 점과 수직선 대칭 삼각형",
+    "problem": "$y=\\log_{3}(x-2)$ 위에서 $y=2$인 점을 $A$라 하고, 직선 $x=2$에 대하여 $A$의 대칭점을 $B$라 한다. 원점 $O$와 $A,B$가 이루는 삼각형의 넓이는?",
+    "answerType": "choice",
+    "choices": [
+      "18",
+      "15",
+      "33",
+      "37",
+      "25"
+    ],
+    "answer": 0,
+    "explanation": "**[풀이]**\n\n$A=(11,2)$, $B=(-7,2)$이므로 밑변 $AB=2\\cdot9$, 원점에서 직선 $y=2$까지 높이는 2이다. 넓이는 $18$.",
+    "difficulty": "lv4",
+    "_qid": "R-0195",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "평행이동 지수함수 위 삼각형 넓이",
+    "problem": "$y=2^{x-2}$의 그래프 위에서 $x$좌표가 $2,4$인 두 점을 $A,B$라 한다. 원점 $O$와 $A,B$가 만드는 삼각형의 넓이의 두 배를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "1",
+      "23",
+      "19",
+      "4",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$A=(2,1)$, $B=(4,4)$이다. 행렬식의 절댓값은 $|2\\cdot4-(4)\\cdot1|=4$.",
+    "difficulty": "lv4",
+    "_qid": "R-0196",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "평행이동 지수함수 위 삼각형 넓이",
+    "problem": "$y=3^{x-1}$의 그래프 위에서 $x$좌표가 $1,3$인 두 점을 $A,B$라 한다. 원점 $O$와 $A,B$가 만드는 삼각형의 넓이의 두 배를 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "7",
+      "13",
+      "6",
+      "18",
+      "29"
+    ],
+    "answer": 2,
+    "explanation": "**[풀이]**\n\n$A=(1,1)$, $B=(3,9)$이다. 행렬식의 절댓값은 $|1\\cdot9-(3)\\cdot1|=6$.",
+    "difficulty": "lv4",
+    "_qid": "R-0197",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그부등식과 나머지 조건",
+    "problem": "정수 $x$가 $1&lt;\\log_{2}(x-2)&lt;4$를 만족하고 $x-2$가 3의 배수일 때, 가능한 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "12",
+      "10",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$2&lt;x-2&lt;16$를 만족하는 3의 배수만 세면 $5$개이다.",
+    "difficulty": "lv4",
+    "_qid": "R-0198",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "log_basic",
+    "type": "로그부등식과 나머지 조건",
+    "problem": "정수 $x$가 $1&lt;\\log_{3}(x-1)&lt;4$를 만족하고 $x-1$가 3의 배수일 때, 가능한 $x$의 개수는?",
+    "answerType": "choice",
+    "choices": [
+      "12",
+      "40",
+      "16",
+      "25",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$3&lt;x-1&lt;81$를 만족하는 3의 배수만 세면 $25$개이다.",
+    "difficulty": "lv4",
+    "_qid": "R-0199",
+    "_reviewed": true,
+    "_source": "original"
+  },
+  {
+    "_type": "exp_func",
+    "type": "두 점에서 평행이동 매개변수 결정과 함수값",
+    "problem": "함수 $f(x)=2^{x-a}+c$의 그래프가 $(2,5)$, $(4,11)$를 지나고 $a,c$는 정수이다. $f(5)+ac$의 값을 구하시오.",
+    "answerType": "choice",
+    "choices": [
+      "20",
+      "21",
+      "9",
+      "22",
+      "31"
+    ],
+    "answer": 3,
+    "explanation": "**[풀이]**\n\n$(11-5)=(2^{4-1}-2^{2-1})=6$이므로 $2^{2-1}=2$이고 $a=1$. 이어서 $c=5-2=3$, $f(5)=19$이므로 $f(5)+ac=22$.",
+    "difficulty": "lv4",
+    "_qid": "R-0200",
+    "_reviewed": true,
+    "_source": "original"
   }
 ];

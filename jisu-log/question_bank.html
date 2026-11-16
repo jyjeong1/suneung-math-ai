@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Prof.AI 수학:지수와 로그 — 문제은행 (100문제)</title>
+<title>Prof.AI 수학:지수와 로그 — 문제은행 (200문제)</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
@@ -17,12 +17,12 @@ details summary::-webkit-details-marker{display:none}
 </style>
 </head><body>
 <h1>📊 Prof.AI 수학: 지수와 로그 — 문제은행</h1>
-<div class="summary">RPI 공학박사 · 삼성전자/GE 연구원 · 29년 교수 감수 | 총 100문제 | 자체 100 · 기출 0 | 감수완료 100 | lv1:25 lv2:25 lv3:25 lv4:25</div>
+<div class="summary">RPI 공학박사 · 삼성전자/GE 연구원 · 29년 교수 감수 | 총 200문제 | 자체 200 · 기출 0 | 감수완료 200 | lv1:50 lv2:50 lv3:50 lv4:50</div>
 
 <div class="toc">
   <h2>📌 목차 (유형별)</h2>
   <a href="#formulas" style="font-size:13px;color:#a3e635;text-decoration:none;margin:3px 8px 3px 0;font-weight:700">📐 공식 레퍼런스</a>
-  <a href="#기본_지수_계산" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">기본 지수 계산</a> <a href="#지수_분수식" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수 분수식</a> <a href="#로그_정의" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 정의</a> <a href="#로그_계산" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 계산</a> <a href="#로그함수_좌표" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 좌표</a> <a href="#지수방정식_해" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수방정식 해</a> <a href="#로그_진수_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 진수 조건</a> <a href="#로그함수_단조성과_정수해" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 단조성과 정수해</a> <a href="#밑변환과_합성" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">밑변환과 합성</a> <a href="#지수함수의_역함수" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수함수의 역함수</a> <a href="#역함수_대칭_좌표_직사각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 대칭·좌표·직사각형</a> <a href="#두_지수함수_교점_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 지수함수 교점·삼각형 넓이</a> <a href="#로그_대칭축_교점_좌표조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 대칭축·교점·좌표조건</a> <a href="#수평선과_지수그래프_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">수평선과 지수그래프·넓이</a> <a href="#두_지수함수_점의_할선_기울기" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 지수함수 점의 할선 기울기</a> <a href="#로그함수_그래프_거리_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 그래프·거리 조건</a> <a href="#로그합_이차부등식_정수해" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그합·이차부등식·정수해</a> <a href="#로그함수_평행이동_점_간_거리합" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 평행이동·점 간 거리합</a> <a href="#지수함수_평행이동_직선_절편" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수함수 평행이동·직선 절편</a> <a href="#합성함수_역함수_정의역" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">합성함수·역함수·정의역</a> <a href="#지수치환_두_근_좌표거리" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수치환·두 근·좌표거리</a> <a href="#지수그래프_두_점_기하평균" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수그래프 두 점·기하평균</a> <a href="#로그그래프_두_점_중점_좌표" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그그래프 두 점·중점 좌표</a> <a href="#지수_로그_역함수_좌표_차" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수·로그 역함수·좌표 차</a> <a href="#구간별_지수_로그_합성함수" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">구간별 지수·로그 합성함수</a> <a href="#로그_방정식_두_해_비에타" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 방정식·두 해·비에타</a> <a href="#지수_평행이동_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수 평행이동·삼각형 넓이</a> <a href="#로그_진수_동치_교점의_기하" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 진수 동치·교점의 기하</a> <a href="#로그함수_그래프_넓이_역추적" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 그래프·넓이 역추적</a> <a href="#밑변환_서로_다른_로그그래프_거리" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">밑변환·서로 다른 로그그래프 거리</a> <a href="#로그_그래프_절편_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 그래프·절편·삼각형 넓이</a> <a href="#로그부등식_정수_격자_양끝값" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그부등식·정수 격자·양끝값</a> <a href="#지수_로그_역함수_합성_관계" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수·로그 역함수·합성 관계</a> <a href="#역함수_대칭_행렬식_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 대칭·행렬식·삼각형 넓이</a> <a href="#평행이동_역함수_좌표거리" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">평행이동 역함수·좌표거리</a> <a href="#매개변수_결정_역함수_합성" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">매개변수 결정·역함수 합성</a> <a href="#서로_다른_로그곡선_수평선_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">서로 다른 로그곡선·수평선·삼각형</a> <a href="#지수그래프_할선_로그함수_교차" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수그래프 할선·로그함수 교차</a> <a href="#로그부등식_근_범위_짝수_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그부등식·근 범위·짝수 조건</a> <a href="#지수_로그그래프_공통_수평선_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수·로그그래프·공통 수평선·삼각형</a> <a href="#지수방정식_두_근_지수그래프_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수방정식 두 근·지수그래프·삼각형</a> <a href="#로그그래프_두_점_좌표기하" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그그래프 두 점·좌표기하</a> <a href="#조각함수_삼중_합성_분기_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">조각함수·삼중 합성·분기 조건</a> <a href="#지수함수_매개변수_역함수_연립_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수함수 매개변수·역함수·연립 조건</a> <a href="#밑변환_로그_그래프_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">밑변환·로그 그래프·삼각형</a> 
+  <a href="#기본_지수_계산" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">기본 지수 계산</a> <a href="#지수_분수식" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수 분수식</a> <a href="#로그_정의" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 정의</a> <a href="#로그_계산" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 계산</a> <a href="#로그함수_좌표" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 좌표</a> <a href="#지수방정식_해" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수방정식 해</a> <a href="#로그_진수_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 진수 조건</a> <a href="#로그함수_단조성과_정수해" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 단조성과 정수해</a> <a href="#밑변환과_합성" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">밑변환과 합성</a> <a href="#지수함수의_역함수" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수함수의 역함수</a> <a href="#역함수_대칭_좌표_직사각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 대칭·좌표·직사각형</a> <a href="#두_지수함수_교점_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 지수함수 교점·삼각형 넓이</a> <a href="#로그_대칭축_교점_좌표조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 대칭축·교점·좌표조건</a> <a href="#수평선과_지수그래프_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">수평선과 지수그래프·넓이</a> <a href="#두_지수함수_점의_할선_기울기" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 지수함수 점의 할선 기울기</a> <a href="#로그함수_그래프_거리_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 그래프·거리 조건</a> <a href="#로그합_이차부등식_정수해" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그합·이차부등식·정수해</a> <a href="#로그함수_평행이동_점_간_거리합" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 평행이동·점 간 거리합</a> <a href="#지수함수_평행이동_직선_절편" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수함수 평행이동·직선 절편</a> <a href="#합성함수_역함수_정의역" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">합성함수·역함수·정의역</a> <a href="#지수치환_두_근_좌표거리" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수치환·두 근·좌표거리</a> <a href="#지수그래프_두_점_기하평균" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수그래프 두 점·기하평균</a> <a href="#로그그래프_두_점_중점_좌표" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그그래프 두 점·중점 좌표</a> <a href="#지수_로그_역함수_좌표_차" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수·로그 역함수·좌표 차</a> <a href="#구간별_지수_로그_합성함수" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">구간별 지수·로그 합성함수</a> <a href="#로그_방정식_두_해_비에타" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 방정식·두 해·비에타</a> <a href="#지수_평행이동_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수 평행이동·삼각형 넓이</a> <a href="#로그_진수_동치_교점의_기하" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 진수 동치·교점의 기하</a> <a href="#로그함수_그래프_넓이_역추적" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 그래프·넓이 역추적</a> <a href="#밑변환_서로_다른_로그그래프_거리" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">밑변환·서로 다른 로그그래프 거리</a> <a href="#로그_그래프_절편_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 그래프·절편·삼각형 넓이</a> <a href="#로그부등식_정수_격자_양끝값" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그부등식·정수 격자·양끝값</a> <a href="#지수_로그_역함수_합성_관계" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수·로그 역함수·합성 관계</a> <a href="#역함수_대칭_행렬식_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 대칭·행렬식·삼각형 넓이</a> <a href="#평행이동_역함수_좌표거리" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">평행이동 역함수·좌표거리</a> <a href="#매개변수_결정_역함수_합성" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">매개변수 결정·역함수 합성</a> <a href="#서로_다른_로그곡선_수평선_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">서로 다른 로그곡선·수평선·삼각형</a> <a href="#지수그래프_할선_로그함수_교차" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수그래프 할선·로그함수 교차</a> <a href="#로그부등식_근_범위_짝수_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그부등식·근 범위·짝수 조건</a> <a href="#지수_로그그래프_공통_수평선_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수·로그그래프·공통 수평선·삼각형</a> <a href="#지수방정식_두_근_지수그래프_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수방정식 두 근·지수그래프·삼각형</a> <a href="#로그그래프_두_점_좌표기하" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그그래프 두 점·좌표기하</a> <a href="#조각함수_삼중_합성_분기_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">조각함수·삼중 합성·분기 조건</a> <a href="#지수함수_매개변수_역함수_연립_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수함수 매개변수·역함수·연립 조건</a> <a href="#밑변환_로그_그래프_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">밑변환·로그 그래프·삼각형</a> <a href="#거듭제곱_지수_정리" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">거듭제곱 지수 정리</a> <a href="#로그를_지수로_변환" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그를 지수로 변환</a> <a href="#로그의_합과_차" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그의 합과 차</a> <a href="#밑_통일" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">밑 통일</a> <a href="#진수_조건을_갖는_로그_방정식" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">진수 조건을 갖는 로그 방정식</a> <a href="#역함수_관계_이용" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 관계 이용</a> <a href="#로그합과_진수조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그합과 진수조건</a> <a href="#평행이동된_함수의_좌표" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">평행이동된 함수의 좌표</a> <a href="#평행이동과_역산" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">평행이동과 역산</a> <a href="#정수해_개수" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">정수해 개수</a> <a href="#지수함수의_수평_대칭과_교점" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">지수함수의 수평 대칭과 교점</a> <a href="#로그함수_위_두_점의_좌표_차" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 위 두 점의 좌표 차</a> <a href="#서로_다른_지수함수의_평행이동_교점" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">서로 다른 지수함수의 평행이동 교점</a> <a href="#로그부등식과_짝수_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그부등식과 짝수 조건</a> <a href="#역함수_합성_및_평행이동" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 합성 및 평행이동</a> <a href="#합성_로그의_정의역과_정수_개수" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">합성 로그의 정의역과 정수 개수</a> <a href="#수평선_교점과_거리제곱" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">수평선 교점과 거리제곱</a> <a href="#다중_로그_관계와_미지수" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">다중 로그 관계와 미지수</a> <a href="#두_점과_중점의_좌표" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 점과 중점의 좌표</a> <a href="#로그_이중_부등식의_정수해" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 이중 부등식의 정수해</a> <a href="#로그_이차방정식의_두_해의_곱" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 이차방정식의 두 해의 곱</a> <a href="#평행이동과_지정_수평선_교점" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">평행이동과 지정 수평선 교점</a> <a href="#좌표축에_평행한_사각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">좌표축에 평행한 사각형 넓이</a> <a href="#역함수_대칭과_행렬식_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 대칭과 행렬식 넓이</a> <a href="#역함수_대응점_사이_거리_제곱" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">역함수 대응점 사이 거리 제곱</a> <a href="#수평_이동한_지수함수와_사다리꼴" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">수평 이동한 지수함수와 사다리꼴</a> <a href="#두_함수와_동일_수평선의_교점" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 함수와 동일 수평선의 교점</a> <a href="#두_점으로_함수_평행이동_결정_후_도형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 점으로 함수 평행이동 결정 후 도형 넓이</a> <a href="#이차식으로_치환한_두_실근의_합" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">이차식으로 치환한 두 실근의 합</a> <a href="#두_로그부등식의_정수해_합" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 로그부등식의 정수해 합</a> <a href="#로그_방정식의_정의역과_근의_합" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 방정식의 정의역과 근의 합</a> <a href="#로그_정의역과_정수_합동조건의_동시_충족" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그 정의역과 정수 합동조건의 동시 충족</a> <a href="#로그함수_위_점과_수직선_대칭_삼각형" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그함수 위 점과 수직선 대칭 삼각형</a> <a href="#평행이동_지수함수_위_삼각형_넓이" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">평행이동 지수함수 위 삼각형 넓이</a> <a href="#로그부등식과_나머지_조건" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">로그부등식과 나머지 조건</a> <a href="#두_점에서_평행이동_매개변수_결정과_함수값" style="font-size:13px;color:#22d3ee;text-decoration:none;margin:3px 8px 3px 0">두 점에서 평행이동 매개변수 결정과 함수값</a> 
 </div>
 
 <section id="formulas" style="margin-bottom:40px"><h2 style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin-bottom:16px">📐 공식 레퍼런스</h2><div style="margin-bottom:20px"><h3 style="font-size:16px;font-weight:700;color:#a5f3fc;margin-bottom:10px">지수법칙</h3><div style="background:rgba(34,211,238,0.07);border:1px solid rgba(34,211,238,0.2);border-radius:10px;padding:12px 14px;margin-bottom:8px">
@@ -1464,9 +1464,981 @@ details summary::-webkit-details-marker{display:none}
   <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ $92$</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. $96$</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. $94$</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. $106$</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. $98$</div></div>
   <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$A=(64,6)$, $B=(64,3)$이다. $AB=3$이고 원점에서 직선 $x=64$까지의 거리는 $64$이므로 넓이는 $\frac12\cdot3\cdot64=96$이다.</div></details>
 </div>
+<div class="type-header" id="거듭제곱_지수_정리" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">거듭제곱 지수 정리</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(34,197,94,0.4)">Lv.1 개념 (5문제)</div>
+<div class="q-card" id="R-0101" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0101</span>
+    <span style="font-size:11px;color:#666">101번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$2^3\times2^4\div2^2=2^k$를 만족하는 $k$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 13</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. -5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수법칙에 따라 $k=3+4-2=5$이다.</div></details>
+</div>
+<div class="q-card" id="R-0102" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0102</span>
+    <span style="font-size:11px;color:#666">102번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$2^5\times2^2\div2^3=2^k$를 만족하는 $k$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 1</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -1</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수법칙에 따라 $k=5+2-3=4$이다.</div></details>
+</div>
+<div class="q-card" id="R-0103" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0103</span>
+    <span style="font-size:11px;color:#666">103번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$2^4\times2^5\div2^1=2^k$를 만족하는 $k$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 13</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 9</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수법칙에 따라 $k=4+5-1=8$이다.</div></details>
+</div>
+<div class="q-card" id="R-0104" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0104</span>
+    <span style="font-size:11px;color:#666">104번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$2^6\times2^3\div2^2=2^k$를 만족하는 $k$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 17</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -3</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 19</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 10</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수법칙에 따라 $k=6+3-2=7$이다.</div></details>
+</div>
+<div class="q-card" id="R-0105" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0105</span>
+    <span style="font-size:11px;color:#666">105번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$2^2\times2^7\div2^4=2^k$를 만족하는 $k$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 0</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 6</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수법칙에 따라 $k=2+7-4=5$이다.</div></details>
+</div>
+<div class="type-header" id="로그를_지수로_변환" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그를 지수로 변환</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(34,197,94,0.4)">Lv.1 개념 (5문제)</div>
+<div class="q-card" id="R-0106" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0106</span>
+    <span style="font-size:11px;color:#666">106번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{2}32$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 0</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 8</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$2^5=32$이므로 $\log_{2}32=5$이다.</div></details>
+</div>
+<div class="q-card" id="R-0107" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0107</span>
+    <span style="font-size:11px;color:#666">107번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{3}27$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 0</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 6</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$3^3=27$이므로 $\log_{3}27=3$이다.</div></details>
+</div>
+<div class="q-card" id="R-0108" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0108</span>
+    <span style="font-size:11px;color:#666">108번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{4}16$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. -3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -1</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 10</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$4^2=16$이므로 $\log_{4}16=2$이다.</div></details>
+</div>
+<div class="q-card" id="R-0109" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0109</span>
+    <span style="font-size:11px;color:#666">109번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{5}125$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 13</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$5^3=125$이므로 $\log_{5}125=3$이다.</div></details>
+</div>
+<div class="q-card" id="R-0110" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0110</span>
+    <span style="font-size:11px;color:#666">110번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{2}256$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 12</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 8</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$2^8=256$이므로 $\log_{2}256=8$이다.</div></details>
+</div>
+<div class="type-header" id="로그의_합과_차" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그의 합과 차</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(34,197,94,0.4)">Lv.1 개념 (5문제)</div>
+<div class="q-card" id="R-0111" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0111</span>
+    <span style="font-size:11px;color:#666">111번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(2^2)+\log_2(2^3)-\log_2 2$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. -6</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -4</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_2 2^n=n$을 적용하면 $2+3-1=4$이다.</div></details>
+</div>
+<div class="q-card" id="R-0112" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0112</span>
+    <span style="font-size:11px;color:#666">112번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(2^3)+\log_2(2^4)-\log_2 2$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. -4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 14</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_2 2^n=n$을 적용하면 $3+4-1=6$이다.</div></details>
+</div>
+<div class="q-card" id="R-0113" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0113</span>
+    <span style="font-size:11px;color:#666">113번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(2^4)+\log_2(2^2)-\log_2 2$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 9</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 17</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_2 2^n=n$을 적용하면 $4+2-1=5$이다.</div></details>
+</div>
+<div class="q-card" id="R-0114" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0114</span>
+    <span style="font-size:11px;color:#666">114번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(2^5)+\log_2(2^3)-\log_2 2$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 15</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. -3</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 7</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_2 2^n=n$을 적용하면 $5+3-1=7$이다.</div></details>
+</div>
+<div class="q-card" id="R-0115" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0115</span>
+    <span style="font-size:11px;color:#666">115번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(2^2)+\log_2(2^6)-\log_2 2$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_2 2^n=n$을 적용하면 $2+6-1=7$이다.</div></details>
+</div>
+<div class="type-header" id="밑_통일" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">밑 통일</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(34,197,94,0.4)">Lv.1 개념 (5문제)</div>
+<div class="q-card" id="R-0116" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0116</span>
+    <span style="font-size:11px;color:#666">116번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$3^{x+2}=3^7$일 때 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 4</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수함수의 일대일성에서 $x+2=7$, 따라서 $x=5$.</div></details>
+</div>
+<div class="q-card" id="R-0117" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0117</span>
+    <span style="font-size:11px;color:#666">117번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$3^{x+3}=3^7$일 때 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 1</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수함수의 일대일성에서 $x+3=7$, 따라서 $x=4$.</div></details>
+</div>
+<div class="q-card" id="R-0118" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0118</span>
+    <span style="font-size:11px;color:#666">118번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$3^{x+4}=3^6$일 때 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 10</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수함수의 일대일성에서 $x+4=6$, 따라서 $x=2$.</div></details>
+</div>
+<div class="q-card" id="R-0119" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0119</span>
+    <span style="font-size:11px;color:#666">119번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$3^{x+5}=3^6$일 때 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 6</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수함수의 일대일성에서 $x+5=6$, 따라서 $x=1$.</div></details>
+</div>
+<div class="q-card" id="R-0120" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0120</span>
+    <span style="font-size:11px;color:#666">120번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$3^{x+6}=3^9$일 때 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>지수함수의 일대일성에서 $x+6=9$, 따라서 $x=3$.</div></details>
+</div>
+<div class="type-header" id="진수_조건을_갖는_로그_방정식" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">진수 조건을 갖는 로그 방정식</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(34,197,94,0.4)">Lv.1 개념 (5문제)</div>
+<div class="q-card" id="R-0121" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0121</span>
+    <span style="font-size:11px;color:#666">121번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(x-2)=4$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 13</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 23</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 28</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 18</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 17</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-2=2^4$이므로 $x=2+16=18$이고 진수 조건을 만족한다.</div></details>
+</div>
+<div class="q-card" id="R-0122" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0122</span>
+    <span style="font-size:11px;color:#666">122번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(x-3)=3$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 16</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 8</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-3=2^3$이므로 $x=3+8=11$이고 진수 조건을 만족한다.</div></details>
+</div>
+<div class="q-card" id="R-0123" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0123</span>
+    <span style="font-size:11px;color:#666">123번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(x-4)=5$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 28</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 36</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 39</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 41</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 40</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-4=2^5$이므로 $x=4+32=36$이고 진수 조건을 만족한다.</div></details>
+</div>
+<div class="q-card" id="R-0124" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0124</span>
+    <span style="font-size:11px;color:#666">124번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(x-5)=2$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 21</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 4</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-5=2^2$이므로 $x=5+4=9$이고 진수 조건을 만족한다.</div></details>
+</div>
+<div class="q-card" id="R-0125" style="background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.4);border-left:4px solid #4ade80;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(34,197,94,0.4);color:#4ade80;padding:2px 8px;border-radius:4px">R-0125</span>
+    <span style="font-size:11px;color:#666">125번 · Lv.1 개념 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2(x-6)=4$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 27</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 30</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 20</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 22</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 32</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-6=2^4$이므로 $x=6+16=22$이고 진수 조건을 만족한다.</div></details>
+</div>
+<div class="type-header" id="역함수_관계_이용" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">역함수 관계 이용</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(59,130,246,0.4)">Lv.2 기초 (5문제)</div>
+<div class="q-card" id="R-0126" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0126</span>
+    <span style="font-size:11px;color:#666">126번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{2}(2^{x-2})=5$를 만족하는 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 13</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 15</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 7</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_a a^t=t$이므로 $x-2=5$, $x=7$.</div></details>
+</div>
+<div class="q-card" id="R-0127" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0127</span>
+    <span style="font-size:11px;color:#666">127번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{3}(3^{x-1})=4$를 만족하는 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 0</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 17</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 8</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_a a^t=t$이므로 $x-1=4$, $x=5$.</div></details>
+</div>
+<div class="q-card" id="R-0128" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0128</span>
+    <span style="font-size:11px;color:#666">128번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{2}(2^{x-3})=6$를 만족하는 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -1</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 7</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_a a^t=t$이므로 $x-3=6$, $x=9$.</div></details>
+</div>
+<div class="q-card" id="R-0129" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0129</span>
+    <span style="font-size:11px;color:#666">129번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{4}(4^{x-1})=3$를 만족하는 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 14</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 9</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_a a^t=t$이므로 $x-1=3$, $x=4$.</div></details>
+</div>
+<div class="q-card" id="R-0130" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0130</span>
+    <span style="font-size:11px;color:#666">130번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{3}(3^{x-2})=5$를 만족하는 $x$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 11</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 15</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -3</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_a a^t=t$이므로 $x-2=5$, $x=7$.</div></details>
+</div>
+<div class="type-header" id="로그합과_진수조건" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그합과 진수조건</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(59,130,246,0.4)">Lv.2 기초 (5문제)</div>
+<div class="q-card" id="R-0131" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0131</span>
+    <span style="font-size:11px;color:#666">131번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2x+\log_2(x-2)=\log_2 8$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 12</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 14</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 7</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;2$에서 $x(x-2)=8$, $(x-4)(x+2)=0$이므로 $x=4$.</div></details>
+</div>
+<div class="q-card" id="R-0132" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0132</span>
+    <span style="font-size:11px;color:#666">132번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2x+\log_2(x-2)=\log_2 3$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 4</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 13</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 6</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;2$에서 $x(x-2)=3$, $(x-3)(x+1)=0$이므로 $x=3$.</div></details>
+</div>
+<div class="q-card" id="R-0133" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0133</span>
+    <span style="font-size:11px;color:#666">133번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2x+\log_2(x-2)=\log_2 15$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 0</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 17</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;2$에서 $x(x-2)=15$, $(x-5)(x+3)=0$이므로 $x=5$.</div></details>
+</div>
+<div class="q-card" id="R-0134" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0134</span>
+    <span style="font-size:11px;color:#666">134번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2x+\log_2(x-2)=\log_2 24$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 18</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 3</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;2$에서 $x(x-2)=24$, $(x-6)(x+4)=0$이므로 $x=6$.</div></details>
+</div>
+<div class="q-card" id="R-0135" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0135</span>
+    <span style="font-size:11px;color:#666">135번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_2x+\log_2(x-2)=\log_2 35$의 해 $x$는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 6</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 7</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;2$에서 $x(x-2)=35$, $(x-7)(x+5)=0$이므로 $x=7$.</div></details>
+</div>
+<div class="type-header" id="평행이동된_함수의_좌표" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">평행이동된 함수의 좌표</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(59,130,246,0.4)">Lv.2 기초 (5문제)</div>
+<div class="q-card" id="R-0136" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0136</span>
+    <span style="font-size:11px;color:#666">136번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=2^{x-3}+5$의 그래프가 직선 $y=9$와 만나는 점의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 13</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$2^{x-3}=4$이므로 $x-3=2$, $x=5$.</div></details>
+</div>
+<div class="q-card" id="R-0137" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0137</span>
+    <span style="font-size:11px;color:#666">137번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=3^{x-2}+4$의 그래프가 직선 $y=13$와 만나는 점의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 7</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 12</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$3^{x-2}=9$이므로 $x-2=2$, $x=4$.</div></details>
+</div>
+<div class="q-card" id="R-0138" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0138</span>
+    <span style="font-size:11px;color:#666">138번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=2^{x-4}+7$의 그래프가 직선 $y=11$와 만나는 점의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 8</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 14</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$2^{x-4}=4$이므로 $x-4=2$, $x=6$.</div></details>
+</div>
+<div class="q-card" id="R-0139" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0139</span>
+    <span style="font-size:11px;color:#666">139번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=4^{x-2}+3$의 그래프가 직선 $y=19$와 만나는 점의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 1</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 4</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$4^{x-2}=16$이므로 $x-2=2$, $x=4$.</div></details>
+</div>
+<div class="q-card" id="R-0140" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0140</span>
+    <span style="font-size:11px;color:#666">140번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=5^{x-2}+6$의 그래프가 직선 $y=31$와 만나는 점의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 14</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 12</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$5^{x-2}=25$이므로 $x-2=2$, $x=4$.</div></details>
+</div>
+<div class="type-header" id="평행이동과_역산" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">평행이동과 역산</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(59,130,246,0.4)">Lv.2 기초 (5문제)</div>
+<div class="q-card" id="R-0141" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0141</span>
+    <span style="font-size:11px;color:#666">141번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{2}(x-1)$ 위의 점 $P$의 $y$좌표가 $3$일 때 $P$의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 10</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 21</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-1=2^3=8$이므로 $x=9$이다.</div></details>
+</div>
+<div class="q-card" id="R-0142" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0142</span>
+    <span style="font-size:11px;color:#666">142번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{3}(x-2)$ 위의 점 $P$의 $y$좌표가 $2$일 때 $P$의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 23</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 21</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-2=3^2=9$이므로 $x=11$이다.</div></details>
+</div>
+<div class="q-card" id="R-0143" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0143</span>
+    <span style="font-size:11px;color:#666">143번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{2}(x-3)$ 위의 점 $P$의 $y$좌표가 $4$일 때 $P$의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 17</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 19</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 14</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 24</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-3=2^4=16$이므로 $x=19$이다.</div></details>
+</div>
+<div class="q-card" id="R-0144" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0144</span>
+    <span style="font-size:11px;color:#666">144번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{4}(x-1)$ 위의 점 $P$의 $y$좌표가 $2$일 때 $P$의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 22</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 16</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 12</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 19</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 17</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-1=4^2=16$이므로 $x=17$이다.</div></details>
+</div>
+<div class="q-card" id="R-0145" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0145</span>
+    <span style="font-size:11px;color:#666">145번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{3}(x-3)$ 위의 점 $P$의 $y$좌표가 $2$일 때 $P$의 $x$좌표는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 17</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 20</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 24</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x-3=3^2=9$이므로 $x=12$이다.</div></details>
+</div>
+<div class="type-header" id="정수해_개수" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">정수해 개수</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(59,130,246,0.4)">Lv.2 기초 (5문제)</div>
+<div class="q-card" id="R-0146" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0146</span>
+    <span style="font-size:11px;color:#666">146번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $2^x&amp;gt;2^1$, $x\le 3$를 동시에 만족할 때 가능한 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 8</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -8</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;1$이므로 $x=2,\ldots,3$의 총 $2$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0147" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0147</span>
+    <span style="font-size:11px;color:#666">147번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $3^x&amp;gt;3^2$, $x\le 4$를 동시에 만족할 때 가능한 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 0</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;2$이므로 $x=3,\ldots,4$의 총 $2$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0148" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0148</span>
+    <span style="font-size:11px;color:#666">148번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $2^x&amp;gt;2^3$, $x\le 5$를 동시에 만족할 때 가능한 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. -1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 0</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;3$이므로 $x=4,\ldots,5$의 총 $2$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0149" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0149</span>
+    <span style="font-size:11px;color:#666">149번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $4^x&amp;gt;4^1$, $x\le 6$를 동시에 만족할 때 가능한 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 17</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;1$이므로 $x=2,\ldots,6$의 총 $5$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0150" style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-left:4px solid #60a5fa;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(59,130,246,0.4);color:#60a5fa;padding:2px 8px;border-radius:4px">R-0150</span>
+    <span style="font-size:11px;color:#666">150번 · Lv.2 기초 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $3^x&amp;gt;3^4$, $x\le 7$를 동시에 만족할 때 가능한 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 15</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. -5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;4$이므로 $x=5,\ldots,7$의 총 $3$개이다.</div></details>
+</div>
+<div class="type-header" id="지수함수의_수평_대칭과_교점" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">지수함수의 수평 대칭과 교점</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0151" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0151</span>
+    <span style="font-size:11px;color:#666">151번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">두 곡선 $y=2^{x-1}$, $y=2^{7-x}$의 교점을 $P$라 한다. $P$에서 두 좌표축에 내린 수선의 발을 $H,K$라 할 때 직사각형 $OH P K$의 넓이는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 32</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 35</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 25</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 19</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 34</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>교점에서 $x-1=7-x$이므로 $x=4$, $y=8$. 넓이는 $32$이다.</div></details>
+</div>
+<div class="q-card" id="R-0152" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0152</span>
+    <span style="font-size:11px;color:#666">152번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">두 곡선 $y=3^{x-2}$, $y=3^{6-x}$의 교점을 $P$라 한다. $P$에서 두 좌표축에 내린 수선의 발을 $H,K$라 할 때 직사각형 $OH P K$의 넓이는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 55</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 36</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 33</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 51</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 27</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>교점에서 $x-2=6-x$이므로 $x=4$, $y=9$. 넓이는 $36$이다.</div></details>
+</div>
+<div class="type-header" id="로그함수_위_두_점의_좌표_차" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그함수 위 두 점의 좌표 차</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0153" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0153</span>
+    <span style="font-size:11px;color:#666">153번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=\log_{2}x$ 위의 두 점 $A,B$의 세로 좌표는 각각 $3$, $4$이다. $A,B$를 대각선의 양 끝점으로 하는 축에 평행한 직사각형의 둘레는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 19</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 37</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 25</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 18</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 17</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$A=(8,3)$, $B=(16,4)$이므로 가로 $8$, 세로 $1$, 둘레는 $18$.</div></details>
+</div>
+<div class="q-card" id="R-0154" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0154</span>
+    <span style="font-size:11px;color:#666">154번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=\log_{3}x$ 위의 두 점 $A,B$의 세로 좌표는 각각 $2$, $3$이다. $A,B$를 대각선의 양 끝점으로 하는 축에 평행한 직사각형의 둘레는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 47</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 53</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 33</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 38</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 41</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$A=(9,2)$, $B=(27,3)$이므로 가로 $18$, 세로 $1$, 둘레는 $38$.</div></details>
+</div>
+<div class="type-header" id="서로_다른_지수함수의_평행이동_교점" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">서로 다른 지수함수의 평행이동 교점</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0155" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0155</span>
+    <span style="font-size:11px;color:#666">155번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=2^x+1$와 $y=2^{x+1}-5$의 교점 $P$에서 $y$좌표를 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 0</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 19</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ -2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 4</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$(2-1)2^x=6$이므로 $2^x=\frac{6}{1}$. 따라서 $y=7$.</div></details>
+</div>
+<div class="q-card" id="R-0156" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0156</span>
+    <span style="font-size:11px;color:#666">156번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=3^x+1$와 $y=3^{x+1}-5$의 교점 $P$에서 $y$좌표를 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. -3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$(3-1)3^x=6$이므로 $3^x=\frac{6}{2}$. 따라서 $y=4$.</div></details>
+</div>
+<div class="type-header" id="로그부등식과_짝수_조건" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그부등식과 짝수 조건</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0157" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0157</span>
+    <span style="font-size:11px;color:#666">157번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">양의 짝수 $n$이 $\log_{2}n&amp;gt;2$ 및 $n\le 18$을 만족한다. 가능한 $n$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 14</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 26</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>밑이 1보다 크므로 $n&amp;gt;4$. 이를 만족하는 $18$ 이하 짝수를 세면 $7$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0158" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0158</span>
+    <span style="font-size:11px;color:#666">158번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">양의 짝수 $n$이 $\log_{3}n&amp;gt;1$ 및 $n\le 24$을 만족한다. 가능한 $n$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 23</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 30</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>밑이 1보다 크므로 $n&amp;gt;3$. 이를 만족하는 $24$ 이하 짝수를 세면 $11$개이다.</div></details>
+</div>
+<div class="type-header" id="역함수_합성_및_평행이동" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">역함수 합성 및 평행이동</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0159" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0159</span>
+    <span style="font-size:11px;color:#666">159번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$f(x)=2^{x-1}$, $g=f^{-1}$라 한다. $g(8)+f(4)$의 값을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 17</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 21</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 12</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$g(x)=1+\log_{2}x$이므로 $g(8)=4$, $f(4)=8$이다. 합은 $12$.</div></details>
+</div>
+<div class="q-card" id="R-0160" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0160</span>
+    <span style="font-size:11px;color:#666">160번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$f(x)=3^{x-1}$, $g=f^{-1}$라 한다. $g(9)+f(3)$의 값을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 21</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 16</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 3</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$g(x)=1+\log_{3}x$이므로 $g(9)=3$, $f(3)=9$이다. 합은 $12$.</div></details>
+</div>
+<div class="type-header" id="합성_로그의_정의역과_정수_개수" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">합성 로그의 정의역과 정수 개수</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0161" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0161</span>
+    <span style="font-size:11px;color:#666">161번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">함수 $f(x)=\log_{2}(x-2)+\log_{2}(5-x)$의 정의역에 속하는 정수 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. -11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 14</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 25</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;2$이고 $x&amp;lt;5$이므로 정수는 $3$부터 $4$까지 총 $2$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0162" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0162</span>
+    <span style="font-size:11px;color:#666">162번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">함수 $f(x)=\log_{3}(x-1)+\log_{3}(3-x)$의 정의역에 속하는 정수 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. -6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. -8</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 1</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x&amp;gt;1$이고 $x&amp;lt;3$이므로 정수는 $2$부터 $2$까지 총 $1$개이다.</div></details>
+</div>
+<div class="type-header" id="수평선_교점과_거리제곱" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">수평선 교점과 거리제곱</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0163" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0163</span>
+    <span style="font-size:11px;color:#666">163번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=\log_{2}(x-1)$와 직선 $y=2$의 교점 $P$에 대하여 $OP^2$의 값을 구하시오. ($O$는 원점)</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 28</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 29</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 32</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 20</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 44</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$P=(5,2)$이므로 $OP^2=5^2+2^2=29$.</div></details>
+</div>
+<div class="q-card" id="R-0164" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0164</span>
+    <span style="font-size:11px;color:#666">164번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=\log_{3}(x-2)$와 직선 $y=2$의 교점 $P$에 대하여 $OP^2$의 값을 구하시오. ($O$는 원점)</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 126</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 112</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 120</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 125</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 140</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$P=(11,2)$이므로 $OP^2=11^2+2^2=125$.</div></details>
+</div>
+<div class="type-header" id="다중_로그_관계와_미지수" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">다중 로그 관계와 미지수</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0165" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0165</span>
+    <span style="font-size:11px;color:#666">165번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{2}a=3$, $\log_a c=2$를 만족하는 양수 $a,c$에 대하여 $\log_{2}c$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 29</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 21</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_{2}c=\log_{2}a\cdot\log_a c=3\cdot2=6$.</div></details>
+</div>
+<div class="q-card" id="R-0166" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0166</span>
+    <span style="font-size:11px;color:#666">166번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{3}a=2$, $\log_a c=2$를 만족하는 양수 $a,c$에 대하여 $\log_{3}c$의 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 16</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 2</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 23</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 4</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_{3}c=\log_{3}a\cdot\log_a c=2\cdot2=4$.</div></details>
+</div>
+<div class="type-header" id="두_점과_중점의_좌표" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">두 점과 중점의 좌표</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0167" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0167</span>
+    <span style="font-size:11px;color:#666">167번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=2^x$ 위의 점 $A(2,4)$, $B(4,16)$의 중점을 $M$이라 한다. $M$의 두 좌표 합의 2배는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 26</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 33</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 28</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 21</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 41</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$M=(3,(4+16)/2)$이므로 두 좌표 합의 2배는 $6+4+16=26$.</div></details>
+</div>
+<div class="q-card" id="R-0168" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0168</span>
+    <span style="font-size:11px;color:#666">168번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=3^x$ 위의 점 $A(2,9)$, $B(4,81)$의 중점을 $M$이라 한다. $M$의 두 좌표 합의 2배는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 96</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 111</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 93</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 103</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 101</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$M=(3,(9+81)/2)$이므로 두 좌표 합의 2배는 $6+9+81=96$.</div></details>
+</div>
+<div class="type-header" id="로그_이중_부등식의_정수해" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그 이중 부등식의 정수해</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0169" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0169</span>
+    <span style="font-size:11px;color:#666">169번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $1&amp;lt;\log_{2}(x-1)&amp;lt;3$을 만족할 때, 가능한 정수 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 7</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 20</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$2&amp;lt;x-1&amp;lt;8$에서 $3&amp;lt;x&amp;lt;9$이다. 정수해는 $5$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0170" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0170</span>
+    <span style="font-size:11px;color:#666">170번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $1&amp;lt;\log_{3}(x-2)&amp;lt;3$을 만족할 때, 가능한 정수 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 25</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 42</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 20</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 46</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 23</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$3&amp;lt;x-2&amp;lt;27$에서 $5&amp;lt;x&amp;lt;29$이다. 정수해는 $23$개이다.</div></details>
+</div>
+<div class="type-header" id="로그_이차방정식의_두_해의_곱" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그 이차방정식의 두 해의 곱</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0171" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0171</span>
+    <span style="font-size:11px;color:#666">171번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">방정식 $(\log_{2}x)^2-5\log_{2}x+6=0$의 서로 다른 두 양의 실근의 곱은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 32</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 34</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 39</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 31</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 51</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$t=\log_{2}x$로 놓으면 $(t-3)(t-2)=0$이다. 따라서 $x=2^3$ 또는 $2^2$이며 곱은 $32$.</div></details>
+</div>
+<div class="q-card" id="R-0172" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0172</span>
+    <span style="font-size:11px;color:#666">172번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">방정식 $(\log_{3}x)^2-6\log_{3}x+8=0$의 서로 다른 두 양의 실근의 곱은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 726</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 716</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 729</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 730</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 752</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$t=\log_{3}x$로 놓으면 $(t-4)(t-2)=0$이다. 따라서 $x=3^4$ 또는 $3^2$이며 곱은 $729$.</div></details>
+</div>
+<div class="type-header" id="평행이동과_지정_수평선_교점" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">평행이동과 지정 수평선 교점</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (2문제)</div>
+<div class="q-card" id="R-0173" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0173</span>
+    <span style="font-size:11px;color:#666">173번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{2}(x-3)+1$의 그래프와 $y=2$의 교점을 $P$라 한다. $P$의 $x$좌표와 점근선 $x=3$ 사이 거리의 제곱은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 13</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 7</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_{2}(x-3)=1$이므로 $x=5$. 점근선 $x=3$까지 거리는 $2$, 제곱은 $4$.</div></details>
+</div>
+<div class="q-card" id="R-0174" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0174</span>
+    <span style="font-size:11px;color:#666">174번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{3}(x-2)+1$의 그래프와 $y=2$의 교점을 $P$라 한다. $P$의 $x$좌표와 점근선 $x=2$ 사이 거리의 제곱은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 21</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 28</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$\log_{3}(x-2)=1$이므로 $x=5$. 점근선 $x=2$까지 거리는 $3$, 제곱은 $9$.</div></details>
+</div>
+<div class="type-header" id="좌표축에_평행한_사각형_넓이" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">좌표축에 평행한 사각형 넓이</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(249,115,22,0.4)">Lv.3 수능 (1문제)</div>
+<div class="q-card" id="R-0175" style="background:rgba(249,115,22,0.15);border:1px solid rgba(249,115,22,0.4);border-left:4px solid #fb923c;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(249,115,22,0.4);color:#fb923c;padding:2px 8px;border-radius:4px">R-0175</span>
+    <span style="font-size:11px;color:#666">175번 · Lv.3 수능 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">곡선 $y=\log_{2}(x-2)$ 위의 점 $A,B$의 $y$좌표가 각각 1, 3이다. $A,B$를 마주 보는 꼭짓점으로 하는 축에 평행한 직사각형의 넓이는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 21</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 9</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x_A=4$, $x_B=10$이므로 가로 $6$, 세로 2로 넓이는 $12$.</div></details>
+</div>
+<div class="type-header" id="역함수_대칭과_행렬식_넓이" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">역함수 대칭과 행렬식 넓이</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0176" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0176</span>
+    <span style="font-size:11px;color:#666">176번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$f(x)=2^{x-1}$ 위의 점 $A(4,8)$를 직선 $y=x$에 대칭시킨 점을 $B$라 한다. 원점 $O$에 대해 삼각형 $OAB$의 넓이의 2배는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 39</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 41</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 48</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 46</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 55</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$B=(8,4)$이고 두 배 넓이는 $|4^2-8^2|=48$.</div></details>
+</div>
+<div class="q-card" id="R-0177" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0177</span>
+    <span style="font-size:11px;color:#666">177번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$f(x)=3^{x-2}$ 위의 점 $A(4,9)$를 직선 $y=x$에 대칭시킨 점을 $B$라 한다. 원점 $O$에 대해 삼각형 $OAB$의 넓이의 2배는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 60</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 63</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 58</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 65</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 84</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$B=(9,4)$이고 두 배 넓이는 $|4^2-9^2|=65$.</div></details>
+</div>
+<div class="type-header" id="역함수_대응점_사이_거리_제곱" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">역함수 대응점 사이 거리 제곱</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0178" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0178</span>
+    <span style="font-size:11px;color:#666">178번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$A=(2,4)$는 $y=2^x$ 위의 점이고 $B$는 직선 $y=x$에 대한 대칭점이다. 선분 $AB$ 길이의 제곱을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 13</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 11</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$B=(4,2)$이므로 $AB^2=(4-2)^2+(2-4)^2=8$.</div></details>
+</div>
+<div class="q-card" id="R-0179" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0179</span>
+    <span style="font-size:11px;color:#666">179번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$A=(1,3)$는 $y=3^x$ 위의 점이고 $B$는 직선 $y=x$에 대한 대칭점이다. 선분 $AB$ 길이의 제곱을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 15</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 20</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 3</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$B=(3,1)$이므로 $AB^2=(3-1)^2+(1-3)^2=8$.</div></details>
+</div>
+<div class="type-header" id="수평_이동한_지수함수와_사다리꼴" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">수평 이동한 지수함수와 사다리꼴</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0180" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0180</span>
+    <span style="font-size:11px;color:#666">180번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=2^{x-1}$ 위의 두 점 $A,B$의 함수값은 각각 $4,16$이다. $A,B$에서 $x$축에 내린 수선의 발을 $H,K$라 한다. 사다리꼴 $ABKH$의 넓이는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 39</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 29</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 15</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 20</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 25</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>두 점의 가로 좌표 차는 2이고, 평행한 두 수선의 길이는 $4,16$이므로 넓이는 $(4+16)\times2/2=20$.</div></details>
+</div>
+<div class="q-card" id="R-0181" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0181</span>
+    <span style="font-size:11px;color:#666">181번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=3^{x-2}$ 위의 두 점 $A,B$의 함수값은 각각 $3,27$이다. $A,B$에서 $x$축에 내린 수선의 발을 $H,K$라 한다. 사다리꼴 $ABKH$의 넓이는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 31</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 49</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 33</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 29</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 30</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>두 점의 가로 좌표 차는 2이고, 평행한 두 수선의 길이는 $3,27$이므로 넓이는 $(3+27)\times2/2=30$.</div></details>
+</div>
+<div class="type-header" id="두_함수와_동일_수평선의_교점" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">두 함수와 동일 수평선의 교점</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0182" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0182</span>
+    <span style="font-size:11px;color:#666">182번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=2^{x-2}$, $y=\log_{2}(x-2)$와 직선 $y=2$의 교점을 차례로 $A,B$라 한다. 두 점 $A,B$의 거리에서 1을 뺀 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 25</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 14</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x_A=2+1$, $x_B=2+2^2=6$이므로 $AB=3$, 구하는 값은 $2$.</div></details>
+</div>
+<div class="q-card" id="R-0183" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0183</span>
+    <span style="font-size:11px;color:#666">183번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=3^{x-1}$, $y=\log_{3}(x-1)$와 직선 $y=3$의 교점을 차례로 $A,B$라 한다. 두 점 $A,B$의 거리에서 1을 뺀 값은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 20</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 26</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 12</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 16</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 25</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$x_A=1+1$, $x_B=1+3^3=28$이므로 $AB=26$, 구하는 값은 $25$.</div></details>
+</div>
+<div class="type-header" id="두_점으로_함수_평행이동_결정_후_도형_넓이" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">두 점으로 함수 평행이동 결정 후 도형 넓이</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0184" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0184</span>
+    <span style="font-size:11px;color:#666">184번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">밑이 $2$인 함수 $f(x)=\log_{2}(x-a)+c$의 그래프가 $A(3,3)$, $B(5,4)$를 지난다. 원점 $O$에 대하여 $\triangle OAB$의 넓이의 두 배와 $a+c$의 합을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. -7</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 9</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>두 점의 함수값 차로 $(5-a)/(3-a)=2$이다. 따라서 $a=1$, $c=2$이고 행렬식의 절댓값은 $3$이다. 구하는 값은 $3+1+2=6$.</div></details>
+</div>
+<div class="q-card" id="R-0185" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0185</span>
+    <span style="font-size:11px;color:#666">185번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">밑이 $3$인 함수 $f(x)=\log_{3}(x-a)+c$의 그래프가 $A(5,2)$, $B(11,3)$를 지난다. 원점 $O$에 대하여 $\triangle OAB$의 넓이의 두 배와 $a+c$의 합을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. -3</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>두 점의 함수값 차로 $(11-a)/(5-a)=3$이다. 따라서 $a=2$, $c=1$이고 행렬식의 절댓값은 $7$이다. 구하는 값은 $7+2+1=10$.</div></details>
+</div>
+<div class="type-header" id="이차식으로_치환한_두_실근의_합" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">이차식으로 치환한 두 실근의 합</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0186" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0186</span>
+    <span style="font-size:11px;color:#666">186번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">방정식 $2^{2x}-12\cdot2^x+32=0$의 모든 실근의 합은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 2</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 17</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$t=2^x&amp;gt;0$로 놓으면 $(t-4)(t-8)=0$이다. 따라서 $x=2,3$로 합은 $5$.</div></details>
+</div>
+<div class="q-card" id="R-0187" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0187</span>
+    <span style="font-size:11px;color:#666">187번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">방정식 $3^{2x}-12\cdot3^x+27=0$의 모든 실근의 합은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 0</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 8</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 22</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 3</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$t=3^x&amp;gt;0$로 놓으면 $(t-3)(t-9)=0$이다. 따라서 $x=1,2$로 합은 $3$.</div></details>
+</div>
+<div class="type-header" id="두_로그부등식의_정수해_합" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">두 로그부등식의 정수해 합</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0188" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0188</span>
+    <span style="font-size:11px;color:#666">188번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $\log_{2}(x-2)\ge1$ 및 $\log_{2}(10-x)\ge1$을 동시에 만족한다. 가능한 모든 $x$값의 합을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 30</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 42</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 33</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 28</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 35</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>조건은 각각 $x\ge 4$와 $x\le 8$이다. 연속하는 정수 4, 5, 6, 7, 8의 합은 $30$.</div></details>
+</div>
+<div class="q-card" id="R-0189" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0189</span>
+    <span style="font-size:11px;color:#666">189번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $\log_{3}(x-1)\ge1$ 및 $\log_{3}(11-x)\ge1$을 동시에 만족한다. 가능한 모든 $x$값의 합을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 27</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 17</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 28</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 30</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 25</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>조건은 각각 $x\ge 4$와 $x\le 8$이다. 연속하는 정수 4, 5, 6, 7, 8의 합은 $30$.</div></details>
+</div>
+<div class="type-header" id="로그_방정식의_정의역과_근의_합" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그 방정식의 정의역과 근의 합</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0190" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0190</span>
+    <span style="font-size:11px;color:#666">190번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{2}\!\bigl((x-2)(8-x)\bigr)=\log_{2}5$의 서로 다른 실근의 합을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 15</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 33</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 5</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>진수 조건을 만족하면서 $(x-2)(8-x)=5$이다. $t=x-2$이면 $t(6-t)=5$이므로 $t=1,5$이고 $x=3,7$이다.</div></details>
+</div>
+<div class="q-card" id="R-0191" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0191</span>
+    <span style="font-size:11px;color:#666">191번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$\log_{3}\!\bigl((x-1)(7-x)\bigr)=\log_{3}5$의 서로 다른 실근의 합을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 15</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 17</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>진수 조건을 만족하면서 $(x-1)(7-x)=5$이다. $t=x-1$이면 $t(6-t)=5$이므로 $t=1,5$이고 $x=2,6$이다.</div></details>
+</div>
+<div class="type-header" id="로그_정의역과_정수_합동조건의_동시_충족" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그 정의역과 정수 합동조건의 동시 충족</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0192" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0192</span>
+    <span style="font-size:11px;color:#666">192번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $\log_{2}(x-1)\ge1$, $\log_{2}(19-x)\ge1$, $x\equiv1\pmod{4}$를 동시에 만족한다. 가능한 모든 $x^2$의 합은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 561</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 551</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 564</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 579</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 583</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>두 로그 조건을 합하면 $3\le x\le 17$이다. 이 중 $4$로 나눈 나머지가 $1$인 정수는 5, 9, 13, 17이다. 제곱합은 $564$.</div></details>
+</div>
+<div class="q-card" id="R-0193" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0193</span>
+    <span style="font-size:11px;color:#666">193번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $\log_{3}(x-2)\ge1$, $\log_{3}(25-x)\ge1$, $x\equiv2\pmod{5}$를 동시에 만족한다. 가능한 모든 $x^2$의 합은?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 970</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 966</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 967</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 963</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 953</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>두 로그 조건을 합하면 $5\le x\le 22$이다. 이 중 $5$로 나눈 나머지가 $2$인 정수는 7, 12, 17, 22이다. 제곱합은 $966$.</div></details>
+</div>
+<div class="type-header" id="로그함수_위_점과_수직선_대칭_삼각형" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그함수 위 점과 수직선 대칭 삼각형</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0194" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0194</span>
+    <span style="font-size:11px;color:#666">194번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{2}(x-3)$ 위에서 $y=2$인 점을 $A$라 하고, 직선 $x=3$에 대하여 $A$의 대칭점을 $B$라 한다. 원점 $O$와 $A,B$가 이루는 삼각형의 넓이는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 8</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 10</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 3</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 27</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$A=(7,2)$, $B=(-1,2)$이므로 밑변 $AB=2\cdot4$, 원점에서 직선 $y=2$까지 높이는 2이다. 넓이는 $8$.</div></details>
+</div>
+<div class="q-card" id="R-0195" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0195</span>
+    <span style="font-size:11px;color:#666">195번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=\log_{3}(x-2)$ 위에서 $y=2$인 점을 $A$라 하고, 직선 $x=2$에 대하여 $A$의 대칭점을 $B$라 한다. 원점 $O$와 $A,B$가 이루는 삼각형의 넓이는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 18</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 15</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 33</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 37</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 25</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$A=(11,2)$, $B=(-7,2)$이므로 밑변 $AB=2\cdot9$, 원점에서 직선 $y=2$까지 높이는 2이다. 넓이는 $18$.</div></details>
+</div>
+<div class="type-header" id="평행이동_지수함수_위_삼각형_넓이" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">평행이동 지수함수 위 삼각형 넓이</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0196" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0196</span>
+    <span style="font-size:11px;color:#666">196번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=2^{x-2}$의 그래프 위에서 $x$좌표가 $2,4$인 두 점을 $A,B$라 한다. 원점 $O$와 $A,B$가 만드는 삼각형의 넓이의 두 배를 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 1</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 23</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 19</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$A=(2,1)$, $B=(4,4)$이다. 행렬식의 절댓값은 $|2\cdot4-(4)\cdot1|=4$.</div></details>
+</div>
+<div class="q-card" id="R-0197" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0197</span>
+    <span style="font-size:11px;color:#666">197번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">$y=3^{x-1}$의 그래프 위에서 $x$좌표가 $1,3$인 두 점을 $A,B$라 한다. 원점 $O$와 $A,B$가 만드는 삼각형의 넓이의 두 배를 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 7</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 13</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">3. 6</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 18</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 29</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$A=(1,1)$, $B=(3,9)$이다. 행렬식의 절댓값은 $|1\cdot9-(3)\cdot1|=6$.</div></details>
+</div>
+<div class="type-header" id="로그부등식과_나머지_조건" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">로그부등식과 나머지 조건</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (2문제)</div>
+<div class="q-card" id="R-0198" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0198</span>
+    <span style="font-size:11px;color:#666">198번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $1&amp;lt;\log_{2}(x-2)&amp;lt;4$를 만족하고 $x-2$가 3의 배수일 때, 가능한 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 10</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 4</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 5</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 2</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$2&amp;lt;x-2&amp;lt;16$를 만족하는 3의 배수만 세면 $5$개이다.</div></details>
+</div>
+<div class="q-card" id="R-0199" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0199</span>
+    <span style="font-size:11px;color:#666">199번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">정수 $x$가 $1&amp;lt;\log_{3}(x-1)&amp;lt;4$를 만족하고 $x-1$가 3의 배수일 때, 가능한 $x$의 개수는?</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 12</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 40</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 16</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 25</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 20</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$3&amp;lt;x-1&amp;lt;81$를 만족하는 3의 배수만 세면 $25$개이다.</div></details>
+</div>
+<div class="type-header" id="두_점에서_평행이동_매개변수_결정과_함수값" style="font-size:20px;font-weight:800;color:#22d3ee;padding:12px 0;border-bottom:3px solid #22d3ee;margin:32px 0 16px">두 점에서 평행이동 매개변수 결정과 함수값</div>
+<div style="font-size:15px;font-weight:700;padding:8px 12px;border-radius:8px;margin:16px 0 10px;color:#fff;background:rgba(168,85,247,0.4)">Lv.4 고난도 (1문제)</div>
+<div class="q-card" id="R-0200" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.4);border-left:4px solid #c084fc;border-radius:12px;padding:16px 18px;margin-bottom:12px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:4px">
+    <span style="font-size:12px;font-weight:700;background:rgba(168,85,247,0.4);color:#c084fc;padding:2px 8px;border-radius:4px">R-0200</span>
+    <span style="font-size:11px;color:#666">200번 · Lv.4 고난도 <span style="color:#4ade80;font-size:11px;margin-left:4px">✔ 감수</span></span>
+  </div>
+  <div class="math-content" style="font-size:15px;line-height:1.8;margin-bottom:6px">함수 $f(x)=2^{x-a}+c$의 그래프가 $(2,5)$, $(4,11)$를 지나고 $a,c$는 정수이다. $f(5)+ac$의 값을 구하시오.</div>
+  <div style="margin:8px 0 4px"><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">1. 20</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">2. 21</div><div style="color:#4ade80;font-weight:700;margin:2px 0;font-size:14px">✓ 9</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">4. 22</div><div style="color:#aaa;font-weight:400;margin:2px 0;font-size:14px">5. 31</div></div>
+  <details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px;color:#22d3ee;user-select:none">▶ 풀이 보기</summary><div style="margin-top:8px;font-size:13px;color:#ccc;line-height:1.7;background:rgba(255,255,255,0.03);padding:10px;border-radius:8px">**[풀이]**<br><br>$(11-5)=(2^{4-1}-2^{2-1})=6$이므로 $2^{2-1}=2$이고 $a=1$. 이어서 $c=5-2=3$, $f(5)=19$이므로 $f(5)+ac=22$.</div></details>
+</div>
 
 
 <div style="text-align:center;margin:40px 0 20px;font-size:13px;color:#555">
-  Prof.AI 수학 · 지수와 로그 문제은행 · 100문제 · 2026
+  Prof.AI 수학 · 지수와 로그 문제은행 · 200문제 · 2026
 </div>
 </body></html>
