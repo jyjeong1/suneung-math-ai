@@ -43,7 +43,8 @@ def q_card(q, idx):
     prob = q.get("problem","")
     expl = q.get("explanation","")
     choices = q.get("choices",[])
-    ans  = q.get("answer", None)
+    ans_raw = q.get("answer", -1)
+    ans  = ans_raw + 1 if isinstance(ans_raw, int) else ans_raw   # 0-indexed → 1-indexed
     atype = q.get("answerType","choice")
     img   = q.get("img","")
     year  = q.get("year","")
@@ -236,6 +237,18 @@ details summary::-webkit-details-marker{{display:none}}
     sz = os.path.getsize(OUT_HTML) // 1024
     print(f"✅ 생성 완료: {OUT_HTML}")
     print(f"   {total}문제 · {sz}KB")
+
+    # iCloud Drive 자동 복사
+    import shutil
+    ICLOUD_DIR = os.path.expanduser(
+        "~/Library/Mobile Documents/com~apple~CloudDocs/ProfAI/삼각함수"
+    )
+    if os.path.isdir(ICLOUD_DIR):
+        for fname in ("question_bank.html", "questions.js"):
+            src = os.path.join(os.path.dirname(__file__), fname)
+            if os.path.exists(src):
+                shutil.copy(src, os.path.join(ICLOUD_DIR, fname))
+        print(f"☁️  iCloud 복사 완료: {ICLOUD_DIR}")
 
 if __name__ == "__main__":
     main()
