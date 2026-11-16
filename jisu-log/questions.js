@@ -667,7 +667,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그함수 단조성과 정수해",
-    "problem": "부등식 $0&lt;\\log_{2}(x-2)&lt;3$를 만족하는 정수 $x$의 개수는?",
+    "problem": "부등식 $0<\\log_{2}(x-2)<3$를 만족하는 정수 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "$11$",
@@ -686,7 +686,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그함수 단조성과 정수해",
-    "problem": "부등식 $0&lt;\\log_{3}(x-1)&lt;2$를 만족하는 정수 $x$의 개수는?",
+    "problem": "부등식 $0<\\log_{3}(x-1)<2$를 만족하는 정수 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "$7$",
@@ -705,7 +705,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그함수 단조성과 정수해",
-    "problem": "부등식 $0&lt;\\log_{5}(x-3)&lt;2$를 만족하는 정수 $x$의 개수는?",
+    "problem": "부등식 $0<\\log_{5}(x-3)<2$를 만족하는 정수 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "$24$",
@@ -724,7 +724,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그함수 단조성과 정수해",
-    "problem": "부등식 $0&lt;\\log_{2}(x-4)&lt;4$를 만족하는 정수 $x$의 개수는?",
+    "problem": "부등식 $0<\\log_{2}(x-4)<4$를 만족하는 정수 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "$14$",
@@ -743,7 +743,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그함수 단조성과 정수해",
-    "problem": "부등식 $0&lt;\\log_{3}(x-3)&lt;3$를 만족하는 정수 $x$의 개수는?",
+    "problem": "부등식 $0<\\log_{3}(x-3)<3$를 만족하는 정수 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "$31$",
@@ -1142,7 +1142,7 @@ const QUESTION_BANK = [
   {
     "_type": "exp_log",
     "type": "지수치환·두 근·좌표거리",
-    "problem": "방정식 $2^{2x}-10\\cdot 2^x+16=0$의 서로 다른 두 실근을 $\\alpha&lt;\\beta$라 한다. $x$축 위의 점 $A(\\alpha,0)$, $B(\\beta,0)$에 대하여 $AB$의 값은?",
+    "problem": "방정식 $2^{2x}-10\\cdot 2^x+16=0$의 서로 다른 두 실근을 $\\alpha<\\beta$라 한다. $x$축 위의 점 $A(\\alpha,0)$, $B(\\beta,0)$에 대하여 $AB$의 값은?",
     "answerType": "choice",
     "choices": [
       "$1$",
@@ -1218,7 +1218,7 @@ const QUESTION_BANK = [
   {
     "_type": "composite_func",
     "type": "구간별 지수·로그 합성함수",
-    "problem": "$f(x)=\\begin{cases}2^x &amp;(x\\le 3)\\\\ \\log_{2}x &amp;(x&gt;3)\\end{cases}$이다. $f(f(1))$의 값은?",
+    "problem": "$f(x)=\\begin{cases}2^x &(x\\le 3)\\\\ \\log_{2}x &(x>3)\\end{cases}$이다. $f(f(1))$의 값은?",
     "answerType": "choice",
     "choices": [
       "$4$",
@@ -1237,7 +1237,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그 방정식·두 해·비에타",
-    "problem": "방정식 $\\log_{2}(x-1)+\\log_{2}(9-x)=\\log_{2}12$의 두 실근을 $\\alpha&lt;\\beta$라 한다. $\\alpha+\\beta$의 값은?",
+    "problem": "방정식 $\\log_{2}(x-1)+\\log_{2}(9-x)=\\log_{2}12$의 두 실근을 $\\alpha<\\beta$라 한다. $\\alpha+\\beta$의 값은?",
     "answerType": "choice",
     "choices": [
       "$16$",
@@ -1617,7 +1617,7 @@ const QUESTION_BANK = [
   {
     "_type": "exp_log",
     "type": "지수방정식 두 근·지수그래프·삼각형",
-    "problem": "방정식 $2^{2x}-20\\cdot2^x+64=0$의 두 근을 $\\alpha&lt;\\beta$라 한다. $P=(\\alpha,2^\\alpha)$, $Q=(\\beta,2^\\beta)$와 원점 $O$로 만든 삼각형의 넓이는?",
+    "problem": "방정식 $2^{2x}-20\\cdot2^x+64=0$의 두 근을 $\\alpha<\\beta$라 한다. $P=(\\alpha,2^\\alpha)$, $Q=(\\beta,2^\\beta)$와 원점 $O$로 만든 삼각형의 넓이는?",
     "answerType": "choice",
     "choices": [
       "$12$",
@@ -1693,7 +1693,7 @@ const QUESTION_BANK = [
   {
     "_type": "composite_func",
     "type": "조각함수·삼중 합성·분기 조건",
-    "problem": "$f(x)=\\begin{cases}2^{x-2}&amp;(x\\le3)\\\\ \\log_2(x-2)+2&amp;(x&gt;3)\\end{cases}$일 때 $f(f(f(4)))+f(f(3))$의 값은?",
+    "problem": "$f(x)=\\begin{cases}2^{x-2}&(x\\le3)\\\\ \\log_2(x-2)+2&(x>3)\\end{cases}$일 때 $f(f(f(4)))+f(f(3))$의 값은?",
     "answerType": "choice",
     "choices": [
       "$5$",
@@ -1712,7 +1712,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그 방정식·두 해·비에타",
-    "problem": "방정식 $\\log_{3}(x-2)+\\log_{3}(12-x)=\\log_{3}16$의 두 실근을 $\\alpha&lt;\\beta$라 한다. $\\alpha\\beta$의 값은?",
+    "problem": "방정식 $\\log_{3}(x-2)+\\log_{3}(12-x)=\\log_{3}16$의 두 실근을 $\\alpha<\\beta$라 한다. $\\alpha\\beta$의 값은?",
     "answerType": "choice",
     "choices": [
       "$35$",
@@ -2757,7 +2757,7 @@ const QUESTION_BANK = [
   {
     "_type": "exp_log",
     "type": "정수해 개수",
-    "problem": "정수 $x$가 $2^x&gt;2^1$, $x\\le 3$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "problem": "정수 $x$가 $2^x>2^1$, $x\\le 3$를 동시에 만족할 때 가능한 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "8",
@@ -2776,7 +2776,7 @@ const QUESTION_BANK = [
   {
     "_type": "exp_log",
     "type": "정수해 개수",
-    "problem": "정수 $x$가 $3^x&gt;3^2$, $x\\le 4$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "problem": "정수 $x$가 $3^x>3^2$, $x\\le 4$를 동시에 만족할 때 가능한 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "-3",
@@ -2795,7 +2795,7 @@ const QUESTION_BANK = [
   {
     "_type": "exp_log",
     "type": "정수해 개수",
-    "problem": "정수 $x$가 $2^x&gt;2^3$, $x\\le 5$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "problem": "정수 $x$가 $2^x>2^3$, $x\\le 5$를 동시에 만족할 때 가능한 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "2",
@@ -2814,7 +2814,7 @@ const QUESTION_BANK = [
   {
     "_type": "exp_log",
     "type": "정수해 개수",
-    "problem": "정수 $x$가 $4^x&gt;4^1$, $x\\le 6$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "problem": "정수 $x$가 $4^x>4^1$, $x\\le 6$를 동시에 만족할 때 가능한 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "9",
@@ -2833,7 +2833,7 @@ const QUESTION_BANK = [
   {
     "_type": "exp_log",
     "type": "정수해 개수",
-    "problem": "정수 $x$가 $3^x&gt;3^4$, $x\\le 7$를 동시에 만족할 때 가능한 $x$의 개수는?",
+    "problem": "정수 $x$가 $3^x>3^4$, $x\\le 7$를 동시에 만족할 때 가능한 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "15",
@@ -2966,7 +2966,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그부등식과 짝수 조건",
-    "problem": "양의 짝수 $n$이 $\\log_{2}n&gt;2$ 및 $n\\le 18$을 만족한다. 가능한 $n$의 개수는?",
+    "problem": "양의 짝수 $n$이 $\\log_{2}n>2$ 및 $n\\le 18$을 만족한다. 가능한 $n$의 개수는?",
     "answerType": "choice",
     "choices": [
       "7",
@@ -2985,7 +2985,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그부등식과 짝수 조건",
-    "problem": "양의 짝수 $n$이 $\\log_{3}n&gt;1$ 및 $n\\le 24$을 만족한다. 가능한 $n$의 개수는?",
+    "problem": "양의 짝수 $n$이 $\\log_{3}n>1$ 및 $n\\le 24$을 만족한다. 가능한 $n$의 개수는?",
     "answerType": "choice",
     "choices": [
       "11",
@@ -3194,7 +3194,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그 이중 부등식의 정수해",
-    "problem": "정수 $x$가 $1&lt;\\log_{2}(x-1)&lt;3$을 만족할 때, 가능한 정수 $x$의 개수는?",
+    "problem": "정수 $x$가 $1<\\log_{2}(x-1)<3$을 만족할 때, 가능한 정수 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "4",
@@ -3213,7 +3213,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그 이중 부등식의 정수해",
-    "problem": "정수 $x$가 $1&lt;\\log_{3}(x-2)&lt;3$을 만족할 때, 가능한 정수 $x$의 개수는?",
+    "problem": "정수 $x$가 $1<\\log_{3}(x-2)<3$을 만족할 때, 가능한 정수 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "25",
@@ -3745,7 +3745,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그부등식과 나머지 조건",
-    "problem": "정수 $x$가 $1&lt;\\log_{2}(x-2)&lt;4$를 만족하고 $x-2$가 3의 배수일 때, 가능한 $x$의 개수는?",
+    "problem": "정수 $x$가 $1<\\log_{2}(x-2)<4$를 만족하고 $x-2$가 3의 배수일 때, 가능한 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "12",
@@ -3764,7 +3764,7 @@ const QUESTION_BANK = [
   {
     "_type": "log_basic",
     "type": "로그부등식과 나머지 조건",
-    "problem": "정수 $x$가 $1&lt;\\log_{3}(x-1)&lt;4$를 만족하고 $x-1$가 3의 배수일 때, 가능한 $x$의 개수는?",
+    "problem": "정수 $x$가 $1<\\log_{3}(x-1)<4$를 만족하고 $x-1$가 3의 배수일 때, 가능한 $x$의 개수는?",
     "answerType": "choice",
     "choices": [
       "12",
