@@ -2,9 +2,29 @@
 """확률과 통계 문제은행 HTML 생성기"""
 import json, re, os
 
-QUESTIONS_JS = os.path.join(os.path.dirname(__file__), "questions.js")
-FORMULAS_JS  = os.path.join(os.path.dirname(__file__), "formulas.js")
-OUT_HTML     = os.path.join(os.path.dirname(__file__), "question_bank.html")
+BASE_DIR     = os.path.dirname(__file__)
+QUESTIONS_JS = os.path.join(BASE_DIR, "questions.js")
+FORMULAS_JS  = os.path.join(BASE_DIR, "formulas.js")
+OUT_HTML     = os.path.join(BASE_DIR, "question_bank.html")
+
+# 소수 단원 → 주요 단원 통합 매핑
+TYPE_MERGE = {
+    "중복순열": "중복순열·중복조합",
+    "확률의 계산": "확률의 덧셈·곱셈",
+    "조건부확률": "조건부 확률",
+    "원순열": "순열",
+    "순서쌍": "순열",
+    "분배": "조합",
+    "표본평균": "통계적 추정",
+    "확률 응용": "확률의 덧셈·곱셈",
+}
+
+TYPE_ORDER = [
+    "순열", "조합", "중복순열·중복조합", "이항정리",
+    "확률의 덧셈·곱셈", "조건부 확률",
+    "이산확률분포", "정규분포", "통계적 추정",
+    "복합 킬러",
+]
 
 def load_questions(path):
     with open(path, encoding="utf-8") as f:
@@ -48,7 +68,8 @@ def q_card(q, idx):
     prob = q.get("problem","")
     expl = q.get("explanation","")
     choices = q.get("choices",[])
-    ans  = q.get("answer",0) + 1   # 0-indexed → 1-indexed
+    ans_raw = q.get("answer", -1)
+    ans  = ans_raw + 1 if isinstance(ans_raw, int) and choices else ans_raw
 
     src_badge = ""
     if src == "기출":
@@ -63,7 +84,7 @@ def q_card(q, idx):
             ac = "#4ade80" if is_ans else "#aaa"
             fw = "700" if is_ans else "400"
             mark = "✓ " if is_ans else f"{i}. "
-            items += f'<div style="color:{ac};font-weight:{fw};margin:2px 0;font-size:14px">{mark}{esc(c)}</div>'
+            items += f'<div style="color:{ac};font-weight:{fw};margin:2px 0;font-size:14px">{mark}{esc(str(c))}</div>'
         choices_html = f'<div style="margin:8px 0 4px">{items}</div>'
 
     expl_html = ""
@@ -116,6 +137,12 @@ def main():
     questions = load_questions(QUESTIONS_JS)
     formulas  = load_formulas(FORMULAS_JS)
 
+    # 소수 단원 통합
+    for q in questions:
+        t = q.get("type","기타")
+        if t in TYPE_MERGE:
+            q["type"] = TYPE_MERGE[t]
+
     total = len(questions)
     lv_cnt = {}
     for q in questions:
@@ -125,23 +152,29 @@ def main():
     src_past = sum(1 for q in questions if q.get("_source")=="기출")
     rev_cnt  = sum(1 for q in questions if q.get("_reviewed"))
 
-    type_order = []
+    # TYPE_ORDER 기반 정렬 (미등록 단원은 뒤에 추가)
     type_groups = {}
+    for t in TYPE_ORDER:
+        type_groups[t] = {"lv1":[],"lv2":[],"lv3":[],"lv4":[]}
     for q in questions:
         t = q.get("type","기타")
         if t not in type_groups:
             type_groups[t] = {"lv1":[],"lv2":[],"lv3":[],"lv4":[]}
-            type_order.append(t)
+            TYPE_ORDER.append(t)
         lv = q.get("difficulty","lv1")
         if lv not in type_groups[t]:
             type_groups[t][lv] = []
         type_groups[t][lv].append(q)
 
+    # 빈 단원 제거
+    type_order = [t for t in TYPE_ORDER if any(type_groups[t].get(lv,[]) for lv in ["lv1","lv2","lv3","lv4"])]
+
     body = ""
     idx_global = 0
     for t in type_order:
         slug = t.replace(" ","_").replace("·","_").replace("/","_")
-        body += f'<div class="type-header" id="{slug}" style="font-size:20px;font-weight:800;color:{ACCT};padding:12px 0;border-bottom:3px solid {ACCT};margin:32px 0 16px">{t}</div>\n'
+        t_total = sum(len(type_groups[t].get(lv,[])) for lv in ["lv1","lv2","lv3","lv4"])
+        body += f'<div class="type-header" id="{slug}" style="font-size:20px;font-weight:800;color:{ACCT};padding:12px 0;border-bottom:3px solid {ACCT};margin:32px 0 16px">{t} ({t_total}문제)</div>\n'
         for lv in ["lv1","lv2","lv3","lv4"]:
             qs = type_groups[t].get(lv,[])
             if not qs: continue
@@ -198,12 +231,12 @@ details summary::-webkit-details-marker{{display:none}}
     ICLOUD_DIR = os.path.expanduser(
         "~/Library/Mobile Documents/com~apple~CloudDocs/ProfAI/확률과통계"
     )
-    if os.path.isdir(ICLOUD_DIR):
-        for fname in ("question_bank.html", "questions.js"):
-            src = os.path.join(os.path.dirname(__file__), fname)
-            if os.path.exists(src):
-                shutil.copy(src, os.path.join(ICLOUD_DIR, fname))
-        print(f"☁️  iCloud 복사 완료: {ICLOUD_DIR}")
+    os.makedirs(ICLOUD_DIR, exist_ok=True)
+    for fname in ("question_bank.html", "questions.js"):
+        src = os.path.join(BASE_DIR, fname)
+        if os.path.exists(src):
+            shutil.copy(src, os.path.join(ICLOUD_DIR, fname))
+    print(f"☁️  iCloud 복사 완료: {ICLOUD_DIR}")
 
 if __name__ == "__main__":
     main()
